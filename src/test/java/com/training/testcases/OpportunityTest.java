@@ -79,8 +79,8 @@ public class OpportunityTest extends BaseTest{
 		opportunitypage.oppProbability();
 		String leadsourcevalue =prop.getProperties("opportunityLeadSourcevalue");
 		opportunitypage.oppSelectLeadSource(leadsourcevalue);
-		opportunitypage.selectPrimaryCampaignSourcebtnAndSwitchToWindow();
-		Log.info("clicked successfully");
+		opportunitypage.primaryCampaignSourcebtn();
+		opportunitypage.switchTowindowAndSelectCampaignSource();
 		Log.info("switch to campaign window");
 		Log.info("back to main window");
 		opportunitypage.opportunitySaveButton();

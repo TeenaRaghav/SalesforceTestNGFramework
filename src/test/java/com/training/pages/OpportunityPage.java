@@ -70,7 +70,13 @@ public class OpportunityPage extends BasePage {
 	WebElement stuckopportunitylink;
 	@FindBy(xpath = "//div[@class=\"content\"]/h1")
 	WebElement stuckopportunitypageheading;
+
+//	testcase 20
+	@FindBy(xpath = "//table[@class=\"opportunitySummary\"]/tbody/tr[1]/td[1]/select")
+	WebElement intervaldropdown;
 	
+	@FindBy(xpath = "//select[@id=\"open\"]")
+	WebElement includedropdown;
 	
 //	opportunity tab
 	public void opportunityTab() {
@@ -107,13 +113,21 @@ public class OpportunityPage extends BasePage {
 	public void oppSelectLeadSource(String value) {
 		selectValue(opportunityLeadSource,value);
 	}
-	public void selectPrimaryCampaignSourcebtnAndSwitchToWindow() {
-		String parent =getParentWindow();
+	public void primaryCampaignSourcebtn() {
 		opportunityPrimaryCampaignSource.click();
-		switchToNewWindow();
-		switchFrame(opportunityPrimaryCampaignFrame);
-		opportunityPrimaryCampaignlink.click();
-		switchToParentWindow(parent);	
+	}
+	public void switchTowindowAndSelectCampaignSource() {
+		String parentwindow = driver.getWindowHandle();
+		Set<String> listOfHandles =driver.getWindowHandles();
+		
+		for(String handle: listOfHandles) {
+			if(!handle.equals(parentwindow)) {
+				driver.switchTo().window(handle);
+				switchFrame(opportunityPrimaryCampaignFrame);				
+				opportunityPrimaryCampaignlink.click();
+			}
+		}
+		driver.switchTo().window(parentwindow);	
 		}
 	
 	public void opportunitySaveButton() {

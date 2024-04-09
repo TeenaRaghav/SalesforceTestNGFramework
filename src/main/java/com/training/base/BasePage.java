@@ -1,7 +1,5 @@
 package com.training.base;
 
-import java.util.Set;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -97,25 +95,14 @@ public class BasePage {
 	}
 	public void switchToNewWindow() {
 		String mainWindow = driver.getWindowHandle();
-		Set<String>handles = driver.getWindowHandles();
-		for(String handle : handles) {
-			if (!handle.equals(mainWindow)) {
-				driver.switchTo().window(handle);
+		for(String window : driver.getWindowHandles()) {
+			if (!window.equals(mainWindow)) {
+				driver.switchTo().window(window);
 			}
 		}
 	}
-	public void switchToParentWindow(String mainWindow) {
-		Set<String>handles = driver.getWindowHandles();
-		for(String handle : handles) {
-			if (!handle.equals(mainWindow)) {
-				driver.switchTo().window(handle);
-			}
-		}
-		driver.switchTo().window(mainWindow);
-	}
-	public String getParentWindow() {
-		String parentwindow = driver.getWindowHandle();
-		return parentwindow;
+	public void switchToMainWindow() {
+		
 	}
 	
 }
