@@ -121,12 +121,23 @@ public class LeadsTest extends BaseTest{
 			Log.endTestCase("TestCase24 is ended.");
 		}
 		@Test
-		public void createNewLead() {
-			Log.info("TestCase 24 select view from dropdown in Leads page ");
+		public void createNewLead() throws IOException {
+			Log.info("TestCase 25 select view from dropdown in Leads page ");
 			Log.startTestCase("Test is started");
 			leadspage.clickOnLeadsTab();
 			Log.info("Leads tab is clicked successfully");
-			
+			leadspage.newBtnOnLeadsPage();
+			Log.info("New button is clicked successfully");
+			String lastname = prop.getProperties("LastNameInNewView");
+			leadspage.EnterLastNameOnLeadsPage(lastname);
+			Log.info("Lastname is entered successfully");
+			String Compname = prop.getProperties("CompanyNameInNewView");
+			leadspage.EnterCompanyNameOnLeadsPage(Compname);
+			Log.info("Company name is entered successfully");
+			leadspage.ClickOnSaveButton();
+			Log.info("New View is created successfully");
+			Log.endTestCase("TestCase 25 is ended successfully");
+
 		}
 	
 	@AfterTest

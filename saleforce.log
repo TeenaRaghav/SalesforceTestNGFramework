@@ -1288,3 +1288,12 @@
 2024-04-11 17:25:18,384 INFO  [Log] Today's lead is selected 
 2024-04-11 17:25:18,866 INFO  [Log] Today's lead is diplayed 
 2024-04-11 17:25:18,867 INFO  [Log] ***************             -E---N---D-TestCase24 is ended.         *************** 
+2024-04-11 17:54:18,918 INFO  [Log] Login TestCase 
+2024-04-11 17:54:24,541 INFO  [Log] TestCase 25 select view from dropdown in Leads page  
+2024-04-11 17:54:24,542 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 17:54:25,137 INFO  [Log] Leads tab is clicked successfully 
+2024-04-11 17:54:25,696 INFO  [Log] New button is clicked successfully 
+2024-04-11 17:54:25,815 INFO  [Log] Lastname is entered successfully 
+2024-04-11 17:54:25,917 INFO  [Log] Company name is entered successfully 
+2024-04-11 17:54:28,703 INFO  [Log] New View is created successfully 
+2024-04-11 17:54:28,703 INFO  [Log] ***************             -E---N---D-TestCase 25 is ended successfully         *************** 
