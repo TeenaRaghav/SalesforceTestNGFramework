@@ -147,4 +147,6 @@ public class OpportunityPage extends BasePage {
 	public void validatingstuckOpportunityPageIsDisplyed() {
 		Assert.assertEquals(getTextFromElement(stuckopportunitypageheading),"Stuck Opportunities");
 	}
+//	 testcase 20
+	
 }
