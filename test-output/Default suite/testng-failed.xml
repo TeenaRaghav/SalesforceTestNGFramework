@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.testcases.OpportunityTest">
+      <class name="com.training.testcases.LeadsTest">
         <methods>
-          <include name="beforeTest"/>
-          <include name="opportunityPipelineLink"/>
+          <include name="ViewDropdownListContents"/>
           <include name="tearDown"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.training.testcases.OpportunityTest -->
+      </class> <!-- com.training.testcases.LeadsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

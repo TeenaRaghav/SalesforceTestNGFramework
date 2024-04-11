@@ -1,5 +1,7 @@
 package com.training.base;
 
+import java.util.List;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -101,9 +103,9 @@ public class BasePage {
 			}
 		}
 	}
-	public void switchToMainWindow() {
-		
-	}
+	public List<WebElement> getDropdownContents(Select ele) {
+	List<WebElement> alloptions = ele.getOptions();
+	 return alloptions;
 	
 }
- 
+}

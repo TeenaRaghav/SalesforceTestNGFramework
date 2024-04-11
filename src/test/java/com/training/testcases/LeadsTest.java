@@ -64,6 +64,21 @@ public class LeadsTest extends BaseTest{
 		Log.endTestCase("TestCase is ended.");
 
 	}
+	
+	@Test
+	public void ViewDropdownListContents() {
+		Log.info("TestCase 22 validate view dropdown list ");
+		Log.startTestCase("Test is started");
+		leadspage.clickOnLeadsTab();
+		Log.info("Leads tab is clicked successfully");
+		leadspage.selectLeadsView();
+		Log.info("All options are present in view Dropdown");
+		Log.endTestCase("TestCase22 is ended.");
+
+	}
+	
+		
+	
 	@AfterTest
 	public void tearDown() {
 		screenshot.takescreenshot(driver);
