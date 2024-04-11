@@ -30,8 +30,11 @@ public class LeadsPage extends BasePage {
 //	testcase 23
 	@FindBy(xpath ="(//input[@class=\"btn\"])[2]")
 	WebElement gobtn;
-	
-// testCase 21
+//	testcase 24
+	@FindBy(xpath ="//select[@id='fcf']")
+	WebElement todaysLeadPageDropdown;
+
+	// testCase 21
 	public void clickOnLeadsTab() {
 		waitForElement(leadstab);
 		leadstab.click();
@@ -50,5 +53,10 @@ public class LeadsPage extends BasePage {
 	public void ClickOnGoBtn() {
 		gobtn.click();
 	}
-	
+	public void checkFirstSelectedOption() {
+		Select selectDrpdown = new Select(todaysLeadPageDropdown);
+		WebElement selectedText = selectDrpdown.getFirstSelectedOption();
+		String ActualSelectedText =selectedText.getText();
+		Assert.assertEquals(ActualSelectedText, "Today's Leads");
+	}
 }

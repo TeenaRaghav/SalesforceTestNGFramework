@@ -106,8 +106,28 @@ public class LeadsTest extends BaseTest{
 		Log.info("Go button is clicked successfully");
 		Log.endTestCase("TestCase23 is ended.");
 	}
-		
-		
+	
+	@Test	
+	public void validateTodaysLeadPageIsDisplayed() throws IOException {
+			Log.info("TestCase 24 select view from dropdown in Leads page ");
+			Log.startTestCase("Test is started");
+			leadspage.clickOnLeadsTab();
+			Log.info("Leads tab is clicked successfully");
+			String viewOption = prop.getProperties("viewOptioninLeads");
+			leadspage.selectLeadsView(viewOption);
+			Log.info("Today's lead is selected");
+			leadspage.checkFirstSelectedOption();
+			Log.info("Today's lead is diplayed");
+			Log.endTestCase("TestCase24 is ended.");
+		}
+		@Test
+		public void createNewLead() {
+			Log.info("TestCase 24 select view from dropdown in Leads page ");
+			Log.startTestCase("Test is started");
+			leadspage.clickOnLeadsTab();
+			Log.info("Leads tab is clicked successfully");
+			
+		}
 	
 	@AfterTest
 	public void tearDown() {
