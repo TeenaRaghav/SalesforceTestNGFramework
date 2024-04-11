@@ -78,6 +78,9 @@ public class OpportunityPage extends BasePage {
 	@FindBy(xpath = "//select[@id=\"open\"]")
 	WebElement includedropdown;
 	
+	@FindBy(xpath ="//input[@value=\"Run Report\"]")
+	WebElement runandreportbtn;
+	
 //	opportunity tab
 	public void opportunityTab() {
 		waitForElement(opportunityTab);
@@ -148,5 +151,13 @@ public class OpportunityPage extends BasePage {
 		Assert.assertEquals(getTextFromElement(stuckopportunitypageheading),"Stuck Opportunities");
 	}
 //	 testcase 20
-	
+	public void selectInterval(String value) {
+		selectText(intervaldropdown,value);
+	}
+	public void selectInclude(String value) {
+		selectText(includedropdown,value);
+	}
+	public void clickOnRunAndReport() {
+		runandreportbtn.click();
+	}
 }

@@ -65,8 +65,6 @@ public class HomePage extends BasePage {
 	@FindBy(id = "Account_Tab")
 	WebElement accountstab;
 
-	@FindBy(xpath ="//a[contains(text(),'Opportunities')]")
-	WebElement opportunitiestab;
 
 	public void accountsTab() {
 		accountstab.click();

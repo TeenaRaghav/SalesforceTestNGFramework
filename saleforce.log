@@ -1199,3 +1199,20 @@
 2024-04-08 12:06:07,380 INFO  [Log] Stuck opportunity link is clicked successfully 
 2024-04-08 12:06:07,420 INFO  [Log] Stuck opportunity page is displayed. 
 2024-04-08 12:06:07,420 INFO  [Log] ***************             -E---N---D-TestCase19 is ended.         *************** 
+2024-04-11 11:32:52,557 INFO  [Log] Login TestCase 
+2024-04-11 11:32:54,993 INFO  [Log] TestCase 20 Test Quaterly summary 
+2024-04-11 11:32:54,994 INFO  [Log] ****************           -S-T-A-R-T-Test is Started       **************** 
+2024-04-11 11:32:57,436 INFO  [Log] Current and Next FQ is selected. 
+2024-04-11 11:32:57,582 INFO  [Log] Open Opportunities 
+2024-04-11 11:32:58,556 INFO  [Log] run and report button is clicked successfully 
+2024-04-11 11:32:58,557 INFO  [Log] ***************             -E---N---D-TestCase 20 is ended successfully.         *************** 
+2024-04-11 12:00:56,701 INFO  [Log] Login TestCase 
+2024-04-11 12:00:58,949 INFO  [Log] TestCase 21 check leads Tab link 
+2024-04-11 12:00:58,949 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 12:01:00,826 INFO  [Log] Leads tab is clicked successfully 
+2024-04-11 12:01:00,827 INFO  [Log] ***************             -E---N---D-TestCase is ended.         *************** 
+2024-04-11 15:52:46,799 INFO  [Log] Login TestCase 
+2024-04-11 15:52:49,173 INFO  [Log] TestCase 21 check leads Tab link 
+2024-04-11 15:52:49,173 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 15:52:51,719 INFO  [Log] Leads tab is clicked successfully 
+2024-04-11 15:52:51,719 INFO  [Log] ***************             -E---N---D-TestCase is ended.         *************** 

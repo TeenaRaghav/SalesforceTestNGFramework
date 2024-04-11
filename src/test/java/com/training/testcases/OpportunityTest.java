@@ -113,6 +113,22 @@ public class OpportunityTest extends BaseTest{
 		Log.endTestCase("TestCase19 is ended.");
 
 	}
+	@Test
+	public void quarterlySummary() throws IOException {
+		Log.info("TestCase 20 Test Quaterly summary");
+		Log.startTestCase("Test is Started");
+		opportunitypage.opportunityTab();
+		String intervaloption = prop.getProperties("intervalDropdownvalue1"); 
+		opportunitypage.selectInterval(intervaloption);
+		Log.info("Current and Next FQ is selected.");
+		String includeoption = prop.getProperties("intervalDropdownvalue1"); 
+		opportunitypage.selectInterval(includeoption);
+		Log.info("Open Opportunities");
+		opportunitypage.clickOnRunAndReport();
+		Log.info("run and report button is clicked successfully");
+		Log.endTestCase("TestCase 20 is ended successfully.");
+		
+	}
 	
 	@AfterTest
 	public void tearDown() {
