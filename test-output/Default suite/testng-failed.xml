@@ -5,9 +5,9 @@
     <classes>
       <class name="com.training.testcases.LeadsTest">
         <methods>
-          <include name="ViewDropdownListContents"/>
           <include name="tearDown"/>
           <include name="beforeTest"/>
+          <include name="SelectViewFromDropdownInLeads"/>
         </methods>
       </class> <!-- com.training.testcases.LeadsTest -->
     </classes>

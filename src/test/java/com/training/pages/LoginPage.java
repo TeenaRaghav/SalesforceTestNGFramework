@@ -42,6 +42,7 @@ public class LoginPage extends BasePage{
 	
 	
 	public void enterIntoUsername(String strusername) {
+		waitForElement(username);
 		username.sendKeys(strusername);
 	}
 	public void enterIntoPassword(String strpass) {

@@ -27,9 +27,13 @@ public class LeadsPage extends BasePage {
 
 	@FindBy(xpath ="//select[@name=\"fcf\"]")
 	WebElement leadsview;
+//	testcase 23
+	@FindBy(xpath ="(//input[@class=\"btn\"])[2]")
+	WebElement gobtn;
 	
 // testCase 21
 	public void clickOnLeadsTab() {
+		waitForElement(leadstab);
 		leadstab.click();
 	}
 	public void checkOnLeadsPageTitle() {
@@ -37,8 +41,14 @@ public class LeadsPage extends BasePage {
 		Assert.assertEquals(pagetitlr, "Leads");
 	}
 //	testcase22 
-	public void selectLeadsView() {
+	public void clickOnLeadsView() {
 		leadsview.click();
-		
 	}
+	public void selectLeadsView(String value) {
+		selectText(leadsview,value);
+	}
+	public void ClickOnGoBtn() {
+		gobtn.click();
+	}
+	
 }

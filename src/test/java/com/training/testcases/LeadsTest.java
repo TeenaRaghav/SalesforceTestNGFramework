@@ -15,6 +15,7 @@ import com.training.pages.HomePage;
 import com.training.pages.LeadsPage;
 import com.training.pages.LoginPage;
 import com.training.pages.OpportunityPage;
+import com.training.pages.UserMenuPage;
 import com.training.utilities.PropertiesFile;
 import com.training.utilities.ScreenshotUtility;
 
@@ -26,7 +27,7 @@ public class LeadsTest extends BaseTest{
 	ScreenshotUtility screenshot;
 	AccountsPage accountspage;
 	LeadsPage leadspage;
-	
+	UserMenuPage usermenupage; 
 	@BeforeTest
 	public void beforeTest() throws IOException {
 		driver = getDriver();
@@ -38,6 +39,7 @@ public class LeadsTest extends BaseTest{
 		screenshot = new ScreenshotUtility();
 		accountspage = new AccountsPage(driver);
 		leadspage = new LeadsPage(driver);
+		usermenupage = new UserMenuPage(driver);
 		DOMConfigurator.configure("log4j.xml");
 		
 //		login
@@ -71,12 +73,40 @@ public class LeadsTest extends BaseTest{
 		Log.startTestCase("Test is started");
 		leadspage.clickOnLeadsTab();
 		Log.info("Leads tab is clicked successfully");
-		leadspage.selectLeadsView();
+		leadspage.clickOnLeadsView();
 		Log.info("All options are present in view Dropdown");
 		Log.endTestCase("TestCase22 is ended.");
 
 	}
-	
+	@Test
+	public void SelectViewFromDropdownInLeads() throws IOException, InterruptedException {
+		Log.info("TestCase 23 select view from dropdown in Leads page ");
+		Log.startTestCase("Test is started");
+		leadspage.clickOnLeadsTab();
+		Log.info("Leads tab is clicked successfully");
+		String viewOption = prop.getProperties("viewOptioninLeads");
+		leadspage.selectLeadsView(viewOption);
+		Log.info("Today's lead is selected");
+		usermenupage.usermenu();
+		Log.info("UserMenu is clicked successfully.");
+		homepage.logout();
+		Log.info("Logout Succesfully");
+		String uname = prop.getProperties("username");
+		loginpage.enterIntoUsername(uname);
+//		Log.info("Successfully entered the username");
+		String psswrd = prop.getProperties("password");
+		loginpage.enterIntoPassword(psswrd);
+//		Log.info("Successfully entered the password");
+		loginpage.clickLogin();
+//		Log.info("Login successful.");
+		leadspage.clickOnLeadsTab();
+		Log.info("Leads tab is clicked successfully");
+		leadspage.ClickOnGoBtn();
+		Thread.sleep(4000);
+		Log.info("Go button is clicked successfully");
+		Log.endTestCase("TestCase23 is ended.");
+	}
+		
 		
 	
 	@AfterTest

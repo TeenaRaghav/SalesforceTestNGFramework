@@ -1227,3 +1227,47 @@
 2024-04-11 16:36:11,483 INFO  [Log] Leads tab is clicked successfully 
 2024-04-11 16:36:11,592 INFO  [Log] All options are present in view Dropdown 
 2024-04-11 16:36:11,592 INFO  [Log] ***************             -E---N---D-TestCase22 is ended.         *************** 
+2024-04-11 16:51:05,231 INFO  [Log] Login TestCase 
+2024-04-11 16:51:09,754 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-04-11 16:51:09,754 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 16:51:10,610 INFO  [Log] Leads tab is clicked successfully 
+2024-04-11 16:51:10,735 INFO  [Log] Today's lead is selected 
+2024-04-11 16:51:10,785 INFO  [Log] UserMenu is clicked successfully. 
+2024-04-11 16:51:10,786 INFO  [Log] All options are present in view Dropdown 
+2024-04-11 16:51:10,786 INFO  [Log] ***************             -E---N---D-TestCase22 is ended.         *************** 
+2024-04-11 16:57:15,193 INFO  [Log] Login TestCase 
+2024-04-11 16:57:20,075 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-04-11 16:57:20,075 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 16:57:20,830 INFO  [Log] Leads tab is clicked successfully 
+2024-04-11 16:57:20,977 INFO  [Log] Today's lead is selected 
+2024-04-11 16:57:21,061 INFO  [Log] UserMenu is clicked successfully. 
+2024-04-11 16:57:21,990 INFO  [Log] Logout Succesfully 
+2024-04-11 16:58:52,339 INFO  [Log] Login TestCase 
+2024-04-11 16:59:12,447 INFO  [Log] Login TestCase 
+2024-04-11 17:00:15,566 INFO  [Log] Login TestCase 
+2024-04-11 17:00:18,330 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-04-11 17:00:18,330 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 17:00:21,930 INFO  [Log] Leads tab is clicked successfully 
+2024-04-11 17:00:22,062 INFO  [Log] Today's lead is selected 
+2024-04-11 17:00:22,207 INFO  [Log] UserMenu is clicked successfully. 
+2024-04-11 17:00:22,677 INFO  [Log] Logout Succesfully 
+2024-04-11 17:00:26,033 INFO  [Log] Leads tab is clicked successfully 
+2024-04-11 17:00:26,707 INFO  [Log] Go button is clicked successfully 
+2024-04-11 17:00:26,707 INFO  [Log] ***************             -E---N---D-TestCase23 is ended.         *************** 
+2024-04-11 17:03:03,890 INFO  [Log] Login TestCase 
+2024-04-11 17:03:06,381 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-04-11 17:03:06,381 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 17:03:09,157 INFO  [Log] Leads tab is clicked successfully 
+2024-04-11 17:03:09,329 INFO  [Log] Today's lead is selected 
+2024-04-11 17:03:09,477 INFO  [Log] UserMenu is clicked successfully. 
+2024-04-11 17:03:09,917 INFO  [Log] Logout Succesfully 
+2024-04-11 17:04:08,370 INFO  [Log] Login TestCase 
+2024-04-11 17:04:11,200 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-04-11 17:04:11,200 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 17:04:13,115 INFO  [Log] Leads tab is clicked successfully 
+2024-04-11 17:04:13,252 INFO  [Log] Today's lead is selected 
+2024-04-11 17:04:13,334 INFO  [Log] UserMenu is clicked successfully. 
+2024-04-11 17:04:13,930 INFO  [Log] Logout Succesfully 
+2024-04-11 17:04:17,571 INFO  [Log] Leads tab is clicked successfully 
+2024-04-11 17:04:22,444 INFO  [Log] Go button is clicked successfully 
+2024-04-11 17:04:22,444 INFO  [Log] ***************             -E---N---D-TestCase23 is ended.         *************** 
