@@ -1345,3 +1345,61 @@
 2024-04-11 20:18:30,488 INFO  [Log] Account name is selected from lookup icon window successfully 
 2024-04-11 20:18:33,025 INFO  [Log] New Contacts is created. 
 2024-04-11 20:18:33,025 INFO  [Log] ***************             -E---N---D-TestCase 26 is ended         *************** 
+2024-04-11 20:37:20,353 INFO  [Log] Login TestCase 
+2024-04-11 20:37:23,006 INFO  [Log] TestCase27 create new Contacts 
+2024-04-11 20:37:23,006 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:37:25,812 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:37:26,296 INFO  [Log] New View Link is clicked successfully 
+2024-04-11 20:37:26,430 INFO  [Log] New View Name is entered successfully 
+2024-04-11 20:37:26,543 INFO  [Log] New View Unique Name is entered successfully 
+2024-04-11 20:38:31,988 INFO  [Log] Login TestCase 
+2024-04-11 20:38:33,928 INFO  [Log] TestCase27 create new Contacts 
+2024-04-11 20:38:33,929 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:38:36,835 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:38:37,256 INFO  [Log] New View Link is clicked successfully 
+2024-04-11 20:38:37,378 INFO  [Log] New View Name is entered successfully 
+2024-04-11 20:38:37,484 INFO  [Log] New View Unique Name is entered successfully 
+2024-04-11 20:40:29,123 INFO  [Log] Login TestCase 
+2024-04-11 20:40:31,730 INFO  [Log] TestCase27 create new Contacts 
+2024-04-11 20:40:31,730 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:40:34,214 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:40:34,596 INFO  [Log] New View Link is clicked successfully 
+2024-04-11 20:40:34,741 INFO  [Log] New View Name is entered successfully 
+2024-04-11 20:40:34,851 INFO  [Log] New View Unique Name is entered successfully 
+2024-04-11 20:52:07,782 INFO  [Log] Login TestCase 
+2024-04-11 20:52:10,360 INFO  [Log] TestCase27 create new Contacts 
+2024-04-11 20:52:10,361 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:52:12,584 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:52:13,143 INFO  [Log] New View Link is clicked successfully 
+2024-04-11 20:52:13,266 INFO  [Log] New View Name is entered successfully 
+2024-04-11 20:52:13,586 INFO  [Log] New View Unique Name is entered successfully 
+2024-04-11 20:55:28,566 INFO  [Log] Login TestCase 
+2024-04-11 20:55:34,333 INFO  [Log] TestCase27 create new Contacts 
+2024-04-11 20:55:34,333 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:55:34,927 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:55:35,509 INFO  [Log] New View Link is clicked successfully 
+2024-04-11 20:55:35,813 INFO  [Log] New View Name is entered successfully 
+2024-04-11 20:55:37,125 INFO  [Log] New View Unique Name is entered successfully 
+2024-04-11 20:57:08,234 INFO  [Log] Login TestCase 
+2024-04-11 20:57:11,590 INFO  [Log] TestCase27 create new Contacts 
+2024-04-11 20:57:11,591 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:57:13,870 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:57:14,641 INFO  [Log] New View Link is clicked successfully 
+2024-04-11 20:57:14,945 INFO  [Log] New View Name is entered successfully 
+2024-04-11 20:57:15,886 INFO  [Log] New View Unique Name is entered successfully 
+2024-04-11 20:59:11,296 INFO  [Log] Login TestCase 
+2024-04-11 20:59:14,544 INFO  [Log] TestCase27 create new Contacts 
+2024-04-11 20:59:14,545 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:59:17,314 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:59:17,968 INFO  [Log] New View Link is clicked successfully 
+2024-04-11 20:59:18,275 INFO  [Log] New View Name is entered successfully 
+2024-04-11 20:59:19,162 INFO  [Log] New View Unique Name is entered successfully 
+2024-04-11 21:01:55,690 INFO  [Log] Login TestCase 
+2024-04-11 21:02:02,168 INFO  [Log] TestCase27 create new Contacts 
+2024-04-11 21:02:02,168 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 21:02:03,264 INFO  [Log] Contacts tab is clicked 
+2024-04-11 21:02:04,702 INFO  [Log] New View Link is clicked successfully 
+2024-04-11 21:02:05,044 INFO  [Log] New View Name is entered successfully 
+2024-04-11 21:02:06,105 INFO  [Log] New View Unique Name is entered successfully 
+2024-04-11 21:02:07,491 INFO  [Log] New View in contacts is created successfully 
+2024-04-11 21:02:07,491 INFO  [Log] ***************             -E---N---D-TestCase 17 is ended successfully         *************** 

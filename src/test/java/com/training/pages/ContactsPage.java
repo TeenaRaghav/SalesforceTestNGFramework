@@ -31,8 +31,38 @@ public class ContactsPage extends BasePage{
 	@FindBy(xpath="//a[contains(text(),'Global Media')]")
 	WebElement accountname;
 	
-	@FindBy(xpath="(//input[@value=\" Save \"])[1]")
+	@FindBy(xpath="(//input[@name='save'])[1]")
 	WebElement savebtn;
+	
+//	TestCase 27
+	@FindBy(xpath="//a[contains(text(),'Create New View')]")
+	WebElement newViewlink;
+	
+	@FindBy(xpath="//input[@id='fname']")
+	WebElement newViewNameTextbox;
+	
+	@FindBy(xpath="//input[@id='devname']")
+	WebElement newViewUniqueNameTextbox;
+	
+	@FindBy(xpath="(//input[@class='btn primary'])[1]")
+	WebElement saveBtnInNewView;
+	
+//TestCase 27
+	public void clickOnNewViewLink() {
+		newViewlink.click();
+	}
+	public void enterNewViewName(String value) {
+		newViewNameTextbox.sendKeys(value);
+	}
+	public void enterNewViewUniqueName(String value) {
+		newViewUniqueNameTextbox.click();
+		newViewUniqueNameTextbox.clear();
+		newViewUniqueNameTextbox.sendKeys(value);
+	}
+	public void clickOnSaveBtninContacts() {
+		waitForElement(saveBtnInNewView);
+		saveBtnInNewView.click();
+	}
 	
 //	testcase26
 	public void contactsTab() {
