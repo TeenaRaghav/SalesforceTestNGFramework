@@ -65,18 +65,24 @@ public class ContactsPage extends BasePage{
 	@FindBy(xpath ="//a[contains(text(),'Create New View')]")
 	WebElement newviewlinkincontacts;
 	
-	@FindBy(xpath ="//input[@id='devname']")
-	WebElement viewUniquenameincontacts;
 
 	@FindBy(xpath ="(//input[@value=\" Save \"])[1]")
 	WebElement savebtnincontacts;
 	
+//	TestCAse 32
+	@FindBy(xpath ="(//input[@value=\"Cancel\"])[1]")
+	WebElement cancelincontacts;
+	
+//	TestCase 32
+public void cancelInContacts() {
+	cancelincontacts.click();
+}
 //	TestCase 31 
 	public void createNewViewLinkContacts() {
 		newviewlinkincontacts.click();
 	}
 	public void enterViewUniqueNameContacts(String value) {
-		viewUniquenameincontacts.sendKeys(value);
+		newViewUniqueNameTextbox.sendKeys(value);
 	}
 	public void saveNewViewInContacts() {
 		savebtnincontacts.click();

@@ -1433,3 +1433,12 @@
 2024-04-12 06:56:38,821 INFO  [Log] View Unique name is entered 
 2024-04-12 06:56:39,257 INFO  [Log] New View is created successfully 
 2024-04-12 06:56:39,257 INFO  [Log] ***************             -E---N---D-TestCase31 is ended         *************** 
+2024-04-12 07:07:09,980 INFO  [Log] Login TestCase 
+2024-04-12 07:07:12,543 INFO  [Log] TestCase32 create new Contacts 
+2024-04-12 07:07:12,544 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-12 07:07:17,299 INFO  [Log] Contacts tab is clicked 
+2024-04-12 07:07:17,651 INFO  [Log] New View Link is clicked successfully 
+2024-04-12 07:07:17,758 INFO  [Log] New View Name is entered successfully 
+2024-04-12 07:07:18,063 INFO  [Log] New View Unique Name is entered successfully 
+2024-04-12 07:07:18,601 INFO  [Log] Cancel vutton is clicked successfully 
+2024-04-12 07:07:18,601 INFO  [Log] ***************             -E---N---D-TestCase 27 is ended successfully         *************** 

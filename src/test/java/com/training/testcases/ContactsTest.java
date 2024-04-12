@@ -147,7 +147,24 @@ public class ContactsTest extends BaseTest {
 		Log.info("New View is created successfully");
 		Log.endTestCase("TestCase31 is ended");
 	}
-
+	@Test
+	public void createNewView2() throws IOException {
+		Log.info("TestCase32 create new Contacts");
+		Log.startTestCase("Test is started");
+		contactspage.contactsTab();
+		Log.info("Contacts tab is clicked");
+		contactspage.clickOnNewViewLink();
+		Log.info("New View Link is clicked successfully");
+		String newViewname = prop.getProperties("newView2InContacts");
+		contactspage.enterNewViewName(newViewname);
+		Log.info("New View Name is entered successfully");
+		String newViewuniquename = prop.getProperties("ViewUniqueNAme");
+		contactspage.enterNewViewUniqueName(newViewuniquename);
+		Log.info("New View Unique Name is entered successfully");
+		contactspage.cancelInContacts();
+		Log.info("Cancel vutton is clicked successfully");
+		Log.endTestCase("TestCase 27 is ended successfully");
+	}
 	@AfterTest
 	public void tearDown() {
 		screenshot.takescreenshot(driver);
