@@ -1403,3 +1403,9 @@
 2024-04-11 21:02:06,105 INFO  [Log] New View Unique Name is entered successfully 
 2024-04-11 21:02:07,491 INFO  [Log] New View in contacts is created successfully 
 2024-04-11 21:02:07,491 INFO  [Log] ***************             -E---N---D-TestCase 17 is ended successfully         *************** 
+2024-04-11 21:12:50,637 INFO  [Log] Login TestCase 
+2024-04-11 21:12:55,911 INFO  [Log] TestCase27 create new Contacts 
+2024-04-11 21:12:55,911 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 21:12:57,296 INFO  [Log] Contacts tab is clicked 
+2024-04-11 21:12:57,587 INFO  [Log] Recent created contacts are displayed. 
+2024-04-11 21:12:57,587 INFO  [Log] ***************             -E---N---D-TestCase28 is ended         *************** 

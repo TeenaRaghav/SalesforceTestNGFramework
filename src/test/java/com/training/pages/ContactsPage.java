@@ -47,6 +47,18 @@ public class ContactsPage extends BasePage{
 	@FindBy(xpath="(//input[@class='btn primary'])[1]")
 	WebElement saveBtnInNewView;
 	
+//	TestCase 28
+	
+	@FindBy(xpath ="//select[@id=\"hotlist_mode\"]")
+	WebElement filterView;
+	
+//	TestCAse 28
+	public void selectFilter(String value) {
+		selectValue(filterView,value);
+	}
+	
+	
+	
 //TestCase 27
 	public void clickOnNewViewLink() {
 		newViewlink.click();
