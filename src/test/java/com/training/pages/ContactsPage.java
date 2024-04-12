@@ -57,7 +57,14 @@ public class ContactsPage extends BasePage{
 	@FindBy(xpath ="//select[@id=\"fcf\"]")
 	WebElement viewDropdownincontacts;
 
-	
+//	TestCase 30
+	@FindBy(xpath ="//table[@class=\"list\"]/tbody/tr[2]/th/a")
+	WebElement recentcontacts;
+
+//	TestCase 30
+	public void recentContacts() {
+		recentcontacts.click();
+	}
 //	TestCAse 28
 	public void selectFilter(String value) {
 		selectValue(filterView,value);

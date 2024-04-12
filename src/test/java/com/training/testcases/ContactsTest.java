@@ -122,6 +122,16 @@ public class ContactsTest extends BaseTest {
 		Log.info("view is selected successfully.");
 		Log.endTestCase("TestCase29 is ended");
 	}
+	@Test
+	public void recentContacts() throws IOException {
+		Log.info("TestCase30 View recent contacts");
+		Log.startTestCase("Test is started");
+		contactspage.contactsTab();
+		Log.info("Contacts tab is clicked");
+		contactspage.recentContacts();
+		Log.info("Recent contacts are displayed successfully.");
+		Log.endTestCase("TestCase30 is ended");
+	}
 
 	@AfterTest
 	public void tearDown() {
