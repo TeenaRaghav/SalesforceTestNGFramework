@@ -40,6 +40,7 @@ public class ContactsPage extends BasePage{
 	}
 	
 	public void clickOnNewBtn() {
+		waitForElement(newBtn);
 		newBtn.click();
 	}
 

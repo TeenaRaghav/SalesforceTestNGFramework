@@ -1325,3 +1325,23 @@
 2024-04-11 20:12:07,147 INFO  [Log] TestCase26 create new Contacts 
 2024-04-11 20:12:07,147 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
 2024-04-11 20:12:09,374 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:16:41,788 INFO  [Log] Login TestCase 
+2024-04-11 20:16:43,925 INFO  [Log] TestCase26 create new Contacts 
+2024-04-11 20:16:43,926 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:16:47,007 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:16:47,634 INFO  [Log] New button is clicked 
+2024-04-11 20:16:47,787 INFO  [Log] LastName is entered successfully 
+2024-04-11 20:16:47,917 INFO  [Log] lookup icon is clicked successfully 
+2024-04-11 20:16:48,602 INFO  [Log] Account name is selected from lookup icon window successfully 
+2024-04-11 20:16:50,472 INFO  [Log] New Contacts is created. 
+2024-04-11 20:16:50,472 INFO  [Log] ***************             -E---N---D-TestCase 26 is ended         *************** 
+2024-04-11 20:18:23,870 INFO  [Log] Login TestCase 
+2024-04-11 20:18:26,551 INFO  [Log] TestCase26 create new Contacts 
+2024-04-11 20:18:26,551 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:18:29,011 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:18:29,506 INFO  [Log] New button is clicked 
+2024-04-11 20:18:29,677 INFO  [Log] LastName is entered successfully 
+2024-04-11 20:18:29,802 INFO  [Log] lookup icon is clicked successfully 
+2024-04-11 20:18:30,488 INFO  [Log] Account name is selected from lookup icon window successfully 
+2024-04-11 20:18:33,025 INFO  [Log] New Contacts is created. 
+2024-04-11 20:18:33,025 INFO  [Log] ***************             -E---N---D-TestCase 26 is ended         *************** 

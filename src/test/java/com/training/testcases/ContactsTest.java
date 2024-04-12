@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -63,6 +64,8 @@ public void createNewContacts() throws IOException {
 	Log.startTestCase("Test is started");
 	contactspage.contactsTab();
 	Log.info("Contacts tab is clicked");
+	contactspage.clickOnNewBtn();
+	Log.info("New button is clicked");
 	String lastname = prop.getProperties("lastNameInContactsTab");
 	contactspage.enterLastName(lastname);
 	Log.info("LastName is entered successfully");
@@ -74,4 +77,11 @@ public void createNewContacts() throws IOException {
 	Log.info("New Contacts is created.");
 	Log.endTestCase("TestCase 26 is ended");
 }
+@AfterTest
+public void tearDown() {
+	screenshot.takescreenshot(driver);
+	close();
+	}
+
+
 }
