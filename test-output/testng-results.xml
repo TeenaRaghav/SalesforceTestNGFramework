@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+<testng-results ignored="6" total="7" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-12T08:17:56 EDT" name="Default suite" finished-at="2024-04-12T08:18:08 EDT" duration-ms="11500">
+  <suite started-at="2024-04-12T08:34:08 EDT" name="Default suite" finished-at="2024-04-12T08:34:21 EDT" duration-ms="13041">
     <groups>
     </groups>
-    <test started-at="2024-04-12T08:17:56 EDT" name="Default test" finished-at="2024-04-12T08:18:08 EDT" duration-ms="11500">
+    <test started-at="2024-04-12T08:34:08 EDT" name="Default test" finished-at="2024-04-12T08:34:21 EDT" duration-ms="13041">
       <class name="com.training.testcases.UserMenuTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.training.testcases.UserMenuTest@659499f1]" started-at="2024-04-12T08:17:56 EDT" name="beforeTest" finished-at="2024-04-12T08:18:01 EDT" duration-ms="5133" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.training.testcases.UserMenuTest@51e69659]" started-at="2024-04-12T08:34:08 EDT" name="beforeTest" finished-at="2024-04-12T08:34:13 EDT" duration-ms="5036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="verifyFirstAndLastName()[pri:0, instance:com.training.testcases.UserMenuTest@659499f1]" started-at="2024-04-12T08:18:01 EDT" name="verifyFirstAndLastName" finished-at="2024-04-12T08:18:07 EDT" duration-ms="6031" status="PASS">
+        <test-method signature="verifyFirstAndLastNameAtVAriousPages()[pri:0, instance:com.training.testcases.UserMenuTest@51e69659]" started-at="2024-04-12T08:34:13 EDT" name="verifyFirstAndLastNameAtVAriousPages" finished-at="2024-04-12T08:34:20 EDT" duration-ms="7343" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFirstAndLastName -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.UserMenuTest@659499f1]" started-at="2024-04-12T08:18:07 EDT" name="teardown" finished-at="2024-04-12T08:18:08 EDT" duration-ms="310" status="PASS">
+        </test-method> <!-- verifyFirstAndLastNameAtVAriousPages -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.UserMenuTest@51e69659]" started-at="2024-04-12T08:34:20 EDT" name="teardown" finished-at="2024-04-12T08:34:21 EDT" duration-ms="637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

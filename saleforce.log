@@ -1487,3 +1487,21 @@
 2024-04-12 08:18:07,731 INFO  [Log] Click on Name link is successful 
 2024-04-12 08:18:07,863 INFO  [Log] Homapage is as same as My profile page 
 2024-04-12 08:18:07,863 INFO  [Log] ***************             -E---N---D-Test is ended successfully         *************** 
+2024-04-12 08:33:59,210 INFO  [Log]  Enter valid username and valid password 
+2024-04-12 08:33:59,509 INFO  [Log] Successfully entered the username  
+2024-04-12 08:33:59,773 INFO  [Log] Successfully entered the password  
+2024-04-12 08:34:11,150 INFO  [Log]  Enter valid username and valid password 
+2024-04-12 08:34:11,412 INFO  [Log] Successfully entered the username  
+2024-04-12 08:34:11,510 INFO  [Log] Successfully entered the password  
+2024-04-12 08:34:13,385 INFO  [Log] Login successful. 
+2024-04-12 08:34:13,408 INFO  [Log] TEstcase 35 verify First and lastname at various places 
+2024-04-12 08:34:13,408 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-12 08:34:17,545 INFO  [Log] HomeTab is clicked successfully 
+2024-04-12 08:34:18,985 INFO  [Log] profile page is displayed 
+2024-04-12 08:34:19,136 INFO  [Log] edit button is clicked successfully 
+2024-04-12 08:34:19,523 INFO  [Log] Switch to about frame successfully 
+2024-04-12 08:34:19,695 INFO  [Log] Clicked on about tab successfully 
+2024-04-12 08:34:19,865 INFO  [Log] LastName entered successfully 
+2024-04-12 08:34:20,746 INFO  [Log] save all button is clicked 
+2024-04-12 08:34:20,746 INFO  [Log] Lastname is edited on every page. 
+2024-04-12 08:34:20,747 INFO  [Log] ***************             -E---N---D-Testcase 35 is ended successfully         *************** 

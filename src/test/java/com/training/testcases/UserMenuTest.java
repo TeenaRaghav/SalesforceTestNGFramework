@@ -200,7 +200,29 @@ public class UserMenuTest extends BaseTest{
 		usermenupage.validatingNameonProfilePage(name2);
 		Log.info("Homapage is as same as My profile page");
 		Log.endTestCase("Test is ended successfully");
-		
+	}
+	
+	@Test
+	public void verifyFirstAndLastNameAtVAriousPages() throws IOException {
+		Log.info("TEstcase 35 verify First and lastname at various places");
+		Log.startTestCase("Test is started");
+		homepage.homeTab();
+		Log.info("HomeTab is clicked successfully");
+		homepage.clickOnNameLink();
+		Log.info("profile page is displayed");
+		usermenupage.editBtn();
+		Log.info("edit button is clicked successfully");
+		usermenupage.abtFrame();
+		Log.info("Switch to about frame successfully");
+		usermenupage.aboutTab();
+		Log.info("Clicked on about tab successfully");
+		String lastname2 = prop.getProperties("Lastsname2");
+		usermenupage.enterIntoLastname(lastname2);
+		Log.info("LastName entered successfully");
+		usermenupage.clickSaveall();
+		Log.info("save all button is clicked");
+		Log.info("Lastname is edited on every page.");
+		Log.endTestCase("Testcase 35 is ended successfully");
 	}
 	
 	@AfterTest

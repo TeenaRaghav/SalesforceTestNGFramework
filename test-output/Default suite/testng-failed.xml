@@ -5,7 +5,7 @@
     <classes>
       <class name="com.training.testcases.UserMenuTest">
         <methods>
-          <include name="verifyFirstAndLastName"/>
+          <include name="verifyFirstAndLastNameAtVAriousPages"/>
           <include name="beforeTest"/>
           <include name="teardown"/>
         </methods>
