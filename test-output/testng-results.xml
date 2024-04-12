@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="7" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-12T08:34:08 EDT" name="Default suite" finished-at="2024-04-12T08:34:21 EDT" duration-ms="13041">
+  <suite started-at="2024-04-12T08:54:11 EDT" name="Default suite" finished-at="2024-04-12T08:54:20 EDT" duration-ms="9070">
     <groups>
     </groups>
-    <test started-at="2024-04-12T08:34:08 EDT" name="Default test" finished-at="2024-04-12T08:34:21 EDT" duration-ms="13041">
-      <class name="com.training.testcases.UserMenuTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.training.testcases.UserMenuTest@51e69659]" started-at="2024-04-12T08:34:08 EDT" name="beforeTest" finished-at="2024-04-12T08:34:13 EDT" duration-ms="5036" status="PASS">
+    <test started-at="2024-04-12T08:54:11 EDT" name="Default test" finished-at="2024-04-12T08:54:20 EDT" duration-ms="9070">
+      <class name="com.training.testcases.HomeTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.training.testcases.HomeTest@6253c26]" started-at="2024-04-12T08:54:11 EDT" name="beforeTest" finished-at="2024-04-12T08:54:16 EDT" duration-ms="5071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="verifyFirstAndLastNameAtVAriousPages()[pri:0, instance:com.training.testcases.UserMenuTest@51e69659]" started-at="2024-04-12T08:34:13 EDT" name="verifyFirstAndLastNameAtVAriousPages" finished-at="2024-04-12T08:34:20 EDT" duration-ms="7343" status="PASS">
+        <test-method signature="customizeMyTab()[pri:0, instance:com.training.testcases.HomeTest@6253c26]" started-at="2024-04-12T08:54:16 EDT" name="customizeMyTab" finished-at="2024-04-12T08:54:20 EDT" duration-ms="3709" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFirstAndLastNameAtVAriousPages -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.UserMenuTest@51e69659]" started-at="2024-04-12T08:34:20 EDT" name="teardown" finished-at="2024-04-12T08:34:21 EDT" duration-ms="637" status="PASS">
+        </test-method> <!-- customizeMyTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.testcases.HomeTest@6253c26]" started-at="2024-04-12T08:54:20 EDT" name="tearDown" finished-at="2024-04-12T08:54:20 EDT" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.training.testcases.UserMenuTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.testcases.HomeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

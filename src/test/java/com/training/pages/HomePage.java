@@ -68,7 +68,38 @@ public class HomePage extends BasePage {
 
 	@FindBy(id = "Account_Tab")
 	WebElement accountstab;
+//	Testcase 36
+
+	@FindBy(id = "AllTab_Tab")
+	WebElement plusBtn;
 	
+	@FindBy(className="btnImportant")
+	WebElement customizemytabBtn;
+	
+	@FindBy(xpath="//option[contains(text(),'Leads')]")
+	WebElement selectTabFromSelectedTabsArea;
+	
+	@FindBy(id="duel_select_0_left")
+	WebElement removebtn;
+	
+	@FindBy(xpath=" //input[@value=\" Save \"]")
+	WebElement savebtn;
+//	Testcase 36
+	public void clickOnPlusBtn() {
+		plusBtn.click();
+	}
+	public void clickOnCustomizeMyTabBtn() {
+		customizemytabBtn.click();
+	}
+	public void selectatbFromselectedarea() {
+		selectTabFromSelectedTabsArea.click();
+	}
+	public void clickOnRemovebtn() {
+		removebtn.click();
+	}
+	public void clickOnsavebtn() {
+		savebtn.click();
+	}
 // testcase 34
 	@FindBy(xpath ="//a[contains(text(),'Teena Raghav')]")
 	WebElement Usernamelink;

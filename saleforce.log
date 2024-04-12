@@ -1505,3 +1505,27 @@
 2024-04-12 08:34:20,746 INFO  [Log] save all button is clicked 
 2024-04-12 08:34:20,746 INFO  [Log] Lastname is edited on every page. 
 2024-04-12 08:34:20,747 INFO  [Log] ***************             -E---N---D-Testcase 35 is ended successfully         *************** 
+2024-04-12 08:52:26,521 INFO  [Log]  Enter valid username and valid password 
+2024-04-12 08:52:26,934 INFO  [Log] Successfully entered the username  
+2024-04-12 08:52:27,098 INFO  [Log] Successfully entered the password  
+2024-04-12 08:52:31,778 INFO  [Log] Login successful. 
+2024-04-12 08:52:31,802 INFO  [Log] TestCase 35 customize my tab 
+2024-04-12 08:52:31,802 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-12 08:52:33,100 INFO  [Log] + button is clicked successfully 
+2024-04-12 08:52:33,705 INFO  [Log] button is clicked successfully 
+2024-04-12 08:52:33,754 INFO  [Log] Leads Tab is selected successfully 
+2024-04-12 08:52:33,818 INFO  [Log] Leads Tab is remover successfully. 
+2024-04-12 08:52:34,649 INFO  [Log] Change is updated 
+2024-04-12 08:52:34,649 INFO  [Log] ***************             -E---N---D-Testcase 36 is ended successfully         *************** 
+2024-04-12 08:54:14,168 INFO  [Log]  Enter valid username and valid password 
+2024-04-12 08:54:14,446 INFO  [Log] Successfully entered the username  
+2024-04-12 08:54:14,558 INFO  [Log] Successfully entered the password  
+2024-04-12 08:54:16,906 INFO  [Log] Login successful. 
+2024-04-12 08:54:16,929 INFO  [Log] TestCase 35 customize my tab 
+2024-04-12 08:54:16,929 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-12 08:54:18,900 INFO  [Log] + button is clicked successfully 
+2024-04-12 08:54:19,363 INFO  [Log] button is clicked successfully 
+2024-04-12 08:54:19,440 INFO  [Log] Leads Tab is selected successfully 
+2024-04-12 08:54:19,497 INFO  [Log] Leads Tab is remover successfully. 
+2024-04-12 08:54:20,635 INFO  [Log] Change is updated 
+2024-04-12 08:54:20,635 INFO  [Log] ***************             -E---N---D-Testcase 36 is ended successfully         *************** 
