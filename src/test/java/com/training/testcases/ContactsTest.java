@@ -165,6 +165,27 @@ public class ContactsTest extends BaseTest {
 		Log.info("Cancel vutton is clicked successfully");
 		Log.endTestCase("TestCase 27 is ended successfully");
 	}
+	
+	@Test
+	public void createNewContacts2() throws IOException {
+		Log.info("TestCase33 create new Contacts");
+		Log.startTestCase("Test is started");
+		contactspage.contactsTab();
+		Log.info("Contacts tab is clicked");
+		contactspage.clickOnNewBtn();
+		Log.info("New button is clicked");
+		String lastname = prop.getProperties("lastName2InContacts");
+		contactspage.enterLastName(lastname);
+		Log.info("LastName is entered successfully");
+		contactspage.clickOnLookUpIcon();
+		Log.info("lookup icon is clicked successfully");
+		contactspage.switchToWindowAndSelectAccountName();
+		Log.info("Account name is selected from lookup icon window successfully");
+		contactspage.clickOnSaveAndNewBtn();
+		Log.info("New Contacts is created and new window is opened.");
+		Log.endTestCase("TestCase 33 is ended");
+	}
+
 	@AfterTest
 	public void tearDown() {
 		screenshot.takescreenshot(driver);

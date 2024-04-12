@@ -1442,3 +1442,29 @@
 2024-04-12 07:07:18,063 INFO  [Log] New View Unique Name is entered successfully 
 2024-04-12 07:07:18,601 INFO  [Log] Cancel vutton is clicked successfully 
 2024-04-12 07:07:18,601 INFO  [Log] ***************             -E---N---D-TestCase 27 is ended successfully         *************** 
+2024-04-12 07:14:41,226 INFO  [Log] Login TestCase 
+2024-04-12 07:14:43,956 INFO  [Log] TestCase33 create new Contacts 
+2024-04-12 07:14:43,956 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-12 07:14:46,264 INFO  [Log] Contacts tab is clicked 
+2024-04-12 07:14:46,786 INFO  [Log] New button is clicked 
+2024-04-12 07:14:46,908 INFO  [Log] LastName is entered successfully 
+2024-04-12 07:14:47,014 INFO  [Log] lookup icon is clicked successfully 
+2024-04-12 07:14:47,710 INFO  [Log] Account name is selected from lookup icon window successfully 
+2024-04-12 07:16:31,442 INFO  [Log] Login TestCase 
+2024-04-12 07:16:33,681 INFO  [Log] TestCase33 create new Contacts 
+2024-04-12 07:16:33,682 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-12 07:16:36,535 INFO  [Log] Contacts tab is clicked 
+2024-04-12 07:16:37,314 INFO  [Log] New button is clicked 
+2024-04-12 07:16:37,480 INFO  [Log] LastName is entered successfully 
+2024-04-12 07:16:37,601 INFO  [Log] lookup icon is clicked successfully 
+2024-04-12 07:16:38,215 INFO  [Log] Account name is selected from lookup icon window successfully 
+2024-04-12 07:18:33,778 INFO  [Log] Login TestCase 
+2024-04-12 07:18:36,212 INFO  [Log] TestCase33 create new Contacts 
+2024-04-12 07:18:36,213 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-12 07:18:38,886 INFO  [Log] Contacts tab is clicked 
+2024-04-12 07:18:39,419 INFO  [Log] New button is clicked 
+2024-04-12 07:18:39,565 INFO  [Log] LastName is entered successfully 
+2024-04-12 07:18:39,679 INFO  [Log] lookup icon is clicked successfully 
+2024-04-12 07:18:40,299 INFO  [Log] Account name is selected from lookup icon window successfully 
+2024-04-12 07:18:41,413 INFO  [Log] New Contacts is created and new window is opened. 
+2024-04-12 07:18:41,414 INFO  [Log] ***************             -E---N---D-TestCase 33 is ended         *************** 

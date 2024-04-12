@@ -72,7 +72,14 @@ public class ContactsPage extends BasePage{
 //	TestCAse 32
 	@FindBy(xpath ="(//input[@value=\"Cancel\"])[1]")
 	WebElement cancelincontacts;
-	
+
+//	TestCase 33
+	@FindBy(xpath ="//input[@title='Save & New'][1]")
+	WebElement saveandnewbtnincontacts;
+//TestCAse 33
+	public void clickOnSaveAndNewBtn() {
+		saveandnewbtnincontacts.click();
+	}
 //	TestCase 32
 public void cancelInContacts() {
 	cancelincontacts.click();

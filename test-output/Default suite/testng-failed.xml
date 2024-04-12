@@ -6,7 +6,7 @@
       <class name="com.training.testcases.ContactsTest">
         <methods>
           <include name="beforeTest"/>
-          <include name="selectViewFromContacts"/>
+          <include name="createNewContacts2"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.training.testcases.ContactsTest -->
