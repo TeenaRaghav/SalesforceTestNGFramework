@@ -1,6 +1,7 @@
 package com.training.base;
 
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
@@ -95,14 +96,31 @@ public class BasePage {
 		js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0, 500)");
 	}
-	public void switchToNewWindow() {
-		String mainWindow = driver.getWindowHandle();
-		for(String window : driver.getWindowHandles()) {
-			if (!window.equals(mainWindow)) {
-				driver.switchTo().window(window);
+	public void switchToChildWindow() {
+		String parentWindow = driver.getWindowHandle();
+		Set<String> Handles =driver.getWindowHandles();
+		for(String handle :	Handles ) {
+			if (!handle.equals(parentWindow)) 
+			{
+				driver.switchTo().window(handle);
 			}
 		}
 	}
+	 public void switchToParentWindow(String parentWindow) {
+		 Set<String> handles =driver.getWindowHandles();
+			for(String handle :	handles ) {
+				if (!handle.equals(parentWindow)) 
+				{
+					driver.switchTo().window(handle);
+				}
+			} 
+			driver.switchTo().window(parentWindow);
+	 }
+	 
+	 public String getParentWindow() {
+		 String parentWindow = driver.getWindowHandle();
+	 return parentWindow;
+	 }
 	public List<WebElement> getDropdownContents(Select ele) {
 	List<WebElement> alloptions = ele.getOptions();
 	 return alloptions;

@@ -1297,3 +1297,31 @@
 2024-04-11 17:54:25,917 INFO  [Log] Company name is entered successfully 
 2024-04-11 17:54:28,703 INFO  [Log] New View is created successfully 
 2024-04-11 17:54:28,703 INFO  [Log] ***************             -E---N---D-TestCase 25 is ended successfully         *************** 
+2024-04-11 19:41:42,100 INFO  [Log] Login TestCase 
+2024-04-11 19:41:46,443 INFO  [Log] TestCase 17 create new Opportunity 
+2024-04-11 19:41:46,443 INFO  [Log] ****************           -S-T-A-R-T-test is started       **************** 
+2024-04-11 19:41:47,223 INFO  [Log] opportunity button is clicked 
+2024-04-11 19:41:50,070 INFO  [Log] switch to campaign window 
+2024-04-11 19:41:50,070 INFO  [Log] back to main window 
+2024-04-11 19:41:52,516 INFO  [Log] New Opportunity is Created 
+2024-04-11 19:41:52,516 INFO  [Log] ***************             -E---N---D-TestCase 17 is ended         *************** 
+2024-04-11 20:04:35,028 INFO  [Log] Login TestCase 
+2024-04-11 20:04:40,020 INFO  [Log] TestCase26 create new Contacts 
+2024-04-11 20:04:40,021 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:04:41,494 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:06:12,753 INFO  [Log] Login TestCase 
+2024-04-11 20:06:15,145 INFO  [Log] TestCase26 create new Contacts 
+2024-04-11 20:06:15,145 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:06:18,078 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:07:05,937 INFO  [Log] Login TestCase 
+2024-04-11 20:07:08,136 INFO  [Log] TestCase26 create new Contacts 
+2024-04-11 20:07:08,136 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:07:10,508 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:09:01,025 INFO  [Log] Login TestCase 
+2024-04-11 20:09:07,870 INFO  [Log] TestCase26 create new Contacts 
+2024-04-11 20:09:07,870 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:09:08,781 INFO  [Log] Contacts tab is clicked 
+2024-04-11 20:12:04,638 INFO  [Log] Login TestCase 
+2024-04-11 20:12:07,147 INFO  [Log] TestCase26 create new Contacts 
+2024-04-11 20:12:07,147 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 20:12:09,374 INFO  [Log] Contacts tab is clicked 

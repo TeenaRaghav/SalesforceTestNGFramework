@@ -120,17 +120,11 @@ public class OpportunityPage extends BasePage {
 		opportunityPrimaryCampaignSource.click();
 	}
 	public void switchTowindowAndSelectCampaignSource() {
-		String parentwindow = driver.getWindowHandle();
-		Set<String> listOfHandles =driver.getWindowHandles();
-		
-		for(String handle: listOfHandles) {
-			if(!handle.equals(parentwindow)) {
-				driver.switchTo().window(handle);
-				switchFrame(opportunityPrimaryCampaignFrame);				
-				opportunityPrimaryCampaignlink.click();
-			}
-		}
-		driver.switchTo().window(parentwindow);	
+		String parent = getParentWindow();
+		switchToChildWindow();
+		switchFrame(opportunityPrimaryCampaignFrame);				
+		opportunityPrimaryCampaignlink.click();
+		switchToParentWindow(parent);
 		}
 	
 	public void opportunitySaveButton() {
