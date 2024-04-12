@@ -184,6 +184,25 @@ public class UserMenuTest extends BaseTest{
 		Log.endTestCase("usermanu dropdown test ended");
 	}
 
+	@Test
+	public void verifyFirstAndLastName() throws IOException {
+		Log.info("TEstcase 34 verify First and lastname on home page and myprofile is same ");
+		Log.startTestCase("Test is started");
+		homepage.homeTab();
+		Log.info("HomeTab is clicked successfully");
+		String name1=prop.getProperties("expectedTitleV1");
+		String url=prop.getProperties("expectedUrlV2");
+		homepage.validateFirstname(name1,url);
+		Log.info("Firstname and Lastname is displayed");
+		homepage.clickOnNameLink();
+		Log.info("Click on Name link is successful");
+		String name2=prop.getProperties("expectedTitleV1");
+		usermenupage.validatingNameonProfilePage(name2);
+		Log.info("Homapage is as same as My profile page");
+		Log.endTestCase("Test is ended successfully");
+		
+	}
+	
 	@AfterTest
 	public void teardown() {
 		screenshot.takescreenshot(driver); 

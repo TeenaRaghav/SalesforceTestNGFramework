@@ -4,6 +4,7 @@ import java.util.Set;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 import com.training.base.BasePage;
 
@@ -13,7 +14,10 @@ public class HomePage extends BasePage {
 		super(driver);
 	}
 
-	
+
+	@FindBy(xpath = "(//a[contains(text(),'Home')])[1]")
+	WebElement hometab;
+
 	@FindBy(xpath = "//a[contains(text(),'Developer Console')]")
 	WebElement developerconsolebtn;
 
@@ -64,14 +68,36 @@ public class HomePage extends BasePage {
 
 	@FindBy(id = "Account_Tab")
 	WebElement accountstab;
-
+	
+// testcase 34
+	@FindBy(xpath ="//a[contains(text(),'Teena Raghav')]")
+	WebElement Usernamelink;
+	@FindBy(xpath ="(//a[contains(text(),\"Teena Raghav\")])[1]")
+	WebElement firstAndLastNamelink;
+	
+//testcase 34
+	public void validateFirstname(String value1,String value2) {
+	String actualtitle=getTextFromElement(Usernamelink);
+		String expectedtitle = getExpectedTitle(value1);
+		String actualurl = getActualUrl();
+		String expectedUrl= getExpectedUrl(value2);
+		if(actualtitle.equals(expectedtitle) && actualurl.equals(expectedUrl)) {
+			System.out.println("You are on homepage");
+		}
+	}
+	public void clickOnNameLink() {
+		firstAndLastNamelink.click();
+	}
+	
+	
+	public void homeTab() {
+		hometab.click();
+	}
 
 	public void accountsTab() {
 		accountstab.click();
 	}
 
-	
-	
 	public void logout() {
 		waitForElement(logout);
 		logout.click();

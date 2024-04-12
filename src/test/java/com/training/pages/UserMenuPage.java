@@ -108,7 +108,19 @@ public class UserMenuPage extends BasePage{
 	
 	@FindBy(id ="testbtn")
 	WebElement testReminderbtn;
-	
+//	Testcase 34
+	@FindBy(id="tailBreadcrumbNode")
+	WebElement usernameOnProfilePage;
+	// Testcase 34
+	public void validatingNameonProfilePage(String value) {
+		String usernameOnProfilepage=getTextFromElement(usernameOnProfilePage);
+		String actualusernameLink = getTextFromElement(usernameOnProfilePage);
+		String expectednamelink=getExpectedTitle(value);
+		usermenu.click();
+		if(actualusernameLink.equals(expectednamelink) && expectednamelink.equals(usernameOnProfilepage)) {
+			System.out.println("The Homepage and My profilePage is Same");
+		}
+	}
 // usermenu
 	public void usermenu() {
 //		waitForElement(usermenu);
@@ -225,7 +237,6 @@ public class UserMenuPage extends BasePage{
 		String title = driver.getTitle();
 		System.out.println("Tile of the new window is :" + title);
 		driver.close();
-
 	}
 
 }

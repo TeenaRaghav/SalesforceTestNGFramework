@@ -1468,3 +1468,22 @@
 2024-04-12 07:18:40,299 INFO  [Log] Account name is selected from lookup icon window successfully 
 2024-04-12 07:18:41,413 INFO  [Log] New Contacts is created and new window is opened. 
 2024-04-12 07:18:41,414 INFO  [Log] ***************             -E---N---D-TestCase 33 is ended         *************** 
+2024-04-12 08:16:38,798 INFO  [Log]  Enter valid username and valid password 
+2024-04-12 08:16:39,062 INFO  [Log] Successfully entered the username  
+2024-04-12 08:16:39,411 INFO  [Log] Successfully entered the password  
+2024-04-12 08:16:44,442 INFO  [Log] Login successful. 
+2024-04-12 08:16:44,473 INFO  [Log] TEstcase 34 verify First and lastname on home page and myprofile is same  
+2024-04-12 08:16:44,474 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-12 08:16:46,529 INFO  [Log] HomeTab is clicked successfully 
+2024-04-12 08:16:46,570 INFO  [Log] Firstname and Lastname is displayed 
+2024-04-12 08:17:58,910 INFO  [Log]  Enter valid username and valid password 
+2024-04-12 08:17:59,194 INFO  [Log] Successfully entered the username  
+2024-04-12 08:17:59,576 INFO  [Log] Successfully entered the password  
+2024-04-12 08:18:01,815 INFO  [Log] Login successful. 
+2024-04-12 08:18:01,835 INFO  [Log] TEstcase 34 verify First and lastname on home page and myprofile is same  
+2024-04-12 08:18:01,836 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-12 08:18:06,482 INFO  [Log] HomeTab is clicked successfully 
+2024-04-12 08:18:06,517 INFO  [Log] Firstname and Lastname is displayed 
+2024-04-12 08:18:07,731 INFO  [Log] Click on Name link is successful 
+2024-04-12 08:18:07,863 INFO  [Log] Homapage is as same as My profile page 
+2024-04-12 08:18:07,863 INFO  [Log] ***************             -E---N---D-Test is ended successfully         *************** 

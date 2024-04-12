@@ -19,29 +19,36 @@ public class BasePage {
 	Actions action;
 	Select select;
 	JavascriptExecutor js;
+
 	public BasePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+
 	public void waitForElement(WebElement element) {
 		wait = new WebDriverWait(driver, 30);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
+
 	public void actions(WebElement element) {
 		action = new Actions(driver);
 		action.moveToElement(element).build().perform();
 	}
+
 	public String getPageTitle() {
 		return driver.getTitle();
 	}
+
 	public void refreshpage() {
 		driver.navigate().refresh();
 	}
+
 	public String getTextFromElement(WebElement ele) {
 		String data = ele.getText();
 		System.out.println("extracted the text");
 		return data;
 	}
+
 	public void clearElement(WebElement ele) {
 		if (ele.isDisplayed()) {
 			ele.clear();
@@ -49,6 +56,7 @@ public class BasePage {
 			System.out.println(" element is not displayed.");
 		}
 	}
+
 	public void enterText(WebElement ele, String data) {
 		if (ele.isDisplayed()) {
 			clearElement(ele);
@@ -58,72 +66,91 @@ public class BasePage {
 			System.out.println(" element is not displayed.");
 		}
 	}
-	
-	public void selectText(WebElement ele,String text) {
+
+	public void selectText(WebElement ele, String text) {
 		select = new Select(ele);
 		select.selectByVisibleText(text);
 	}
-	
-	public void selectValue(WebElement ele,String value) {
+
+	public void selectValue(WebElement ele, String value) {
 		select = new Select(ele);
 		select.selectByValue(value);
 	}
-	public void selectIndex(WebElement ele,int index) {
+
+	public void selectIndex(WebElement ele, int index) {
 		select = new Select(ele);
 		select.selectByIndex(index);
 	}
+
 	public void switchFrame(WebElement frame) {
 		driver.switchTo().frame(frame);
 	}
+
 	public void switchToDefault() {
 		driver.switchTo().defaultContent();
 	}
+
 	public void radiobtn(WebElement ele) {
-		if(!ele.isSelected()) {
+		if (!ele.isSelected()) {
 			ele.click();
-		}else {
+		} else {
 			System.out.println("yes button is already selected.");
 		}
 	}
+
 	public void acceptAlert() {
 		driver.switchTo().alert().accept();
 	}
+
 	public void dismissAlert() {
 		driver.switchTo().alert().dismiss();
 	}
-	
+
 	public void scrolldown() {
 		js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0, 500)");
 	}
+
 	public void switchToChildWindow() {
 		String parentWindow = driver.getWindowHandle();
-		Set<String> Handles =driver.getWindowHandles();
-		for(String handle :	Handles ) {
-			if (!handle.equals(parentWindow)) 
-			{
+		Set<String> Handles = driver.getWindowHandles();
+		for (String handle : Handles) {
+			if (!handle.equals(parentWindow)) {
 				driver.switchTo().window(handle);
 			}
 		}
 	}
-	 public void switchToParentWindow(String parentWindow) {
-		 Set<String> handles =driver.getWindowHandles();
-			for(String handle :	handles ) {
-				if (!handle.equals(parentWindow)) 
-				{
-					driver.switchTo().window(handle);
-				}
-			} 
-			driver.switchTo().window(parentWindow);
-	 }
-	 
-	 public String getParentWindow() {
-		 String parentWindow = driver.getWindowHandle();
-	 return parentWindow;
-	 }
+
+	public void switchToParentWindow(String parentWindow) {
+		Set<String> handles = driver.getWindowHandles();
+		for (String handle : handles) {
+			if (!handle.equals(parentWindow)) {
+				driver.switchTo().window(handle);
+			}
+		}
+		driver.switchTo().window(parentWindow);
+	}
+
+	public String getParentWindow() {
+		String parentWindow = driver.getWindowHandle();
+		return parentWindow;
+	}
+
 	public List<WebElement> getDropdownContents(Select ele) {
-	List<WebElement> alloptions = ele.getOptions();
-	 return alloptions;
+		List<WebElement> alloptions = ele.getOptions();
+		return alloptions;
+	}
+	public String getActualUrl() {
+		String url = driver.getCurrentUrl();
+		return url;
+	}
+	public String getExpectedUrl(String value) {
+		String expectedUrl = value;
+		return expectedUrl;
+	}
+	public String getExpectedTitle(String value) {
+		String expectedtitle = value;
+		return expectedtitle;
+	}
 	
-}
 }

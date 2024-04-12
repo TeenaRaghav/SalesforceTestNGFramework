@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-12T07:18:31 EDT" name="Default suite" finished-at="2024-04-12T07:18:41 EDT" duration-ms="10339">
+  <suite started-at="2024-04-12T08:17:56 EDT" name="Default suite" finished-at="2024-04-12T08:18:08 EDT" duration-ms="11500">
     <groups>
     </groups>
-    <test started-at="2024-04-12T07:18:31 EDT" name="Default test" finished-at="2024-04-12T07:18:41 EDT" duration-ms="10339">
-      <class name="com.training.testcases.ContactsTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.training.testcases.ContactsTest@54a7079e]" started-at="2024-04-12T07:18:31 EDT" name="beforeTest" finished-at="2024-04-12T07:18:36 EDT" duration-ms="4778" status="PASS">
+    <test started-at="2024-04-12T08:17:56 EDT" name="Default test" finished-at="2024-04-12T08:18:08 EDT" duration-ms="11500">
+      <class name="com.training.testcases.UserMenuTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.training.testcases.UserMenuTest@659499f1]" started-at="2024-04-12T08:17:56 EDT" name="beforeTest" finished-at="2024-04-12T08:18:01 EDT" duration-ms="5133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="createNewContacts2()[pri:0, instance:com.training.testcases.ContactsTest@54a7079e]" started-at="2024-04-12T07:18:36 EDT" name="createNewContacts2" finished-at="2024-04-12T07:18:41 EDT" duration-ms="5207" status="PASS">
+        <test-method signature="verifyFirstAndLastName()[pri:0, instance:com.training.testcases.UserMenuTest@659499f1]" started-at="2024-04-12T08:18:01 EDT" name="verifyFirstAndLastName" finished-at="2024-04-12T08:18:07 EDT" duration-ms="6031" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewContacts2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.testcases.ContactsTest@54a7079e]" started-at="2024-04-12T07:18:41 EDT" name="tearDown" finished-at="2024-04-12T07:18:41 EDT" duration-ms="325" status="PASS">
+        </test-method> <!-- verifyFirstAndLastName -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.UserMenuTest@659499f1]" started-at="2024-04-12T08:18:07 EDT" name="teardown" finished-at="2024-04-12T08:18:08 EDT" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.testcases.ContactsTest -->
+        </test-method> <!-- teardown -->
+      </class> <!-- com.training.testcases.UserMenuTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
