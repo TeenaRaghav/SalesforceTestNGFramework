@@ -60,7 +60,28 @@ public class ContactsPage extends BasePage{
 //	TestCase 30
 	@FindBy(xpath ="//table[@class=\"list\"]/tbody/tr[2]/th/a")
 	WebElement recentcontacts;
+// TestcAse 31
 
+	@FindBy(xpath ="//a[contains(text(),'Create New View')]")
+	WebElement newviewlinkincontacts;
+	
+	@FindBy(xpath ="//input[@id='devname']")
+	WebElement viewUniquenameincontacts;
+
+	@FindBy(xpath ="(//input[@value=\" Save \"])[1]")
+	WebElement savebtnincontacts;
+	
+//	TestCase 31 
+	public void createNewViewLinkContacts() {
+		newviewlinkincontacts.click();
+	}
+	public void enterViewUniqueNameContacts(String value) {
+		viewUniquenameincontacts.sendKeys(value);
+	}
+	public void saveNewViewInContacts() {
+		savebtnincontacts.click();
+	}
+	
 //	TestCase 30
 	public void recentContacts() {
 		recentcontacts.click();

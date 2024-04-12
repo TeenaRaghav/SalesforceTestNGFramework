@@ -1425,3 +1425,11 @@
 2024-04-12 06:41:48,205 INFO  [Log] Contacts tab is clicked 
 2024-04-12 06:41:50,668 INFO  [Log] Recent contacts are displayed successfully. 
 2024-04-12 06:41:50,669 INFO  [Log] ***************             -E---N---D-TestCase30 is ended         *************** 
+2024-04-12 06:56:32,443 INFO  [Log] Login TestCase 
+2024-04-12 06:56:37,368 INFO  [Log] TestCase31 Create new view in contacts 
+2024-04-12 06:56:37,369 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-12 06:56:38,148 INFO  [Log] Contacts tab is clicked 
+2024-04-12 06:56:38,598 INFO  [Log] Create new view link is clicked successfully. 
+2024-04-12 06:56:38,821 INFO  [Log] View Unique name is entered 
+2024-04-12 06:56:39,257 INFO  [Log] New View is created successfully 
+2024-04-12 06:56:39,257 INFO  [Log] ***************             -E---N---D-TestCase31 is ended         *************** 

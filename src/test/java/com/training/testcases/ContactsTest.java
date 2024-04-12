@@ -132,6 +132,21 @@ public class ContactsTest extends BaseTest {
 		Log.info("Recent contacts are displayed successfully.");
 		Log.endTestCase("TestCase30 is ended");
 	}
+	@Test
+	public void createNewViewInContacts() throws IOException {
+		Log.info("TestCase31 Create new view in contacts");
+		Log.startTestCase("Test is started");
+		contactspage.contactsTab();
+		Log.info("Contacts tab is clicked");
+		contactspage.createNewViewLinkContacts();
+		Log.info("Create new view link is clicked successfully.");
+		String viewUniquename=prop.getProperties("ViewUniqueNAme");
+		contactspage.enterNewViewUniqueName(viewUniquename);
+		Log.info("View Unique name is entered");
+		contactspage.saveNewViewInContacts();
+		Log.info("New View is created successfully");
+		Log.endTestCase("TestCase31 is ended");
+	}
 
 	@AfterTest
 	public void tearDown() {
