@@ -51,13 +51,21 @@ public class ContactsPage extends BasePage{
 	
 	@FindBy(xpath ="//select[@id=\"hotlist_mode\"]")
 	WebElement filterView;
+
+//	testcase 29
+	
+	@FindBy(xpath ="//select[@id=\"fcf\"]")
+	WebElement viewDropdownincontacts;
+
 	
 //	TestCAse 28
 	public void selectFilter(String value) {
 		selectValue(filterView,value);
 	}
-	
-	
+//Testcase 29	
+	 public void selectViewFromContactsTab(String value) {
+		 selectText(viewDropdownincontacts,value);
+	 }
 	
 //TestCase 27
 	public void clickOnNewViewLink() {

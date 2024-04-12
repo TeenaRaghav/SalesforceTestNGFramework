@@ -1409,3 +1409,13 @@
 2024-04-11 21:12:57,296 INFO  [Log] Contacts tab is clicked 
 2024-04-11 21:12:57,587 INFO  [Log] Recent created contacts are displayed. 
 2024-04-11 21:12:57,587 INFO  [Log] ***************             -E---N---D-TestCase28 is ended         *************** 
+2024-04-11 21:21:50,260 INFO  [Log] Login TestCase 
+2024-04-11 21:21:53,637 INFO  [Log] TestCase29 Select view in Contacts 
+2024-04-11 21:21:53,638 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 21:21:57,112 INFO  [Log] Contacts tab is clicked 
+2024-04-11 21:22:55,692 INFO  [Log] Login TestCase 
+2024-04-11 21:22:58,842 INFO  [Log] TestCase29 Select view in Contacts 
+2024-04-11 21:22:58,842 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-11 21:23:02,526 INFO  [Log] Contacts tab is clicked 
+2024-04-11 21:23:03,526 INFO  [Log] view is selected successfully. 
+2024-04-11 21:23:03,526 INFO  [Log] ***************             -E---N---D-TestCase29 is ended         *************** 

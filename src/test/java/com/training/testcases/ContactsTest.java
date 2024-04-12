@@ -96,12 +96,12 @@ public class ContactsTest extends BaseTest {
 		Log.info("New View Unique Name is entered successfully");
 		contactspage.clickOnSaveBtninContacts();
 		Log.info("New View in contacts is created successfully");
-		Log.endTestCase("TestCase 17 is ended successfully");
+		Log.endTestCase("TestCase 27 is ended successfully");
 	}
 
 	@Test
 	public void filterView() throws IOException {
-		Log.info("TestCase27 create new Contacts");
+		Log.info("TestCase28 create new Contacts");
 		Log.startTestCase("Test is started");
 		contactspage.contactsTab();
 		Log.info("Contacts tab is clicked");
@@ -109,6 +109,18 @@ public class ContactsTest extends BaseTest {
 		contactspage.selectFilter(value);
 		Log.info("Recent created contacts are displayed.");
 		Log.endTestCase("TestCase28 is ended");
+	}
+
+	@Test
+	public void selectViewFromContacts() throws IOException {
+		Log.info("TestCase29 Select view in Contacts");
+		Log.startTestCase("Test is started");
+		contactspage.contactsTab();
+		Log.info("Contacts tab is clicked");
+		String value = prop.getProperties("ViewInContactsTab");
+		contactspage.selectViewFromContactsTab(value);
+		Log.info("view is selected successfully.");
+		Log.endTestCase("TestCase29 is ended");
 	}
 
 	@AfterTest

@@ -5,8 +5,8 @@
     <classes>
       <class name="com.training.testcases.ContactsTest">
         <methods>
-          <include name="createNewView"/>
           <include name="beforeTest"/>
+          <include name="selectViewFromContacts"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.training.testcases.ContactsTest -->
