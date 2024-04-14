@@ -100,7 +100,47 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="(//input[@value=\" Save \"])[1]")
 	WebElement savebtn1;
 	
-	
+//	Testcase 38
+	@FindBy(id= "p:f:j_id25:j_id61:20:j_id64")
+	WebElement fourpmLink;
+	@FindBy(id="timePickerItem_38")
+	WebElement sevenpmFromDropdown;
+	@FindBy(xpath="//input[@id=\"IsRecurrence\"]")
+	WebElement recurrence;
+	@FindBy(xpath="//input[@id=\"rectypeftw\"]")
+	WebElement frequency;
+	@FindBy(xpath="//input[@id=\"RecurrenceEndDateOnly\"]")
+	WebElement endDate;
+	@FindBy(xpath="//img[@title='Next Month']")
+	WebElement nextMonthbtn;
+	@FindBy(xpath="//table[@class=\"calDays\"]/tbody/tr[2]/td[7]")
+	WebElement selectDate;
+	@FindBy(className="monthViewIcon")
+	WebElement monthviewicon;
+
+//	Testcase 38
+	public void fourPmLink() {
+		fourpmLink.click();
+	}
+	public void chrckRecurrenceField() {
+		recurrence.click();
+	}
+	public void selectFrequency() {
+		frequency.click();
+	}
+	public void selectEndDate() {
+		endDate.click();
+	}
+	public void selectDateof2weeksFromCurrentDate() {
+		nextMonthbtn.click();
+		selectDate.click();
+	}
+	public void ClickOnMonthViewIcon() {
+		monthviewicon.click();
+	}
+	public void clickOnSevenPmFromDropDown() {
+		sevenpmFromDropdown.click();
+	}
 //	Testcase 37
 	public void currentDateDisplayAndClicked() {
 		getTextFromElement(currentDateLink);

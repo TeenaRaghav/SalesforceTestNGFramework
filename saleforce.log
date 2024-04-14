@@ -1553,3 +1553,38 @@
 2024-04-14 14:08:18,829 INFO  [Log] Successfully clicked on Nine pm form the dropdown 
 2024-04-14 14:08:19,596 INFO  [Log] Successfullly clicked on save button 
 2024-04-14 14:08:19,596 INFO  [Log] ***************             -E---N---D-TestCase37 is ended successfully         *************** 
+2024-04-14 14:34:46,250 INFO  [Log]  Enter valid username and valid password 
+2024-04-14 14:34:46,597 INFO  [Log] Successfully entered the username  
+2024-04-14 14:34:46,764 INFO  [Log] Successfully entered the password  
+2024-04-14 14:34:48,308 INFO  [Log] Login successful. 
+2024-04-14 14:34:48,332 INFO  [Log] TestCase 38 Blocking an event in the calendar with weekly recurrence 
+2024-04-14 14:34:48,332 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-14 14:34:50,863 INFO  [Log] Home Tab is clicked Successfully 
+2024-04-14 14:34:51,476 INFO  [Log] Current date is displayed and clicked successfully 
+2024-04-14 14:34:52,084 INFO  [Log] fourpm link is clicked successfully 
+2024-04-14 14:34:52,182 INFO  [Log] Subject combo icon is clicked successfully 
+2024-04-14 14:34:52,766 INFO  [Log] Successfully clicked on other and switched the window 
+2024-04-14 14:34:52,830 INFO  [Log] Successfully clicked on end tme field 
+2024-04-14 14:34:52,883 INFO  [Log] Successfully clicked on Nine pm form the dropdown 
+2024-04-14 14:34:52,937 INFO  [Log] recurrence is clicked succesfully 
+2024-04-14 14:34:53,005 INFO  [Log] Frequency is selected succesfully 
+2024-04-14 14:34:53,083 INFO  [Log] End date is selected succesfully 
+2024-04-14 14:38:16,514 INFO  [Log]  Enter valid username and valid password 
+2024-04-14 14:38:16,921 INFO  [Log] Successfully entered the username  
+2024-04-14 14:38:17,015 INFO  [Log] Successfully entered the password  
+2024-04-14 14:38:18,421 INFO  [Log] Login successful. 
+2024-04-14 14:38:18,449 INFO  [Log] TestCase 38 Blocking an event in the calendar with weekly recurrence 
+2024-04-14 14:38:18,449 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-14 14:38:20,944 INFO  [Log] Home Tab is clicked Successfully 
+2024-04-14 14:38:21,565 INFO  [Log] Current date is displayed and clicked successfully 
+2024-04-14 14:38:21,950 INFO  [Log] fourpm link is clicked successfully 
+2024-04-14 14:38:22,045 INFO  [Log] Subject combo icon is clicked successfully 
+2024-04-14 14:38:22,362 INFO  [Log] Successfully clicked on other and switched the window 
+2024-04-14 14:38:22,438 INFO  [Log] Successfully clicked on end tme field 
+2024-04-14 14:38:22,514 INFO  [Log] Successfully clicked on Nine pm form the dropdown 
+2024-04-14 14:38:22,579 INFO  [Log] recurrence is clicked succesfully 
+2024-04-14 14:38:22,639 INFO  [Log] Frequency is selected succesfully 
+2024-04-14 14:38:22,692 INFO  [Log] End date is selected succesfully 
+2024-04-14 14:38:22,790 INFO  [Log] Date is selected From calendar of 2 weeks from current date 
+2024-04-14 14:38:23,549 INFO  [Log] Successfullly clicked on save button 
+2024-04-14 14:38:23,549 INFO  [Log] ***************             -E---N---D-TestCase38 is ended successfully         *************** 
