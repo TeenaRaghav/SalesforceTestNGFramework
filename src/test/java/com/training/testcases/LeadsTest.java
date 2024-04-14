@@ -27,7 +27,8 @@ public class LeadsTest extends BaseTest{
 	ScreenshotUtility screenshot;
 	AccountsPage accountspage;
 	LeadsPage leadspage;
-	UserMenuPage usermenupage; 
+	UserMenuPage usermenupage;
+	LoginTest logintest;
 	@BeforeTest
 	public void beforeTest() throws IOException {
 		driver = getDriver();
@@ -40,6 +41,7 @@ public class LeadsTest extends BaseTest{
 		accountspage = new AccountsPage(driver);
 		leadspage = new LeadsPage(driver);
 		usermenupage = new UserMenuPage(driver);
+		logintest  = new LoginTest();
 		DOMConfigurator.configure("log4j.xml");
 		
 //		login
@@ -93,12 +95,13 @@ public class LeadsTest extends BaseTest{
 		Log.info("Logout Succesfully");
 		String uname = prop.getProperties("username");
 		loginpage.enterIntoUsername(uname);
-//		Log.info("Successfully entered the username");
-		String psswrd = prop.getProperties("password");
-		loginpage.enterIntoPassword(psswrd);
-//		Log.info("Successfully entered the password");
-		loginpage.clickLogin();
-//		Log.info("Login successful.");
+		logintest.validLogin();
+////		Log.info("Successfully entered the username");
+//		String psswrd = prop.getProperties("password");
+//		loginpage.enterIntoPassword(psswrd);
+////		Log.info("Successfully entered the password");
+//		loginpage.clickLogin();
+////		Log.info("Login successful.");
 		leadspage.clickOnLeadsTab();
 		Log.info("Leads tab is clicked successfully");
 		leadspage.ClickOnGoBtn();

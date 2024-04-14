@@ -64,6 +64,28 @@ public class HomeTest extends BaseTest{
 		Log.info("Change is updated");
 		Log.endTestCase("Testcase 36 is ended successfully");
 	}
+	@Test
+	public void blockingAnEventInTheCalendar() {
+		Log.info("TestCase 37 Blocking an event in the calendar");
+		Log.startTestCase("Test is started");
+		homepage.homeTab();
+		Log.info("Home Tab is clicked Successfully");
+		homepage.currentDateDisplayAndClicked();
+		Log.info("Current date is displayed and clicked successfully");
+		homepage.eightPmLink();
+		Log.info("Eightpm linke is clicke successfully");
+		homepage.subjectComboIcon();
+		Log.info("Subject combo icon is clicked successfully");
+		homepage.clickOnOther();
+		Log.info("Successfully clicked on other and switched the window");
+		homepage.clickOnEndTimeField();
+		Log.info("Successfully clicked on end tme field");
+		homepage.clickOnNinePmFromDropDown();
+		Log.info("Successfully clicked on Nine pm form the dropdown");
+		homepage.clickOnSaveBtn1();
+		Log.info("Successfullly clicked on save button");
+		Log.endTestCase("TestCase37 is ended successfully");
+	}
 	@AfterTest
 	public void tearDown() {
 		screenshot.takescreenshot(driver);

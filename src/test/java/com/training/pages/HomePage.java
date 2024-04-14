@@ -84,6 +84,50 @@ public class HomePage extends BasePage {
 	
 	@FindBy(xpath=" //input[@value=\" Save \"]")
 	WebElement savebtn;
+//	Testcase37
+	@FindBy(xpath= "//a[normalize-space()='Sunday April 14, 2024']")
+	WebElement currentDateLink;
+	@FindBy(id= "p:f:j_id25:j_id61:28:j_id64")
+	WebElement eightpmLink;
+	@FindBy(className= "comboboxIcon")
+	WebElement subjectComboicon;
+	@FindBy(xpath="//a[contains(text(),'Other')]")
+	WebElement other;
+	@FindBy(xpath="//input[@id=\"EndDateTime_time\"]")
+	WebElement endTimeField;
+	@FindBy(id="timePickerItem_42")
+	WebElement ninepmFromDropdown;
+	@FindBy(xpath="(//input[@value=\" Save \"])[1]")
+	WebElement savebtn1;
+	
+	
+//	Testcase 37
+	public void currentDateDisplayAndClicked() {
+		getTextFromElement(currentDateLink);
+		System.out.println(currentDateLink.isDisplayed());
+		currentDateLink.click();
+	}
+	public void eightPmLink() {
+		eightpmLink.click();
+	}
+	public void subjectComboIcon() {
+		subjectComboicon.click();
+	}
+	public void clickOnOther() {
+		String parentWindow = getParentWindow();
+		switchToChildWindow();
+		other.click();
+		switchToParentWindow(parentWindow);
+	}
+	public void clickOnEndTimeField() {
+		endTimeField.click();
+	}
+	public void clickOnNinePmFromDropDown() {
+		ninepmFromDropdown.click();
+	}
+	public void clickOnSaveBtn1() {
+		savebtn1.click();
+	}
 //	Testcase 36
 	public void clickOnPlusBtn() {
 		plusBtn.click();

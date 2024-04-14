@@ -1529,3 +1529,27 @@
 2024-04-12 08:54:19,497 INFO  [Log] Leads Tab is remover successfully. 
 2024-04-12 08:54:20,635 INFO  [Log] Change is updated 
 2024-04-12 08:54:20,635 INFO  [Log] ***************             -E---N---D-Testcase 36 is ended successfully         *************** 
+2024-04-12 12:38:55,002 INFO  [Log] Login TestCase 
+2024-04-12 12:38:57,490 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-04-12 12:38:57,490 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-12 12:38:59,405 INFO  [Log] Leads tab is clicked successfully 
+2024-04-12 12:38:59,549 INFO  [Log] Today's lead is selected 
+2024-04-12 12:38:59,625 INFO  [Log] UserMenu is clicked successfully. 
+2024-04-12 12:39:00,207 INFO  [Log] Logout Succesfully 
+2024-04-12 12:39:01,427 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-04-12 12:39:01,427 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Teststarted       **************** 
+2024-04-14 14:08:12,446 INFO  [Log]  Enter valid username and valid password 
+2024-04-14 14:08:12,769 INFO  [Log] Successfully entered the username  
+2024-04-14 14:08:12,884 INFO  [Log] Successfully entered the password  
+2024-04-14 14:08:14,211 INFO  [Log] Login successful. 
+2024-04-14 14:08:14,236 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-04-14 14:08:14,236 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-14 14:08:17,137 INFO  [Log] Home Tab is clicked Successfully 
+2024-04-14 14:08:17,664 INFO  [Log] Current date is displayed and clicked successfully 
+2024-04-14 14:08:18,029 INFO  [Log] Eightpm linke is clicke successfully 
+2024-04-14 14:08:18,123 INFO  [Log] Subject combo icon is clicked successfully 
+2024-04-14 14:08:18,711 INFO  [Log] Successfully clicked on other and switched the window 
+2024-04-14 14:08:18,777 INFO  [Log] Successfully clicked on end tme field 
+2024-04-14 14:08:18,829 INFO  [Log] Successfully clicked on Nine pm form the dropdown 
+2024-04-14 14:08:19,596 INFO  [Log] Successfullly clicked on save button 
+2024-04-14 14:08:19,596 INFO  [Log] ***************             -E---N---D-TestCase37 is ended successfully         *************** 

@@ -52,7 +52,7 @@ public class LoginTest extends BaseTest{
 	public void validLogin() throws IOException {
 		Log.info("TestCase 2 : Enter valid username and valid password");
 		Log.startTestCase("valid credentials Teststarted");
-		
+
 		String uname = prop.getProperties("username");
 		loginpage.enterIntoUsername(uname);
 		Log.info("Successfully entered the username :" +uname);
