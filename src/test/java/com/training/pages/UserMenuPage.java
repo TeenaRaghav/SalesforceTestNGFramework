@@ -68,6 +68,7 @@ public class UserMenuPage extends BasePage{
 	@FindBy(id = "EmailSetup_font")
 	WebElement emaillink;
 	
+// myemail settings	
 	@FindBy(id = "EmailSettings_font")
 	WebElement myemailsettings;
 	
@@ -212,7 +213,7 @@ public class UserMenuPage extends BasePage{
 	}
 	public void enterEmailAddress(String value) {
 		emailaddresstextbox.clear();
-		emailaddresstextbox.sendKeys(value);;
+		emailaddresstextbox.sendKeys(value);
 	}
 	public void yesbtn() {
 		radiobtn(yesradiobtn);

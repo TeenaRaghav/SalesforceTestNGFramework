@@ -6,22 +6,13 @@
 	</listeners>
 	<test name="LoginTest">
 		<classes>
-			<class name="com.training.testcases.LoginTest">
-				<methods>
-					<include name="invalidLogin" />
-					<include name="validLogin" />
-					<include name="checkRememberme" />
-					<include name="forgotPasswordTest" />
-					<include name="WrongUsernameAndPassword" />
-				</methods>
-			</class>
-			<test name="UserMenuTest">
-				<class name="com.training.testcases.UserMenuTest">
-				</class>
-			</test>
-
+			<class name="com.training.testcases.LoginTest"></class>
 			<class name="com.training.testcases.OpportunityTest"></class>
-			<class name="com.training.testcases.CreateAccountTest"></class>
+			<class name="com.training.testcases.UserMenuTest"></class>
+			<class name="com.training.testcases.LeadsTest"></class>
+			<class name="com.training.testcases.HomeTest"></class>
+			<class name="com.training.testcases.AccountsTest"></class>
+			<class name="com.training.testcases.ContactsTest"></class>
 		</classes>
 	</test>
 </suite>

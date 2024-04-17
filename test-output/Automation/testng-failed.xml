@@ -4,17 +4,87 @@
   <listeners>
     <listener class-name="com.training.listeners.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Login(failed)">
+  <test thread-count="5" name="LoginTest(failed)">
     <classes>
-      <class name="com.training.testcases.CheckRememberMeTestCase3">
+      <class name="com.training.testcases.HomeTest">
         <methods>
-          <include name="validationOfTest"/>
-          <include name="logout"/>
+          <include name="customizeMyTab"/>
+          <include name="blockingAnEventInTheCalendarWithWeeklyRecurrence"/>
+          <include name="blockingAnEventInTheCalendar"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.training.testcases.HomeTest -->
+      <class name="com.training.testcases.AccountsTest">
+        <methods>
+          <include name="editView"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="createAccountReport"/>
+          <include name="mergeAccount"/>
+          <include name="createNewView"/>
+          <include name="createAnAccount"/>
+        </methods>
+      </class> <!-- com.training.testcases.AccountsTest -->
+      <class name="com.training.testcases.LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="invalidLogin"/>
           <include name="beforeMethod"/>
-          <include name="clickOnUserMenu"/>
+          <include name="checkRememberme"/>
+          <include name="validLogin"/>
+          <include name="forgotPasswordTest"/>
+          <include name="WrongUsernameAndPassword"/>
+        </methods>
+      </class> <!-- com.training.testcases.LoginTest -->
+      <class name="com.training.testcases.OpportunityTest">
+        <methods>
+          <include name="stuckOpportunityLink"/>
+          <include name="beforeTest"/>
+          <include name="opportunityPipelineLink"/>
+          <include name="tearDown"/>
+          <include name="quarterlySummary"/>
+          <include name="createNewOpportunity"/>
+        </methods>
+      </class> <!-- com.training.testcases.OpportunityTest -->
+      <class name="com.training.testcases.ContactsTest">
+        <methods>
+          <include name="createNewContacts"/>
+          <include name="createNewViewInContacts"/>
+          <include name="filterView"/>
+          <include name="recentContacts"/>
+          <include name="createNewView"/>
+          <include name="beforeTest"/>
+          <include name="createNewContacts2"/>
+          <include name="createNewView2"/>
+          <include name="selectViewFromContacts"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.training.testcases.ContactsTest -->
+      <class name="com.training.testcases.UserMenuTest">
+        <methods>
+          <include name="verifyFirstAndLastName"/>
+          <include name="logout"/>
+          <include name="checkTheOptionsInUserMenu"/>
+          <include name="editProfile"/>
+          <include name="developerConsole"/>
+          <include name="verifyFirstAndLastNameAtVAriousPages"/>
+          <include name="mySettingsUsermenu"/>
+          <include name="beforeTest"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.training.testcases.CheckRememberMeTestCase3 -->
+      </class> <!-- com.training.testcases.UserMenuTest -->
+      <class name="com.training.testcases.LeadsTest">
+        <methods>
+          <include name="validateTodaysLeadPageIsDisplayed"/>
+          <include name="ViewDropdownListContents"/>
+          <include name="tearDown"/>
+          <include name="createNewLead"/>
+          <include name="leadsTab"/>
+          <include name="beforeTest"/>
+          <include name="SelectViewFromDropdownInLeads"/>
+        </methods>
+      </class> <!-- com.training.testcases.LeadsTest -->
     </classes>
-  </test> <!-- Login(failed) -->
+  </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [Automation] -->

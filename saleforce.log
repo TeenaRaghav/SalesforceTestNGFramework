@@ -1588,3 +1588,476 @@
 2024-04-14 14:38:22,790 INFO  [Log] Date is selected From calendar of 2 weeks from current date 
 2024-04-14 14:38:23,549 INFO  [Log] Successfullly clicked on save button 
 2024-04-14 14:38:23,549 INFO  [Log] ***************             -E---N---D-TestCase38 is ended successfully         *************** 
+2024-04-14 18:43:50,185 INFO  [Log] TestCase 4 : Forgot Password link 
+2024-04-14 18:43:50,186 INFO  [Log] ****************           -S-T-A-R-T-Forgot password Test is started.       **************** 
+2024-04-14 18:43:50,864 INFO  [Log] Password reset message is displayed 
+2024-04-14 18:43:50,864 INFO  [Log] ***************             -E---N---D-An Email associated with the username is sent.         *************** 
+2024-04-16 15:18:41,431 INFO  [Log] Login TestCase 
+2024-04-16 15:18:44,407 INFO  [Log] Login TestCase 
+2024-04-16 15:18:47,308 INFO  [Log]  Enter valid username and valid password 
+2024-04-16 15:18:47,573 INFO  [Log] Successfully entered the username  
+2024-04-16 15:18:47,864 INFO  [Log] Successfully entered the password  
+2024-04-16 15:18:48,878 INFO  [Log] Login successful. 
+2024-04-16 15:18:50,120 INFO  [Log] Login TestCase 
+2024-04-16 15:20:11,834 INFO  [Log] Login TestCase 
+2024-04-16 15:20:15,313 INFO  [Log] Login TestCase 
+2024-04-16 15:20:18,122 INFO  [Log]  Enter valid username and valid password 
+2024-04-16 15:20:18,282 INFO  [Log] Successfully entered the username  
+2024-04-16 15:20:18,479 INFO  [Log] Successfully entered the password  
+2024-04-16 15:20:19,865 INFO  [Log] Login successful. 
+2024-04-16 15:20:21,066 INFO  [Log] Login TestCase 
+2024-04-16 15:20:24,376 INFO  [Log] Login TestCase 
+2024-04-16 15:20:28,056 INFO  [Log]  Enter valid username and valid password 
+2024-04-16 15:20:28,214 INFO  [Log] Successfully entered the username  
+2024-04-16 15:20:28,397 INFO  [Log] Successfully entered the password  
+2024-04-16 15:20:30,389 INFO  [Log] Login successful. 
+2024-04-16 15:20:31,834 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-04-16 15:20:31,834 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-04-16 15:20:32,142 INFO  [Log] Successfully entered the username :123 
+2024-04-16 15:20:32,266 INFO  [Log] Successfully entered the password :22131 
+2024-04-16 15:20:32,454 INFO  [Log] Login button is clicked. 
+2024-04-16 15:20:32,488 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-04-16 15:20:34,247 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-04-16 15:20:34,247 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-04-16 15:20:34,433 INFO  [Log] Succesfully entered the username 
+2024-04-16 15:20:34,739 INFO  [Log] Successfully password entered. 
+2024-04-16 15:20:34,850 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-04-16 15:20:36,658 INFO  [Log] Login successful. 
+2024-04-16 15:20:39,205 INFO  [Log] ***************             -E---N---D- :RememberMeClick test ended         *************** 
+2024-04-16 15:20:40,831 INFO  [Log] TestCase 4 : Forgot Password link 
+2024-04-16 15:20:40,831 INFO  [Log] ****************           -S-T-A-R-T-Forgot password Test is started.       **************** 
+2024-04-16 15:20:41,815 INFO  [Log] Password reset message is displayed 
+2024-04-16 15:20:41,815 INFO  [Log] ***************             -E---N---D-An Email associated with the username is sent.         *************** 
+2024-04-16 15:20:43,203 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-04-16 15:20:43,203 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-04-16 15:20:43,367 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-04-16 15:20:43,911 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-04-16 15:20:45,327 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-04-16 15:20:45,328 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Teststarted       **************** 
+2024-04-16 15:20:45,480 INFO  [Log] Successfully entered the username :teena@raghav.com 
+2024-04-16 15:20:45,678 INFO  [Log] Successfully entered the password :pritishtina@1 
+2024-04-16 15:20:47,526 INFO  [Log] Login successful. 
+2024-04-16 15:20:49,108 INFO  [Log] TestCase 17 create new Opportunity 
+2024-04-16 15:20:49,108 INFO  [Log] ****************           -S-T-A-R-T-test is started       **************** 
+2024-04-16 15:20:50,135 INFO  [Log] opportunity button is clicked 
+2024-04-16 15:20:53,120 INFO  [Log] switch to campaign window 
+2024-04-16 15:20:53,120 INFO  [Log] back to main window 
+2024-04-16 15:20:53,589 INFO  [Log] New Opportunity is Created 
+2024-04-16 15:20:53,589 INFO  [Log] ***************             -E---N---D-TestCase 17 is ended         *************** 
+2024-04-16 15:20:53,589 INFO  [Log] TestCase 18 opportunity pipeline link 
+2024-04-16 15:20:53,604 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 15:20:55,458 INFO  [Log] opportunity button is clicked 
+2024-04-16 15:20:56,022 INFO  [Log] opportunity pipeline link is clicked successfully 
+2024-04-16 15:20:56,061 INFO  [Log] opportunity piprlinr link is displayed 
+2024-04-16 15:20:56,061 INFO  [Log] ***************             -E---N---D-TestCase18 is ended.         *************** 
+2024-04-16 15:20:56,065 INFO  [Log] TestCase 20 Test Quaterly summary 
+2024-04-16 15:20:56,065 INFO  [Log] ****************           -S-T-A-R-T-Test is Started       **************** 
+2024-04-16 15:20:56,521 INFO  [Log] Current and Next FQ is selected. 
+2024-04-16 15:20:56,641 INFO  [Log] Open Opportunities 
+2024-04-16 15:20:56,968 INFO  [Log] run and report button is clicked successfully 
+2024-04-16 15:20:56,968 INFO  [Log] ***************             -E---N---D-TestCase 20 is ended successfully.         *************** 
+2024-04-16 15:20:56,968 INFO  [Log] TestCase 19 Stuck opportunity link 
+2024-04-16 15:20:56,968 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 15:20:57,244 INFO  [Log] opportunity button is clicked 
+2024-04-16 15:20:57,618 INFO  [Log] Stuck opportunity link is clicked successfully 
+2024-04-16 15:20:57,645 INFO  [Log] Stuck opportunity page is displayed. 
+2024-04-16 15:20:57,645 INFO  [Log] ***************             -E---N---D-TestCase19 is ended.         *************** 
+2024-04-16 15:20:57,645 INFO  [Log] Test CAse : 9  - Devloper Console 
+2024-04-16 15:20:57,716 INFO  [Log] Usermenu dropdown is clicked. 
+2024-04-16 15:20:57,840 INFO  [Log] Developer Console is clicked and window is opened. 
+2024-04-16 15:20:57,840 INFO  [Log] ***************             -E---N---D- :Developer Console Window test ended         *************** 
+2024-04-16 15:20:57,848 INFO  [Log] TestCase 7 Edit my profile started 
+2024-04-16 15:20:57,941 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-04-16 15:20:57,942 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-04-16 15:20:57,942 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-04-16 15:20:59,528 INFO  [Log] MyProfile is clicked. 
+2024-04-16 15:20:59,689 INFO  [Log] Edit Button next to contact is clicked. 
+2024-04-16 15:20:59,861 INFO  [Log] Successfully switched to frame. 
+2024-04-16 15:21:00,044 INFO  [Log] About tab is clicked. 
+2024-04-16 15:21:00,194 INFO  [Log] Lastname is entered successfully. 
+2024-04-16 15:21:00,877 INFO  [Log] Save All button is clicked. 
+2024-04-16 15:21:01,270 INFO  [Log] Successfully switched to default frame. 
+2024-04-16 15:21:01,270 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-04-16 15:21:01,865 INFO  [Log] Posted Successfully 
+2024-04-16 15:21:02,255 INFO  [Log] TestCase 10 logout 
+2024-04-16 15:21:02,297 INFO  [Log] Usermenu dropdown is clicked. 
+2024-04-16 15:21:06,739 INFO  [Log] Logged out successfully 
+2024-04-16 15:21:06,740 INFO  [Log] ***************             -E---N---D-usermanu dropdown test ended         *************** 
+2024-04-16 15:21:06,749 INFO  [Log] TestCase 8 Edit my Setings started 
+2024-04-16 15:21:06,792 INFO  [Log] TEstcase 34 verify First and lastname on home page and myprofile is same  
+2024-04-16 15:21:06,792 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 15:21:06,824 INFO  [Log] TEstcase 35 verify First and lastname at various places 
+2024-04-16 15:21:06,824 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 15:21:06,871 INFO  [Log]  TestCase 6 user menu dropdown started 
+2024-04-16 15:21:06,903 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-04-16 15:21:06,903 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 15:21:07,726 INFO  [Log] Leads tab is clicked successfully 
+2024-04-16 15:21:07,852 INFO  [Log] Today's lead is selected 
+2024-04-16 15:21:07,917 INFO  [Log] UserMenu is clicked successfully. 
+2024-04-16 15:21:08,220 INFO  [Log] Logout Succesfully 
+2024-04-16 15:21:09,765 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-04-16 15:21:09,765 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Teststarted       **************** 
+2024-04-16 15:21:09,765 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-04-16 15:21:09,781 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 15:21:40,202 INFO  [Log] TestCase 25 select view from dropdown in Leads page  
+2024-04-16 15:21:40,202 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 15:22:10,216 INFO  [Log] TestCase 21 check leads Tab link 
+2024-04-16 15:22:10,216 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 17:59:03,308 INFO  [Log] Login TestCase 
+2024-04-16 17:59:06,357 INFO  [Log] Login TestCase 
+2024-04-16 17:59:09,222 INFO  [Log]  Enter valid username and valid password 
+2024-04-16 17:59:09,396 INFO  [Log] Successfully entered the username  
+2024-04-16 17:59:09,616 INFO  [Log] Successfully entered the password  
+2024-04-16 17:59:11,041 INFO  [Log] Login successful. 
+2024-04-16 17:59:12,292 INFO  [Log] Login TestCase 
+2024-04-16 17:59:15,030 INFO  [Log] Login TestCase 
+2024-04-16 17:59:18,267 INFO  [Log]  Enter valid username and valid password 
+2024-04-16 17:59:18,440 INFO  [Log] Successfully entered the username  
+2024-04-16 17:59:18,733 INFO  [Log] Successfully entered the password  
+2024-04-16 17:59:20,600 INFO  [Log] Login successful. 
+2024-04-16 17:59:22,007 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-04-16 17:59:22,009 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-04-16 17:59:22,325 INFO  [Log] Successfully entered the username :123 
+2024-04-16 17:59:22,444 INFO  [Log] Successfully entered the password :22131 
+2024-04-16 17:59:22,717 INFO  [Log] Login button is clicked. 
+2024-04-16 17:59:22,808 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-04-16 17:59:24,811 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-04-16 17:59:24,812 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-04-16 17:59:24,996 INFO  [Log] Succesfully entered the username 
+2024-04-16 17:59:25,260 INFO  [Log] Successfully password entered. 
+2024-04-16 17:59:25,431 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-04-16 17:59:26,967 INFO  [Log] Login successful. 
+2024-04-16 17:59:28,429 INFO  [Log] ***************             -E---N---D- :RememberMeClick test ended         *************** 
+2024-04-16 17:59:30,012 INFO  [Log] TestCase 4 : Forgot Password link 
+2024-04-16 17:59:30,012 INFO  [Log] ****************           -S-T-A-R-T-Forgot password Test is started.       **************** 
+2024-04-16 17:59:30,801 INFO  [Log] Password reset message is displayed 
+2024-04-16 17:59:30,801 INFO  [Log] ***************             -E---N---D-An Email associated with the username is sent.         *************** 
+2024-04-16 17:59:32,233 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-04-16 17:59:32,233 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-04-16 17:59:32,401 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-04-16 17:59:32,772 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-04-16 17:59:34,277 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-04-16 17:59:34,278 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Teststarted       **************** 
+2024-04-16 17:59:34,444 INFO  [Log] Successfully entered the username :teena@raghav.com 
+2024-04-16 17:59:34,758 INFO  [Log] Successfully entered the password :pritishtina@1 
+2024-04-16 17:59:36,115 INFO  [Log] Login successful. 
+2024-04-16 17:59:37,468 INFO  [Log] TestCase 17 create new Opportunity 
+2024-04-16 17:59:37,468 INFO  [Log] ****************           -S-T-A-R-T-test is started       **************** 
+2024-04-16 17:59:38,116 INFO  [Log] opportunity button is clicked 
+2024-04-16 17:59:40,004 INFO  [Log] switch to campaign window 
+2024-04-16 17:59:40,004 INFO  [Log] back to main window 
+2024-04-16 17:59:41,856 INFO  [Log] New Opportunity is Created 
+2024-04-16 17:59:41,856 INFO  [Log] ***************             -E---N---D-TestCase 17 is ended         *************** 
+2024-04-16 17:59:41,856 INFO  [Log] TestCase 18 opportunity pipeline link 
+2024-04-16 17:59:41,856 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 17:59:42,359 INFO  [Log] opportunity button is clicked 
+2024-04-16 17:59:42,905 INFO  [Log] opportunity pipeline link is clicked successfully 
+2024-04-16 17:59:42,956 INFO  [Log] opportunity piprlinr link is displayed 
+2024-04-16 17:59:42,956 INFO  [Log] ***************             -E---N---D-TestCase18 is ended.         *************** 
+2024-04-16 17:59:42,959 INFO  [Log] TestCase 20 Test Quaterly summary 
+2024-04-16 17:59:42,959 INFO  [Log] ****************           -S-T-A-R-T-Test is Started       **************** 
+2024-04-16 17:59:43,498 INFO  [Log] Current and Next FQ is selected. 
+2024-04-16 17:59:43,618 INFO  [Log] Open Opportunities 
+2024-04-16 17:59:44,026 INFO  [Log] run and report button is clicked successfully 
+2024-04-16 17:59:44,026 INFO  [Log] ***************             -E---N---D-TestCase 20 is ended successfully.         *************** 
+2024-04-16 17:59:44,026 INFO  [Log] TestCase 19 Stuck opportunity link 
+2024-04-16 17:59:44,026 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 17:59:44,316 INFO  [Log] opportunity button is clicked 
+2024-04-16 17:59:44,668 INFO  [Log] Stuck opportunity link is clicked successfully 
+2024-04-16 17:59:44,705 INFO  [Log] Stuck opportunity page is displayed. 
+2024-04-16 17:59:44,706 INFO  [Log] ***************             -E---N---D-TestCase19 is ended.         *************** 
+2024-04-16 17:59:44,708 INFO  [Log] Test CAse : 9  - Devloper Console 
+2024-04-16 17:59:44,780 INFO  [Log] Usermenu dropdown is clicked. 
+2024-04-16 17:59:44,940 INFO  [Log] Developer Console is clicked and window is opened. 
+2024-04-16 17:59:44,940 INFO  [Log] ***************             -E---N---D- :Developer Console Window test ended         *************** 
+2024-04-16 17:59:44,942 INFO  [Log] TestCase 7 Edit my profile started 
+2024-04-16 17:59:45,014 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-04-16 17:59:45,014 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-04-16 17:59:45,014 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-04-16 17:59:47,269 INFO  [Log] MyProfile is clicked. 
+2024-04-16 17:59:47,410 INFO  [Log] Edit Button next to contact is clicked. 
+2024-04-16 17:59:47,571 INFO  [Log] Successfully switched to frame. 
+2024-04-16 17:59:47,721 INFO  [Log] About tab is clicked. 
+2024-04-16 17:59:47,876 INFO  [Log] Lastname is entered successfully. 
+2024-04-16 17:59:48,437 INFO  [Log] Save All button is clicked. 
+2024-04-16 17:59:48,902 INFO  [Log] Successfully switched to default frame. 
+2024-04-16 17:59:48,902 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-04-16 17:59:49,424 INFO  [Log] Posted Successfully 
+2024-04-16 17:59:49,817 INFO  [Log] TestCase 10 logout 
+2024-04-16 17:59:49,906 INFO  [Log] Usermenu dropdown is clicked. 
+2024-04-16 17:59:54,291 INFO  [Log] Logged out successfully 
+2024-04-16 17:59:54,291 INFO  [Log] ***************             -E---N---D-usermanu dropdown test ended         *************** 
+2024-04-16 17:59:54,295 INFO  [Log] TestCase 8 Edit my Setings started 
+2024-04-16 17:59:54,322 INFO  [Log] TEstcase 34 verify First and lastname on home page and myprofile is same  
+2024-04-16 17:59:54,326 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 17:59:54,354 INFO  [Log] TEstcase 35 verify First and lastname at various places 
+2024-04-16 17:59:54,354 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 17:59:54,385 INFO  [Log]  TestCase 6 user menu dropdown started 
+2024-04-16 17:59:54,416 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-04-16 17:59:54,416 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 17:59:55,146 INFO  [Log] Leads tab is clicked successfully 
+2024-04-16 17:59:55,267 INFO  [Log] Today's lead is selected 
+2024-04-16 17:59:55,336 INFO  [Log] UserMenu is clicked successfully. 
+2024-04-16 17:59:55,666 INFO  [Log] Logout Succesfully 
+2024-04-16 17:59:57,132 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-04-16 17:59:57,132 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Teststarted       **************** 
+2024-04-16 17:59:57,132 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-04-16 17:59:57,132 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:00:27,252 INFO  [Log] TestCase 25 select view from dropdown in Leads page  
+2024-04-16 18:00:27,253 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:00:57,687 INFO  [Log] TestCase 21 check leads Tab link 
+2024-04-16 18:00:57,687 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:01:28,121 INFO  [Log] TestCase 24 select view from dropdown in Leads page  
+2024-04-16 18:01:28,121 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:01:58,228 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-04-16 18:01:58,228 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:01:58,275 INFO  [Log] TestCase 38 Blocking an event in the calendar with weekly recurrence 
+2024-04-16 18:01:58,275 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:01:58,291 INFO  [Log] TestCase 35 customize my tab 
+2024-04-16 18:01:58,291 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:01:58,307 INFO  [Log] Testcase 15 is started 
+2024-04-16 18:01:58,307 INFO  [Log] ****************           -S-T-A-R-T-create account report test is started.       **************** 
+2024-04-16 18:01:58,307 INFO  [Log] TestCase : 12 - Create New View Link  
+2024-04-16 18:01:58,322 INFO  [Log] TestCase : 13 - Edit Account 
+2024-04-16 18:01:58,338 INFO  [Log] testCase 14 Merge Accounts 
+2024-04-16 18:01:58,338 INFO  [Log] ****************           -S-T-A-R-T-Merge accounts is started       **************** 
+2024-04-16 18:01:58,353 INFO  [Log] TestCase : 11 - Edit Account 
+2024-04-16 18:01:58,370 INFO  [Log] TestCase26 create new Contacts 
+2024-04-16 18:01:58,370 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:01:58,370 INFO  [Log] TestCase33 create new Contacts 
+2024-04-16 18:01:58,370 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:01:58,385 INFO  [Log] TestCase27 create new Contacts 
+2024-04-16 18:01:58,385 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:01:58,401 INFO  [Log] TestCase32 create new Contacts 
+2024-04-16 18:01:58,401 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:01:58,417 INFO  [Log] TestCase31 Create new view in contacts 
+2024-04-16 18:01:58,417 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:01:58,432 INFO  [Log] TestCase28 create new Contacts 
+2024-04-16 18:01:58,432 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:01:58,448 INFO  [Log] TestCase30 View recent contacts 
+2024-04-16 18:01:58,448 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 18:01:58,464 INFO  [Log] TestCase29 Select view in Contacts 
+2024-04-16 18:01:58,464 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 19:21:45,760 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-04-16 19:21:45,761 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-04-16 19:21:46,063 INFO  [Log] Successfully entered the username :123 
+2024-04-16 19:21:46,186 INFO  [Log] Successfully entered the password :22131 
+2024-04-16 19:21:46,379 INFO  [Log] Login button is clicked. 
+2024-04-16 19:21:46,432 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-04-16 19:21:47,860 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-04-16 19:21:47,861 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-04-16 19:21:48,006 INFO  [Log] Succesfully entered the username 
+2024-04-16 19:21:48,206 INFO  [Log] Successfully password entered. 
+2024-04-16 19:21:48,254 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-04-16 19:21:49,531 INFO  [Log] Login successful. 
+2024-04-16 19:28:56,750 INFO  [Log] Login TestCase 
+2024-04-16 19:28:59,717 INFO  [Log] Login TestCase 
+2024-04-16 19:29:01,722 INFO  [Log]  Enter valid username and valid password 
+2024-04-16 19:29:01,855 INFO  [Log] Successfully entered the username  
+2024-04-16 19:29:02,017 INFO  [Log] Successfully entered the password  
+2024-04-16 19:29:02,199 INFO  [Log] Login successful. 
+2024-04-16 19:29:03,352 INFO  [Log] Login TestCase 
+2024-04-16 19:29:05,312 INFO  [Log] Login TestCase 
+2024-04-16 19:29:07,886 INFO  [Log]  Enter valid username and valid password 
+2024-04-16 19:29:08,066 INFO  [Log] Successfully entered the username  
+2024-04-16 19:29:08,149 INFO  [Log] Successfully entered the password  
+2024-04-16 19:29:09,566 INFO  [Log] Login successful. 
+2024-04-16 19:29:10,889 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-04-16 19:29:10,890 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-04-16 19:29:10,992 INFO  [Log] Successfully entered the username :123 
+2024-04-16 19:29:11,053 INFO  [Log] Successfully entered the password :22131 
+2024-04-16 19:29:11,266 INFO  [Log] Login button is clicked. 
+2024-04-16 19:29:11,312 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-04-16 19:29:12,795 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-04-16 19:29:12,796 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-04-16 19:29:12,936 INFO  [Log] Succesfully entered the username 
+2024-04-16 19:29:13,027 INFO  [Log] Successfully password entered. 
+2024-04-16 19:29:13,181 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-04-16 19:29:14,460 INFO  [Log] Login successful. 
+2024-04-16 19:29:15,299 INFO  [Log] TestCase 17 create new Opportunity 
+2024-04-16 19:29:15,300 INFO  [Log] ****************           -S-T-A-R-T-test is started       **************** 
+2024-04-16 19:29:16,190 INFO  [Log] opportunity button is clicked 
+2024-04-16 19:54:00,453 INFO  [Log] Login TestCase 
+2024-04-16 19:54:03,643 INFO  [Log] Login TestCase 
+2024-04-16 19:54:06,356 INFO  [Log]  Enter valid username and valid password 
+2024-04-16 19:54:06,544 INFO  [Log] Successfully entered the username  
+2024-04-16 19:54:06,876 INFO  [Log] Successfully entered the password  
+2024-04-16 19:54:08,230 INFO  [Log] Login successful. 
+2024-04-16 19:54:09,439 INFO  [Log] Login TestCase 
+2024-04-16 19:54:12,962 INFO  [Log] Login TestCase 
+2024-04-16 19:54:16,157 INFO  [Log]  Enter valid username and valid password 
+2024-04-16 19:54:16,331 INFO  [Log] Successfully entered the username  
+2024-04-16 19:54:16,571 INFO  [Log] Successfully entered the password  
+2024-04-16 19:54:18,314 INFO  [Log] Login successful. 
+2024-04-16 19:54:19,658 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-04-16 19:54:19,658 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-04-16 19:54:19,953 INFO  [Log] Successfully entered the username :123 
+2024-04-16 19:54:20,077 INFO  [Log] Successfully entered the password :22131 
+2024-04-16 19:54:20,373 INFO  [Log] Login button is clicked. 
+2024-04-16 19:54:20,413 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-04-16 19:54:21,895 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-04-16 19:54:21,895 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-04-16 19:54:22,054 INFO  [Log] Succesfully entered the username 
+2024-04-16 19:54:22,192 INFO  [Log] Successfully password entered. 
+2024-04-16 19:54:22,351 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-04-16 19:54:23,949 INFO  [Log] Login successful. 
+2024-04-16 19:54:25,350 INFO  [Log] ***************             -E---N---D- :RememberMeClick test ended         *************** 
+2024-04-16 19:54:26,839 INFO  [Log] TestCase 4 : Forgot Password link 
+2024-04-16 19:54:26,839 INFO  [Log] ****************           -S-T-A-R-T-Forgot password Test is started.       **************** 
+2024-04-16 19:54:27,645 INFO  [Log] Password reset message is displayed 
+2024-04-16 19:54:27,645 INFO  [Log] ***************             -E---N---D-An Email associated with the username is sent.         *************** 
+2024-04-16 19:54:29,056 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-04-16 19:54:29,058 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-04-16 19:54:29,221 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-04-16 19:54:29,549 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-04-16 19:54:30,917 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-04-16 19:54:30,918 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Teststarted       **************** 
+2024-04-16 19:54:31,100 INFO  [Log] Successfully entered the username :teena@raghav.com 
+2024-04-16 19:54:31,193 INFO  [Log] Successfully entered the password :pritishtina@1 
+2024-04-16 19:54:32,563 INFO  [Log] Login successful. 
+2024-04-16 19:54:33,825 INFO  [Log] TestCase 17 create new Opportunity 
+2024-04-16 19:54:33,825 INFO  [Log] ****************           -S-T-A-R-T-test is started       **************** 
+2024-04-16 19:54:34,684 INFO  [Log] opportunity button is clicked 
+2024-04-16 19:54:37,451 INFO  [Log] switch to campaign window 
+2024-04-16 19:54:37,452 INFO  [Log] back to main window 
+2024-04-16 19:54:37,769 INFO  [Log] New Opportunity is Created 
+2024-04-16 19:54:37,769 INFO  [Log] ***************             -E---N---D-TestCase 17 is ended         *************** 
+2024-04-16 19:54:37,769 INFO  [Log] TestCase 18 opportunity pipeline link 
+2024-04-16 19:54:37,769 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 19:54:39,605 INFO  [Log] opportunity button is clicked 
+2024-04-16 19:54:39,660 INFO  [Log] opportunity pipeline link is clicked successfully 
+2024-04-16 19:54:39,685 INFO  [Log] TestCase 20 Test Quaterly summary 
+2024-04-16 19:54:39,685 INFO  [Log] ****************           -S-T-A-R-T-Test is Started       **************** 
+2024-04-16 20:57:09,077 INFO  [Log] Login TestCase 
+2024-04-16 20:57:11,431 INFO  [Log] Login TestCase 
+2024-04-16 20:57:14,366 INFO  [Log]  Enter valid username and valid password 
+2024-04-16 20:57:14,533 INFO  [Log] Successfully entered the username  
+2024-04-16 20:57:14,790 INFO  [Log] Successfully entered the password  
+2024-04-16 20:57:16,139 INFO  [Log] Login successful. 
+2024-04-16 20:57:17,344 INFO  [Log] Login TestCase 
+2024-04-16 20:57:21,250 INFO  [Log] Login TestCase 
+2024-04-16 20:57:24,227 INFO  [Log]  Enter valid username and valid password 
+2024-04-16 20:57:24,409 INFO  [Log] Successfully entered the username  
+2024-04-16 20:57:24,530 INFO  [Log] Successfully entered the password  
+2024-04-16 20:57:26,145 INFO  [Log] Login successful. 
+2024-04-16 20:57:27,461 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-04-16 20:57:27,461 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-04-16 20:57:27,580 INFO  [Log] Successfully entered the username :123 
+2024-04-16 20:57:27,661 INFO  [Log] Successfully entered the password :22131 
+2024-04-16 20:57:27,932 INFO  [Log] Login button is clicked. 
+2024-04-16 20:57:27,976 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-04-16 20:57:29,510 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-04-16 20:57:29,511 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-04-16 20:57:29,662 INFO  [Log] Succesfully entered the username 
+2024-04-16 20:57:29,760 INFO  [Log] Successfully password entered. 
+2024-04-16 20:57:29,835 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-04-16 20:57:31,352 INFO  [Log] Login successful. 
+2024-04-16 20:57:32,716 INFO  [Log] ***************             -E---N---D- :RememberMeClick test ended         *************** 
+2024-04-16 20:57:34,172 INFO  [Log] TestCase 4 : Forgot Password link 
+2024-04-16 20:57:34,173 INFO  [Log] ****************           -S-T-A-R-T-Forgot password Test is started.       **************** 
+2024-04-16 20:57:34,961 INFO  [Log] Password reset message is displayed 
+2024-04-16 20:57:34,961 INFO  [Log] ***************             -E---N---D-An Email associated with the username is sent.         *************** 
+2024-04-16 20:57:36,399 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-04-16 20:57:36,399 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-04-16 20:57:36,543 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-04-16 20:57:36,942 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-04-16 20:57:38,295 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-04-16 20:57:38,295 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Teststarted       **************** 
+2024-04-16 20:57:38,475 INFO  [Log] Successfully entered the username :teena@raghav.com 
+2024-04-16 20:57:38,588 INFO  [Log] Successfully entered the password :pritishtina@1 
+2024-04-16 20:57:39,987 INFO  [Log] Login successful. 
+2024-04-16 20:57:41,315 INFO  [Log] TestCase 17 create new Opportunity 
+2024-04-16 20:57:41,316 INFO  [Log] ****************           -S-T-A-R-T-test is started       **************** 
+2024-04-16 20:57:41,982 INFO  [Log] opportunity button is clicked 
+2024-04-16 20:57:44,138 INFO  [Log] switch to campaign window 
+2024-04-16 20:57:44,138 INFO  [Log] back to main window 
+2024-04-16 20:57:45,953 INFO  [Log] New Opportunity is Created 
+2024-04-16 20:57:45,953 INFO  [Log] ***************             -E---N---D-TestCase 17 is ended         *************** 
+2024-04-16 20:57:45,954 INFO  [Log] TestCase 18 opportunity pipeline link 
+2024-04-16 20:57:45,954 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 20:57:46,410 INFO  [Log] opportunity button is clicked 
+2024-04-16 20:57:46,948 INFO  [Log] opportunity pipeline link is clicked successfully 
+2024-04-16 20:57:46,993 INFO  [Log] opportunity piprlinr link is displayed 
+2024-04-16 20:57:46,993 INFO  [Log] ***************             -E---N---D-TestCase18 is ended.         *************** 
+2024-04-16 20:57:46,994 INFO  [Log] TestCase 20 Test Quaterly summary 
+2024-04-16 20:57:46,994 INFO  [Log] ****************           -S-T-A-R-T-Test is Started       **************** 
+2024-04-16 20:57:47,344 INFO  [Log] Current and Next FQ is selected. 
+2024-04-16 20:57:47,390 INFO  [Log] Open Opportunities 
+2024-04-16 20:57:47,690 INFO  [Log] run and report button is clicked successfully 
+2024-04-16 20:57:47,690 INFO  [Log] ***************             -E---N---D-TestCase 20 is ended successfully.         *************** 
+2024-04-16 20:57:47,690 INFO  [Log] TestCase 19 Stuck opportunity link 
+2024-04-16 20:57:47,690 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 20:57:47,980 INFO  [Log] opportunity button is clicked 
+2024-04-16 20:57:48,340 INFO  [Log] Stuck opportunity link is clicked successfully 
+2024-04-16 20:57:48,373 INFO  [Log] Stuck opportunity page is displayed. 
+2024-04-16 20:57:48,373 INFO  [Log] ***************             -E---N---D-TestCase19 is ended.         *************** 
+2024-04-16 20:57:48,374 INFO  [Log] Test CAse : 9  - Devloper Console 
+2024-04-16 20:57:48,429 INFO  [Log] Usermenu dropdown is clicked. 
+2024-04-16 20:57:48,650 INFO  [Log] Developer Console is clicked and window is opened. 
+2024-04-16 20:57:48,650 INFO  [Log] ***************             -E---N---D- :Developer Console Window test ended         *************** 
+2024-04-16 20:57:48,652 INFO  [Log] TestCase 7 Edit my profile started 
+2024-04-16 20:57:48,718 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-04-16 20:57:48,718 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-04-16 20:57:48,719 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-04-16 20:57:50,193 INFO  [Log] MyProfile is clicked. 
+2024-04-16 20:57:50,330 INFO  [Log] Edit Button next to contact is clicked. 
+2024-04-16 20:57:50,502 INFO  [Log] Successfully switched to frame. 
+2024-04-16 20:57:50,606 INFO  [Log] About tab is clicked. 
+2024-04-16 20:57:50,722 INFO  [Log] Lastname is entered successfully. 
+2024-04-16 20:57:51,322 INFO  [Log] Save All button is clicked. 
+2024-04-16 20:57:51,700 INFO  [Log] Successfully switched to default frame. 
+2024-04-16 20:57:51,700 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-04-16 20:57:52,150 INFO  [Log] Posted Successfully 
+2024-04-16 20:57:52,394 INFO  [Log] File is shared successfully. 
+2024-04-16 20:58:23,334 INFO  [Log] TestCase 10 logout 
+2024-04-16 20:58:23,345 INFO  [Log] TestCase 8 Edit my Setings started 
+2024-04-16 20:58:23,353 INFO  [Log] TEstcase 34 verify First and lastname on home page and myprofile is same  
+2024-04-16 20:58:23,353 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 20:58:23,365 INFO  [Log] TEstcase 35 verify First and lastname at various places 
+2024-04-16 20:58:23,365 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 20:58:23,374 INFO  [Log]  TestCase 6 user menu dropdown started 
+2024-04-16 20:58:23,383 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-04-16 20:58:23,383 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 20:58:24,085 INFO  [Log] Leads tab is clicked successfully 
+2024-04-16 20:58:24,186 INFO  [Log] Today's lead is selected 
+2024-04-16 20:58:24,240 INFO  [Log] UserMenu is clicked successfully. 
+2024-04-16 20:58:24,610 INFO  [Log] Logout Succesfully 
+2024-04-16 20:58:25,998 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-04-16 20:58:25,998 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Teststarted       **************** 
+2024-04-16 20:58:25,998 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-04-16 20:58:25,998 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 20:58:56,146 INFO  [Log] TestCase 25 select view from dropdown in Leads page  
+2024-04-16 20:58:56,146 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 20:59:26,527 INFO  [Log] TestCase 21 check leads Tab link 
+2024-04-16 20:59:26,527 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 20:59:57,018 INFO  [Log] TestCase 24 select view from dropdown in Leads page  
+2024-04-16 20:59:57,018 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 21:00:27,487 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-04-16 21:00:27,487 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 21:00:27,491 INFO  [Log] TestCase 38 Blocking an event in the calendar with weekly recurrence 
+2024-04-16 21:00:27,491 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 21:00:27,495 INFO  [Log] TestCase 35 customize my tab 
+2024-04-16 21:00:27,495 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 21:00:27,504 INFO  [Log] Testcase 15 is started 
+2024-04-16 21:00:27,504 INFO  [Log] ****************           -S-T-A-R-T-create account report test is started.       **************** 
+2024-04-16 21:00:27,507 INFO  [Log] TestCase : 12 - Create New View Link  
+2024-04-16 21:00:27,511 INFO  [Log] TestCase : 13 - Edit Account 
+2024-04-16 21:00:27,517 INFO  [Log] testCase 14 Merge Accounts 
+2024-04-16 21:00:27,518 INFO  [Log] ****************           -S-T-A-R-T-Merge accounts is started       **************** 
+2024-04-16 21:00:27,522 INFO  [Log] TestCase : 11 - Edit Account 
+2024-04-16 21:00:27,528 INFO  [Log] TestCase26 create new Contacts 
+2024-04-16 21:00:27,528 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 21:00:27,530 INFO  [Log] TestCase33 create new Contacts 
+2024-04-16 21:00:27,530 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 21:00:27,534 INFO  [Log] TestCase27 create new Contacts 
+2024-04-16 21:00:27,534 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 21:00:27,552 INFO  [Log] TestCase32 create new Contacts 
+2024-04-16 21:00:27,552 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 21:00:27,556 INFO  [Log] TestCase31 Create new view in contacts 
+2024-04-16 21:00:27,556 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 21:00:27,561 INFO  [Log] TestCase28 create new Contacts 
+2024-04-16 21:00:27,561 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 21:00:27,565 INFO  [Log] TestCase30 View recent contacts 
+2024-04-16 21:00:27,565 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-04-16 21:00:27,569 INFO  [Log] TestCase29 Select view in Contacts 
+2024-04-16 21:00:27,569 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 

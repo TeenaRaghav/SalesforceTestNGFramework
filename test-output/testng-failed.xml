@@ -1,15 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Automation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.training.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
     <classes>
       <class name="com.training.testcases.HomeTest">
         <methods>
+          <include name="customizeMyTab"/>
           <include name="blockingAnEventInTheCalendarWithWeeklyRecurrence"/>
+          <include name="blockingAnEventInTheCalendar"/>
           <include name="beforeTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.training.testcases.HomeTest -->
+      <class name="com.training.testcases.AccountsTest">
+        <methods>
+          <include name="editView"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="createAccountReport"/>
+          <include name="mergeAccount"/>
+          <include name="createNewView"/>
+          <include name="createAnAccount"/>
+        </methods>
+      </class> <!-- com.training.testcases.AccountsTest -->
+      <class name="com.training.testcases.LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="invalidLogin"/>
+          <include name="beforeMethod"/>
+          <include name="checkRememberme"/>
+          <include name="validLogin"/>
+          <include name="forgotPasswordTest"/>
+          <include name="WrongUsernameAndPassword"/>
+        </methods>
+      </class> <!-- com.training.testcases.LoginTest -->
+      <class name="com.training.testcases.OpportunityTest">
+        <methods>
+          <include name="stuckOpportunityLink"/>
+          <include name="beforeTest"/>
+          <include name="opportunityPipelineLink"/>
+          <include name="tearDown"/>
+          <include name="quarterlySummary"/>
+          <include name="createNewOpportunity"/>
+        </methods>
+      </class> <!-- com.training.testcases.OpportunityTest -->
+      <class name="com.training.testcases.ContactsTest">
+        <methods>
+          <include name="createNewContacts"/>
+          <include name="createNewViewInContacts"/>
+          <include name="filterView"/>
+          <include name="recentContacts"/>
+          <include name="createNewView"/>
+          <include name="beforeTest"/>
+          <include name="createNewContacts2"/>
+          <include name="createNewView2"/>
+          <include name="selectViewFromContacts"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.training.testcases.ContactsTest -->
+      <class name="com.training.testcases.UserMenuTest">
+        <methods>
+          <include name="verifyFirstAndLastName"/>
+          <include name="logout"/>
+          <include name="checkTheOptionsInUserMenu"/>
+          <include name="editProfile"/>
+          <include name="developerConsole"/>
+          <include name="verifyFirstAndLastNameAtVAriousPages"/>
+          <include name="mySettingsUsermenu"/>
+          <include name="beforeTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.training.testcases.UserMenuTest -->
+      <class name="com.training.testcases.LeadsTest">
+        <methods>
+          <include name="validateTodaysLeadPageIsDisplayed"/>
+          <include name="ViewDropdownListContents"/>
+          <include name="tearDown"/>
+          <include name="createNewLead"/>
+          <include name="leadsTab"/>
+          <include name="beforeTest"/>
+          <include name="SelectViewFromDropdownInLeads"/>
+        </methods>
+      </class> <!-- com.training.testcases.LeadsTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Automation] -->
