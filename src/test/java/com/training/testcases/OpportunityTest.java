@@ -122,7 +122,7 @@ public class OpportunityTest extends BaseTest{
 		opportunitypage.selectInterval(intervaloption);
 		Log.info("Current and Next FQ is selected.");
 		String includeoption = prop.getProperties("intervalDropdownvalue1"); 
-		opportunitypage.selectInterval(includeoption);
+		opportunitypage.selectInclude(includeoption);
 		Log.info("Open Opportunities");
 		opportunitypage.clickOnRunAndReport();
 		Log.info("run and report button is clicked successfully");

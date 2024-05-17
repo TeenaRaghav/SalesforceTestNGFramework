@@ -82,7 +82,7 @@ public class ContactsTest extends BaseTest {
 
 	@Test
 	public void createNewView() throws IOException {
-		Log.info("TestCase27 create new Contacts");
+		Log.info("TestCase27 create new view");
 		Log.startTestCase("Test is started");
 		contactspage.contactsTab();
 		Log.info("Contacts tab is clicked");
@@ -144,7 +144,7 @@ public class ContactsTest extends BaseTest {
 		contactspage.enterNewViewUniqueName(viewUniquename);
 		Log.info("View Unique name is entered");
 		contactspage.saveNewViewInContacts();
-		Log.info("New View is created successfully");
+		Log.info("Error Message is displayed");
 		Log.endTestCase("TestCase31 is ended");
 	}
 	@Test
@@ -162,7 +162,7 @@ public class ContactsTest extends BaseTest {
 		contactspage.enterNewViewUniqueName(newViewuniquename);
 		Log.info("New View Unique Name is entered successfully");
 		contactspage.cancelInContacts();
-		Log.info("Cancel vutton is clicked successfully");
+		Log.info("Cancel button is clicked successfully");
 		Log.endTestCase("TestCase 27 is ended successfully");
 	}
 	

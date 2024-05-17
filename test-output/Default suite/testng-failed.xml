@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.testcases.HomeTest">
+      <class name="com.training.testcases.ContactsTest">
         <methods>
-          <include name="blockingAnEventInTheCalendarWithWeeklyRecurrence"/>
+          <include name="filterView"/>
           <include name="beforeTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.training.testcases.HomeTest -->
+      </class> <!-- com.training.testcases.ContactsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

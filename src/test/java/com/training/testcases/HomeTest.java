@@ -50,7 +50,7 @@ public class HomeTest extends BaseTest{
 	}
 	@Test
 	public void customizeMyTab() {
-		Log.info("TestCase 35 customize my tab");
+		Log.info("TestCase 36 customize my tab");
 		Log.startTestCase("Test is started");
 		homepage.clickOnPlusBtn();
 		Log.info("+ button is clicked successfully");

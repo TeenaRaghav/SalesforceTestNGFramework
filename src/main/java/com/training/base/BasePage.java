@@ -1,5 +1,6 @@
 package com.training.base;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.Set;
 
@@ -26,7 +27,7 @@ public class BasePage {
 	}
 
 	public void waitForElement(WebElement element) {
-		wait = new WebDriverWait(driver, 30);
+		wait = new WebDriverWait(driver, Duration.ofSeconds(40));
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 

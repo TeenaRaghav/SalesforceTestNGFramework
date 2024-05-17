@@ -96,12 +96,6 @@ public class LeadsTest extends BaseTest{
 		String uname = prop.getProperties("username");
 		loginpage.enterIntoUsername(uname);
 		logintest.validLogin();
-////		Log.info("Successfully entered the username");
-//		String psswrd = prop.getProperties("password");
-//		loginpage.enterIntoPassword(psswrd);
-////		Log.info("Successfully entered the password");
-//		loginpage.clickLogin();
-////		Log.info("Login successful.");
 		leadspage.clickOnLeadsTab();
 		Log.info("Leads tab is clicked successfully");
 		leadspage.ClickOnGoBtn();
@@ -125,7 +119,7 @@ public class LeadsTest extends BaseTest{
 		}
 		@Test
 		public void createNewLead() throws IOException {
-			Log.info("TestCase 25 select view from dropdown in Leads page ");
+			Log.info("TestCase 25 check new button on leads home ");
 			Log.startTestCase("Test is started");
 			leadspage.clickOnLeadsTab();
 			Log.info("Leads tab is clicked successfully");
