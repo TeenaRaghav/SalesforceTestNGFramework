@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Automation" parallel="methods" thread-count="5">
+<suite name="Automation" parallel="false" thread-count="5" >
 	<listeners>
 		<listener class-name="com.training.listeners.TestListener"></listener>
 	</listeners>
 	<test name="LoginTest">
+		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="com.training.testcases.LoginTest"></class>
+		</classes>
+	</test>
+	<test name="OpportunityTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
 			<class name="com.training.testcases.OpportunityTest"></class>
+		</classes>
+	</test>
+	<test name="UserMenuTest">
+		<classes>
 			<class name="com.training.testcases.UserMenuTest"></class>
+		</classes>
+	</test>
+	<test name="LeadsTest">
+		<classes>
 			<class name="com.training.testcases.LeadsTest"></class>
+		</classes>
+	</test>
+	<test name="HomeTest">
+		<classes>
 			<class name="com.training.testcases.HomeTest"></class>
+		</classes>
+	</test>
+	<test name="AccountsTest">
+		<classes>
 			<class name="com.training.testcases.AccountsTest"></class>
+		</classes>
+	</test>
+	<test name="ContactsTest">
+		<classes>
 			<class name="com.training.testcases.ContactsTest"></class>
 		</classes>
 	</test>

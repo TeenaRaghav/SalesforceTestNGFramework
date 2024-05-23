@@ -4,8 +4,12 @@ import java.io.IOException;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.training.base.BaseTest;
@@ -16,6 +20,8 @@ import com.training.pages.UserMenuPage;
 import com.training.utilities.PropertiesFile;
 import com.training.utilities.ScreenshotUtility;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class LoginTest extends BaseTest{
 	WebDriver driver;
 	LoginPage loginpage;
@@ -23,9 +29,16 @@ public class LoginTest extends BaseTest{
 	ScreenshotUtility scrnshot = new ScreenshotUtility();
 	HomePage homepage;
 	UserMenuPage usermenupage;
+	
 	@BeforeMethod
-	public void beforeMethod() throws IOException {
-		driver = getDriver();
+	@Parameters("browser")
+	public void beforeMethod(String browser) throws IOException {
+//		driver = getDriver();
+		if(browser.equalsIgnoreCase("firefox")) {
+			driver = new FirefoxDriver();
+		}else if(browser.equalsIgnoreCase("chrome")) {
+			driver = new ChromeDriver();
+		}
 		prop = new PropertiesFile();
 		String url = prop.getProperties("url");
 		driver.get(url);
@@ -51,7 +64,7 @@ public class LoginTest extends BaseTest{
 	@Test
 	public void validLogin() throws IOException {
 		Log.info("TestCase 2 : Enter valid username and valid password");
-		Log.startTestCase("valid credentials Teststarted");
+		Log.startTestCase("valid credentials Test started");
 
 		String uname = prop.getProperties("username");
 		loginpage.enterIntoUsername(uname);
@@ -122,7 +135,7 @@ public class LoginTest extends BaseTest{
 	@AfterMethod
 	public void teardown() {
 		scrnshot.takescreenshot(driver);
-		close();
+		driver.close();
 	}
 }
  
