@@ -85,9 +85,9 @@ public class HomePage extends BasePage {
 	@FindBy(xpath=" //input[@value=\" Save \"]")
 	WebElement savebtn;
 //	Testcase37
-	@FindBy(xpath= "//a[normalize-space()='Sunday April 14, 2024']")
+	@FindBy(xpath= "//a[@href=\"/00U/c?md3=147&md0=2024\"]")
 	WebElement currentDateLink;
-	@FindBy(id= "p:f:j_id25:j_id61:28:j_id64")
+	@FindBy(xpath= "//a[@href='/00U/e?retURL=%2F00U%2Fc%3Fmd3%3D147%26md0%3D2024&aid=005ak000002GzqU&anm=Teena+Raghav&evt4=5%2F26%2F2024&evt13=8%3A00+PM&RecurrenceStartDateTime=5%2F26%2F2024']")
 	WebElement eightpmLink;
 	@FindBy(className= "comboboxIcon")
 	WebElement subjectComboicon;

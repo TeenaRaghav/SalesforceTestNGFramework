@@ -65,7 +65,7 @@ public class HomeTest extends BaseTest{
 		Log.endTestCase("Testcase 36 is ended successfully");
 	}
 	@Test
-	public void blockingAnEventInTheCalendar() {
+	public void blockingAnEventInTheCalendar() throws InterruptedException {
 		Log.info("TestCase 37 Blocking an event in the calendar");
 		Log.startTestCase("Test is started");
 		homepage.homeTab();
@@ -121,7 +121,7 @@ public class HomeTest extends BaseTest{
 	@AfterTest
 	public void tearDown() {
 		screenshot.takescreenshot(driver);
-		close();
+		quit();
 		}
 
 }

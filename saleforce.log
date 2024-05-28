@@ -2909,3 +2909,1001 @@
 2024-05-23 14:14:59,969 INFO  [Log] Successfully entered the username :teena@raghav.com 
 2024-05-23 14:15:00,121 INFO  [Log] Successfully entered the password :pritishtina@1 
 2024-05-23 14:15:01,591 INFO  [Log] Login successful. 
+2024-05-23 14:24:40,163 INFO  [Log] Login TestCase 
+2024-05-23 14:24:43,421 INFO  [Log] Login TestCase 
+2024-05-23 14:24:46,689 INFO  [Log]  Enter valid username and valid password 
+2024-05-23 14:24:46,868 INFO  [Log] Successfully entered the username  
+2024-05-23 14:24:47,085 INFO  [Log] Successfully entered the password  
+2024-05-23 14:24:48,318 INFO  [Log] Login successful. 
+2024-05-23 14:24:49,943 INFO  [Log] Login TestCase 
+2024-05-23 14:24:53,273 INFO  [Log] Login TestCase 
+2024-05-23 14:24:56,884 INFO  [Log]  Enter valid username and valid password 
+2024-05-23 14:24:57,110 INFO  [Log] Successfully entered the username  
+2024-05-23 14:24:57,332 INFO  [Log] Successfully entered the password  
+2024-05-23 14:24:58,583 INFO  [Log] Login successful. 
+2024-05-23 14:24:58,734 INFO  [Log] TestCase 38 Blocking an event in the calendar with weekly recurrence 
+2024-05-23 14:24:58,734 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-05-23 14:24:58,734 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-23 14:24:58,734 INFO  [Log] TestCase26 create new Contacts 
+2024-05-23 14:24:58,734 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-23 14:24:58,734 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-05-23 14:24:58,735 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-23 14:24:58,734 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-05-23 14:24:58,734 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-23 14:24:58,736 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-23 14:24:59,466 INFO  [Log] Contacts tab is clicked 
+2024-05-23 14:24:59,959 INFO  [Log] New button is clicked 
+2024-05-23 14:25:00,090 INFO  [Log] LastName is entered successfully 
+2024-05-23 14:25:00,245 INFO  [Log] lookup icon is clicked successfully 
+2024-05-23 14:25:00,615 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-23 14:25:00,685 INFO  [Log] TestCase 25 check new button on leads home  
+2024-05-23 14:25:00,686 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-23 14:25:00,686 INFO  [Log] TestCase27 create new view 
+2024-05-23 14:25:00,687 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-23 14:25:00,706 INFO  [Log] TestCase31 Create new view in contacts 
+2024-05-23 14:25:00,706 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-23 14:25:00,892 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-23 14:25:00,907 INFO  [Log] Account name is selected from lookup icon window successfully 
+2024-05-23 14:25:00,975 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-23 14:25:00,975 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-05-23 14:25:00,975 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-05-23 14:25:02,651 INFO  [Log] New Contacts is created. 
+2024-05-23 14:25:02,651 INFO  [Log] ***************             -E---N---D-TestCase 26 is ended         *************** 
+2024-05-23 14:25:02,654 INFO  [Log] TestCase : 13 - Edit Account 
+2024-05-23 14:25:02,733 INFO  [Log] MyProfile is clicked. 
+2024-05-23 14:25:02,894 INFO  [Log] Edit Button next to contact is clicked. 
+2024-05-23 14:25:03,089 INFO  [Log] Successfully switched to frame. 
+2024-05-23 14:25:03,228 INFO  [Log] About tab is clicked. 
+2024-05-23 14:25:03,345 INFO  [Log] Account tab is clicked. 
+2024-05-23 14:25:03,391 INFO  [Log] Lastname is entered successfully. 
+2024-05-23 14:25:03,449 INFO  [Log] View name is selected. 
+2024-05-23 14:25:03,903 INFO  [Log] Edit link is clicked. 
+2024-05-23 14:25:04,053 INFO  [Log] Save All button is clicked. 
+2024-05-23 14:25:04,070 INFO  [Log] New view name is entered. 
+2024-05-23 14:25:04,154 INFO  [Log] value in field is selected. 
+2024-05-23 14:25:04,271 INFO  [Log] Operator is selected. 
+2024-05-23 14:25:04,418 INFO  [Log] Value is entered. 
+2024-05-23 14:25:04,424 INFO  [Log] Successfully switched to default frame. 
+2024-05-23 14:25:04,424 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-23 14:25:04,544 INFO  [Log] TestCase 21 check leads Tab link 
+2024-05-23 14:25:04,544 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-23 14:25:05,668 INFO  [Log] Posted Successfully 
+2024-05-23 14:25:05,962 INFO  [Log] File is shared successfully. 
+2024-05-23 14:25:21,248 INFO  [Log] testCase 14 Merge Accounts 
+2024-05-23 14:25:21,248 INFO  [Log] ****************           -S-T-A-R-T-Merge accounts is started       **************** 
+2024-05-23 14:25:23,361 INFO  [Log] TestCase 8 Edit my Setings started 
+2024-05-23 14:25:23,422 INFO  [Log] Usermenu dropdown is clicked. 
+2024-05-23 14:25:25,530 INFO  [Log] salesforce chatter is selected 
+2024-05-23 14:25:25,594 INFO  [Log] TestCase 20 Test Quaterly summary 
+2024-05-23 14:25:25,594 INFO  [Log] ****************           -S-T-A-R-T-Test is Started       **************** 
+2024-05-23 14:25:26,608 INFO  [Log] Current and Next FQ is selected. 
+2024-05-23 14:25:26,695 INFO  [Log] TestCase 24 select view from dropdown in Leads page  
+2024-05-23 14:25:26,695 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-23 14:25:39,179 INFO  [Log] TEstcase 34 verify First and lastname on home page and myprofile is same  
+2024-05-23 14:25:39,179 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-23 14:25:39,243 INFO  [Log] TEstcase 35 verify First and lastname at various places 
+2024-05-23 14:25:39,243 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-23 14:25:40,234 INFO  [Log] HomeTab is clicked successfully 
+2024-05-23 14:25:40,920 INFO  [Log]  TestCase 6 user menu dropdown started 
+2024-05-23 14:25:41,091 INFO  [Log] HomeTab is clicked successfully 
+2024-05-23 14:25:41,177 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-23 14:25:41,179 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-23 14:25:41,819 INFO  [Log] profile page is displayed 
+2024-05-23 14:25:41,911 INFO  [Log] edit button is clicked successfully 
+2024-05-23 14:25:42,031 INFO  [Log] Switch to about frame successfully 
+2024-05-23 14:25:42,103 INFO  [Log] Clicked on about tab successfully 
+2024-05-23 14:25:42,199 INFO  [Log] LastName entered successfully 
+2024-05-23 14:25:42,451 INFO  [Log] save all button is clicked 
+2024-05-23 14:25:42,451 INFO  [Log] Lastname is edited on every page. 
+2024-05-23 14:25:42,451 INFO  [Log] ***************             -E---N---D-Testcase 35 is ended successfully         *************** 
+2024-05-26 13:00:36,361 INFO  [Log] Login TestCase 
+2024-05-26 13:00:40,067 INFO  [Log] Login TestCase 
+2024-05-26 13:00:43,448 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:00:43,670 INFO  [Log] Successfully entered the username  
+2024-05-26 13:00:43,818 INFO  [Log] Successfully entered the password  
+2024-05-26 13:00:45,082 INFO  [Log] Login successful. 
+2024-05-26 13:00:46,565 INFO  [Log] Login TestCase 
+2024-05-26 13:00:50,612 INFO  [Log] Login TestCase 
+2024-05-26 13:00:53,991 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:00:54,424 INFO  [Log] Successfully entered the username  
+2024-05-26 13:00:54,564 INFO  [Log] Successfully entered the password  
+2024-05-26 13:00:56,194 INFO  [Log] Login successful. 
+2024-05-26 13:00:56,356 INFO  [Log] TestCase26 create new Contacts 
+2024-05-26 13:00:56,356 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:00:56,356 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-05-26 13:00:56,356 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-05-26 13:00:56,356 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:00:56,356 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-05-26 13:00:56,356 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:00:56,356 INFO  [Log] TestCase 38 Blocking an event in the calendar with weekly recurrence 
+2024-05-26 13:00:56,356 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:00:56,356 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:00:57,088 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:00:57,631 INFO  [Log] New button is clicked 
+2024-05-26 13:00:57,759 INFO  [Log] LastName is entered successfully 
+2024-05-26 13:00:57,971 INFO  [Log] lookup icon is clicked successfully 
+2024-05-26 13:00:58,565 INFO  [Log] Account name is selected from lookup icon window successfully 
+2024-05-26 13:00:59,057 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-26 13:00:59,088 INFO  [Log] TestCase 25 check new button on leads home  
+2024-05-26 13:00:59,088 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:00:59,088 INFO  [Log] TestCase27 create new view 
+2024-05-26 13:00:59,088 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:01:01,076 INFO  [Log] New Contacts is created. 
+2024-05-26 13:01:01,076 INFO  [Log] ***************             -E---N---D-TestCase 26 is ended         *************** 
+2024-05-26 13:01:01,076 INFO  [Log] TestCase31 Create new view in contacts 
+2024-05-26 13:01:01,076 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:01:01,493 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:01:01,507 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-26 13:01:01,582 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 13:01:01,582 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-05-26 13:01:01,583 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-05-26 13:01:01,926 INFO  [Log] New View Link is clicked successfully 
+2024-05-26 13:01:02,032 INFO  [Log] New View Name is entered successfully 
+2024-05-26 13:01:02,360 INFO  [Log] New View Unique Name is entered successfully 
+2024-05-26 13:01:02,846 INFO  [Log] New View in contacts is created successfully 
+2024-05-26 13:01:02,847 INFO  [Log] ***************             -E---N---D-TestCase 27 is ended successfully         *************** 
+2024-05-26 13:01:02,849 INFO  [Log] TestCase : 13 - Edit Account 
+2024-05-26 13:01:03,614 INFO  [Log] MyProfile is clicked. 
+2024-05-26 13:01:03,696 INFO  [Log] Account tab is clicked. 
+2024-05-26 13:01:03,821 INFO  [Log] Edit Button next to contact is clicked. 
+2024-05-26 13:01:03,866 INFO  [Log] View name is selected. 
+2024-05-26 13:01:04,073 INFO  [Log] Successfully switched to frame. 
+2024-05-26 13:01:04,228 INFO  [Log] About tab is clicked. 
+2024-05-26 13:01:04,452 INFO  [Log] Lastname is entered successfully. 
+2024-05-26 13:01:04,461 INFO  [Log] Edit link is clicked. 
+2024-05-26 13:01:04,659 INFO  [Log] New view name is entered. 
+2024-05-26 13:01:04,769 INFO  [Log] value in field is selected. 
+2024-05-26 13:01:04,985 INFO  [Log] Operator is selected. 
+2024-05-26 13:01:05,162 INFO  [Log] Save All button is clicked. 
+2024-05-26 13:01:05,164 INFO  [Log] Value is entered. 
+2024-05-26 13:01:05,268 INFO  [Log] TestCase 21 check leads Tab link 
+2024-05-26 13:01:05,268 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:01:05,566 INFO  [Log] Successfully switched to default frame. 
+2024-05-26 13:01:05,566 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 13:01:06,849 INFO  [Log] Posted Successfully 
+2024-05-26 13:01:07,309 INFO  [Log] File is shared successfully. 
+2024-05-26 13:01:36,710 INFO  [Log] testCase 14 Merge Accounts 
+2024-05-26 13:01:36,710 INFO  [Log] ****************           -S-T-A-R-T-Merge accounts is started       **************** 
+2024-05-26 13:01:36,788 INFO  [Log] TestCase 8 Edit my Setings started 
+2024-05-26 13:01:36,804 INFO  [Log] TestCase 20 Test Quaterly summary 
+2024-05-26 13:01:36,804 INFO  [Log] ****************           -S-T-A-R-T-Test is Started       **************** 
+2024-05-26 13:01:37,729 INFO  [Log] Current and Next FQ is selected. 
+2024-05-26 13:01:37,855 INFO  [Log] TestCase 24 select view from dropdown in Leads page  
+2024-05-26 13:01:37,855 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:01:39,408 INFO  [Log] TEstcase 34 verify First and lastname on home page and myprofile is same  
+2024-05-26 13:01:39,408 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:01:39,440 INFO  [Log] TEstcase 35 verify First and lastname at various places 
+2024-05-26 13:01:39,440 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:01:39,456 INFO  [Log]  TestCase 6 user menu dropdown started 
+2024-05-26 13:02:49,857 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:02:50,203 INFO  [Log] Successfully entered the username  
+2024-05-26 13:02:50,436 INFO  [Log] Successfully entered the password  
+2024-05-26 13:02:51,893 INFO  [Log] Login successful. 
+2024-05-26 13:02:51,911 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-05-26 13:02:51,911 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:02:54,449 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-26 13:07:10,108 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:07:10,413 INFO  [Log] Successfully entered the username  
+2024-05-26 13:07:10,533 INFO  [Log] Successfully entered the password  
+2024-05-26 13:07:11,921 INFO  [Log] Login successful. 
+2024-05-26 13:07:11,946 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-05-26 13:07:11,946 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:07:14,945 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-26 13:07:15,030 INFO  [Log] Current date is displayed and clicked successfully 
+2024-05-26 13:09:09,425 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:09:09,780 INFO  [Log] Successfully entered the username  
+2024-05-26 13:09:10,027 INFO  [Log] Successfully entered the password  
+2024-05-26 13:09:11,349 INFO  [Log] Login successful. 
+2024-05-26 13:09:11,367 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-05-26 13:09:11,367 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:09:14,407 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-26 13:09:14,521 INFO  [Log] Current date is displayed and clicked successfully 
+2024-05-26 13:10:03,941 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:10:04,298 INFO  [Log] Successfully entered the username  
+2024-05-26 13:10:04,445 INFO  [Log] Successfully entered the password  
+2024-05-26 13:10:05,706 INFO  [Log] Login successful. 
+2024-05-26 13:10:05,722 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-05-26 13:10:05,722 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:10:08,269 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-26 13:10:08,363 INFO  [Log] Current date is displayed and clicked successfully 
+2024-05-26 13:15:01,117 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:15:01,362 INFO  [Log] Successfully entered the username  
+2024-05-26 13:15:01,622 INFO  [Log] Successfully entered the password  
+2024-05-26 13:15:02,976 INFO  [Log] Login successful. 
+2024-05-26 13:15:02,997 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-05-26 13:15:02,997 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:15:06,297 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-26 13:15:06,408 INFO  [Log] Current date is displayed and clicked successfully 
+2024-05-26 13:17:07,624 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:17:07,976 INFO  [Log] Successfully entered the username  
+2024-05-26 13:17:08,233 INFO  [Log] Successfully entered the password  
+2024-05-26 13:17:09,477 INFO  [Log] Login successful. 
+2024-05-26 13:17:09,491 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-05-26 13:17:09,492 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:17:12,446 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-26 13:17:12,540 INFO  [Log] Current date is displayed and clicked successfully 
+2024-05-26 13:19:22,239 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:19:22,600 INFO  [Log] Successfully entered the username  
+2024-05-26 13:19:22,829 INFO  [Log] Successfully entered the password  
+2024-05-26 13:19:24,107 INFO  [Log] Login successful. 
+2024-05-26 13:19:24,126 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-05-26 13:19:24,126 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:19:27,107 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-26 13:19:27,678 INFO  [Log] Current date is displayed and clicked successfully 
+2024-05-26 13:19:28,038 INFO  [Log] Eightpm linke is clicke successfully 
+2024-05-26 13:19:28,197 INFO  [Log] Subject combo icon is clicked successfully 
+2024-05-26 13:19:28,812 INFO  [Log] Successfully clicked on other and switched the window 
+2024-05-26 13:19:28,890 INFO  [Log] Successfully clicked on end tme field 
+2024-05-26 13:19:28,958 INFO  [Log] Successfully clicked on Nine pm form the dropdown 
+2024-05-26 13:19:29,936 INFO  [Log] Successfullly clicked on save button 
+2024-05-26 13:19:29,936 INFO  [Log] ***************             -E---N---D-TestCase37 is ended successfully         *************** 
+2024-05-26 13:19:56,457 INFO  [Log] Login TestCase 
+2024-05-26 13:19:59,604 INFO  [Log] Login TestCase 
+2024-05-26 13:20:02,886 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:20:03,060 INFO  [Log] Successfully entered the username  
+2024-05-26 13:20:03,385 INFO  [Log] Successfully entered the password  
+2024-05-26 13:20:04,712 INFO  [Log] Login successful. 
+2024-05-26 13:20:06,187 INFO  [Log] Login TestCase 
+2024-05-26 13:20:09,432 INFO  [Log] Login TestCase 
+2024-05-26 13:20:12,760 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:20:13,099 INFO  [Log] Successfully entered the username  
+2024-05-26 13:20:13,448 INFO  [Log] Successfully entered the password  
+2024-05-26 13:20:14,877 INFO  [Log] Login successful. 
+2024-05-26 13:20:15,037 INFO  [Log] TestCase26 create new Contacts 
+2024-05-26 13:20:15,037 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:20:15,037 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-05-26 13:20:15,038 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:20:15,037 INFO  [Log] TestCase 38 Blocking an event in the calendar with weekly recurrence 
+2024-05-26 13:20:15,037 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-05-26 13:20:15,041 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:20:15,037 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-05-26 13:20:15,042 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:20:15,041 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:20:15,756 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:20:16,332 INFO  [Log] New button is clicked 
+2024-05-26 13:20:16,492 INFO  [Log] LastName is entered successfully 
+2024-05-26 13:20:16,676 INFO  [Log] lookup icon is clicked successfully 
+2024-05-26 13:20:17,221 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-26 13:20:17,277 INFO  [Log] Account name is selected from lookup icon window successfully 
+2024-05-26 13:20:17,306 INFO  [Log] TestCase 25 check new button on leads home  
+2024-05-26 13:20:17,310 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:20:18,075 INFO  [Log] Current date is displayed and clicked successfully 
+2024-05-26 13:20:18,687 INFO  [Log] Eightpm linke is clicke successfully 
+2024-05-26 13:20:18,892 INFO  [Log] Subject combo icon is clicked successfully 
+2024-05-26 13:20:19,581 INFO  [Log] Successfully clicked on other and switched the window 
+2024-05-26 13:20:19,738 INFO  [Log] Successfully clicked on end tme field 
+2024-05-26 13:20:19,785 INFO  [Log] New Contacts is created. 
+2024-05-26 13:20:19,785 INFO  [Log] ***************             -E---N---D-TestCase 26 is ended         *************** 
+2024-05-26 13:20:19,785 INFO  [Log] TestCase27 create new view 
+2024-05-26 13:20:19,785 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:20:19,864 INFO  [Log] Successfully clicked on Nine pm form the dropdown 
+2024-05-26 13:20:20,181 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:20:20,652 INFO  [Log] Successfullly clicked on save button 
+2024-05-26 13:20:20,653 INFO  [Log] ***************             -E---N---D-TestCase37 is ended successfully         *************** 
+2024-05-26 13:20:20,661 INFO  [Log] TestCase31 Create new view in contacts 
+2024-05-26 13:20:20,662 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:20:20,735 INFO  [Log] New View Link is clicked successfully 
+2024-05-26 13:20:21,078 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:20:21,100 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-26 13:20:21,178 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 13:20:21,178 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-05-26 13:20:21,178 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-05-26 13:20:21,563 INFO  [Log] Create new view link is clicked successfully. 
+2024-05-26 13:20:21,789 INFO  [Log] View Unique name is entered 
+2024-05-26 13:20:22,292 INFO  [Log] Error Message is displayed 
+2024-05-26 13:20:22,292 INFO  [Log] ***************             -E---N---D-TestCase31 is ended         *************** 
+2024-05-26 13:20:22,298 INFO  [Log] TestCase : 13 - Edit Account 
+2024-05-26 13:20:23,063 INFO  [Log] Account tab is clicked. 
+2024-05-26 13:20:23,098 INFO  [Log] MyProfile is clicked. 
+2024-05-26 13:20:23,247 INFO  [Log] View name is selected. 
+2024-05-26 13:20:23,286 INFO  [Log] Edit Button next to contact is clicked. 
+2024-05-26 13:20:23,503 INFO  [Log] Successfully switched to frame. 
+2024-05-26 13:20:23,678 INFO  [Log] About tab is clicked. 
+2024-05-26 13:20:23,756 INFO  [Log] Edit link is clicked. 
+2024-05-26 13:20:23,957 INFO  [Log] Lastname is entered successfully. 
+2024-05-26 13:20:24,020 INFO  [Log] New view name is entered. 
+2024-05-26 13:20:24,156 INFO  [Log] value in field is selected. 
+2024-05-26 13:20:24,296 INFO  [Log] Operator is selected. 
+2024-05-26 13:20:24,456 INFO  [Log] Value is entered. 
+2024-05-26 13:20:24,600 INFO  [Log] TestCase 21 check leads Tab link 
+2024-05-26 13:20:24,600 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:20:24,807 INFO  [Log] Save All button is clicked. 
+2024-05-26 13:20:25,184 INFO  [Log] Successfully switched to default frame. 
+2024-05-26 13:20:25,184 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 13:20:26,689 INFO  [Log] Posted Successfully 
+2024-05-26 13:20:55,327 INFO  [Log] testCase 14 Merge Accounts 
+2024-05-26 13:20:55,327 INFO  [Log] ****************           -S-T-A-R-T-Merge accounts is started       **************** 
+2024-05-26 13:20:55,393 INFO  [Log] TestCase 8 Edit my Setings started 
+2024-05-26 13:20:55,399 INFO  [Log] TestCase 20 Test Quaterly summary 
+2024-05-26 13:20:55,399 INFO  [Log] ****************           -S-T-A-R-T-Test is Started       **************** 
+2024-05-26 13:20:57,536 INFO  [Log] TestCase 24 select view from dropdown in Leads page  
+2024-05-26 13:20:57,536 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:20:57,685 INFO  [Log] TEstcase 34 verify First and lastname on home page and myprofile is same  
+2024-05-26 13:20:57,685 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:20:57,689 INFO  [Log] TEstcase 35 verify First and lastname at various places 
+2024-05-26 13:20:57,690 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:20:57,694 INFO  [Log]  TestCase 6 user menu dropdown started 
+2024-05-26 13:22:56,856 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:22:57,207 INFO  [Log] Successfully entered the username  
+2024-05-26 13:22:57,363 INFO  [Log] Successfully entered the password  
+2024-05-26 13:22:58,636 INFO  [Log] Login successful. 
+2024-05-26 13:22:58,652 INFO  [Log] TestCase 38 Blocking an event in the calendar with weekly recurrence 
+2024-05-26 13:22:58,652 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:23:01,682 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-26 13:23:02,518 INFO  [Log] Current date is displayed and clicked successfully 
+2024-05-26 13:23:02,973 INFO  [Log] fourpm link is clicked successfully 
+2024-05-26 13:23:03,130 INFO  [Log] Subject combo icon is clicked successfully 
+2024-05-26 13:23:03,758 INFO  [Log] Successfully clicked on other and switched the window 
+2024-05-26 13:23:03,867 INFO  [Log] Successfully clicked on end tme field 
+2024-05-26 13:23:03,927 INFO  [Log] Successfully clicked on Nine pm form the dropdown 
+2024-05-26 13:23:03,993 INFO  [Log] recurrence is clicked succesfully 
+2024-05-26 13:23:04,103 INFO  [Log] Frequency is selected succesfully 
+2024-05-26 13:23:04,216 INFO  [Log] End date is selected succesfully 
+2024-05-26 13:23:04,393 INFO  [Log] Date is selected From calendar of 2 weeks from current date 
+2024-05-26 13:23:05,087 INFO  [Log] Successfullly clicked on save button 
+2024-05-26 13:23:05,087 INFO  [Log] ***************             -E---N---D-TestCase38 is ended successfully         *************** 
+2024-05-26 13:24:08,109 INFO  [Log] Login TestCase 
+2024-05-26 13:24:11,441 INFO  [Log] Login TestCase 
+2024-05-26 13:24:14,698 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:24:14,872 INFO  [Log] Successfully entered the username  
+2024-05-26 13:24:15,199 INFO  [Log] Successfully entered the password  
+2024-05-26 13:24:16,743 INFO  [Log] Login successful. 
+2024-05-26 13:24:18,289 INFO  [Log] Login TestCase 
+2024-05-26 13:24:21,865 INFO  [Log] Login TestCase 
+2024-05-26 13:24:25,520 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:24:25,800 INFO  [Log] Successfully entered the username  
+2024-05-26 13:24:26,162 INFO  [Log] Successfully entered the password  
+2024-05-26 13:24:27,522 INFO  [Log] Login successful. 
+2024-05-26 13:24:27,662 INFO  [Log] TestCase26 create new Contacts 
+2024-05-26 13:24:27,662 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-05-26 13:24:27,662 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:24:27,662 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:24:27,662 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-05-26 13:24:27,662 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-05-26 13:24:27,662 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:24:27,662 INFO  [Log] TestCase 38 Blocking an event in the calendar with weekly recurrence 
+2024-05-26 13:24:27,662 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:24:27,662 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:24:28,286 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:24:28,944 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-26 13:24:29,021 INFO  [Log] New button is clicked 
+2024-05-26 13:24:29,032 INFO  [Log] TestCase 25 check new button on leads home  
+2024-05-26 13:24:29,032 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:24:29,178 INFO  [Log] LastName is entered successfully 
+2024-05-26 13:24:29,362 INFO  [Log] lookup icon is clicked successfully 
+2024-05-26 13:24:29,752 INFO  [Log] Current date is displayed and clicked successfully 
+2024-05-26 13:24:29,920 INFO  [Log] Account name is selected from lookup icon window successfully 
+2024-05-26 13:24:30,259 INFO  [Log] Eightpm linke is clicke successfully 
+2024-05-26 13:24:30,494 INFO  [Log] Subject combo icon is clicked successfully 
+2024-05-26 13:24:30,871 INFO  [Log] Successfully clicked on other and switched the window 
+2024-05-26 13:24:30,998 INFO  [Log] Successfully clicked on end tme field 
+2024-05-26 13:24:31,077 INFO  [Log] Successfully clicked on Nine pm form the dropdown 
+2024-05-26 13:24:31,862 INFO  [Log] New Contacts is created. 
+2024-05-26 13:24:31,862 INFO  [Log] ***************             -E---N---D-TestCase 26 is ended         *************** 
+2024-05-26 13:24:31,868 INFO  [Log] TestCase27 create new view 
+2024-05-26 13:24:31,868 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:24:32,104 INFO  [Log] Successfullly clicked on save button 
+2024-05-26 13:24:32,104 INFO  [Log] ***************             -E---N---D-TestCase37 is ended successfully         *************** 
+2024-05-26 13:24:32,108 INFO  [Log] TestCase31 Create new view in contacts 
+2024-05-26 13:24:32,108 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:24:32,277 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:24:32,675 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:24:32,688 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-26 13:24:32,762 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 13:24:32,762 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-05-26 13:24:32,762 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-05-26 13:24:33,201 INFO  [Log] Create new view link is clicked successfully. 
+2024-05-26 13:24:33,421 INFO  [Log] View Unique name is entered 
+2024-05-26 13:24:33,856 INFO  [Log] Error Message is displayed 
+2024-05-26 13:24:33,856 INFO  [Log] ***************             -E---N---D-TestCase31 is ended         *************** 
+2024-05-26 13:24:33,859 INFO  [Log] TestCase : 13 - Edit Account 
+2024-05-26 13:24:34,399 INFO  [Log] MyProfile is clicked. 
+2024-05-26 13:24:34,473 INFO  [Log] Account tab is clicked. 
+2024-05-26 13:24:34,554 INFO  [Log] Edit Button next to contact is clicked. 
+2024-05-26 13:24:34,632 INFO  [Log] View name is selected. 
+2024-05-26 13:24:34,800 INFO  [Log] Successfully switched to frame. 
+2024-05-26 13:24:34,953 INFO  [Log] About tab is clicked. 
+2024-05-26 13:24:35,111 INFO  [Log] Edit link is clicked. 
+2024-05-26 13:24:35,222 INFO  [Log] Lastname is entered successfully. 
+2024-05-26 13:24:35,319 INFO  [Log] New view name is entered. 
+2024-05-26 13:24:35,422 INFO  [Log] value in field is selected. 
+2024-05-26 13:24:35,530 INFO  [Log] Operator is selected. 
+2024-05-26 13:24:35,712 INFO  [Log] Value is entered. 
+2024-05-26 13:24:35,761 INFO  [Log] Save All button is clicked. 
+2024-05-26 13:24:35,887 INFO  [Log] TestCase 21 check leads Tab link 
+2024-05-26 13:24:35,887 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:24:37,339 INFO  [Log] Successfully switched to default frame. 
+2024-05-26 13:24:37,339 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 13:24:38,712 INFO  [Log] Posted Successfully 
+2024-05-26 13:24:39,198 INFO  [Log] File is shared successfully. 
+2024-05-26 13:25:07,835 INFO  [Log] testCase 14 Merge Accounts 
+2024-05-26 13:25:07,835 INFO  [Log] ****************           -S-T-A-R-T-Merge accounts is started       **************** 
+2024-05-26 13:25:07,914 INFO  [Log] TestCase 8 Edit my Setings started 
+2024-05-26 13:25:07,929 INFO  [Log] TestCase 20 Test Quaterly summary 
+2024-05-26 13:25:07,929 INFO  [Log] ****************           -S-T-A-R-T-Test is Started       **************** 
+2024-05-26 13:25:09,011 INFO  [Log] TestCase 24 select view from dropdown in Leads page  
+2024-05-26 13:25:09,011 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:25:09,106 INFO  [Log] TEstcase 34 verify First and lastname on home page and myprofile is same  
+2024-05-26 13:25:09,106 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:25:09,106 INFO  [Log] TEstcase 35 verify First and lastname at various places 
+2024-05-26 13:25:09,106 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:25:09,106 INFO  [Log]  TestCase 6 user menu dropdown started 
+2024-05-26 13:26:14,102 INFO  [Log] Login TestCase 
+2024-05-26 13:26:17,380 INFO  [Log] Login TestCase 
+2024-05-26 13:26:20,824 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:26:21,046 INFO  [Log] Successfully entered the username  
+2024-05-26 13:26:21,175 INFO  [Log] Successfully entered the password  
+2024-05-26 13:26:22,460 INFO  [Log] Login successful. 
+2024-05-26 13:26:23,934 INFO  [Log] Login TestCase 
+2024-05-26 13:26:27,430 INFO  [Log] Login TestCase 
+2024-05-26 13:26:30,715 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:26:30,916 INFO  [Log] Successfully entered the username  
+2024-05-26 13:26:31,318 INFO  [Log] Successfully entered the password  
+2024-05-26 13:26:32,804 INFO  [Log] Login successful. 
+2024-05-26 13:26:32,983 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-05-26 13:26:32,983 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:26:32,983 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-05-26 13:26:32,984 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:26:32,983 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-05-26 13:26:32,983 INFO  [Log] TestCase 38 Blocking an event in the calendar with weekly recurrence 
+2024-05-26 13:26:32,987 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:26:32,983 INFO  [Log] TestCase26 create new Contacts 
+2024-05-26 13:26:32,986 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:26:32,987 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:26:33,798 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:26:34,398 INFO  [Log] New button is clicked 
+2024-05-26 13:26:34,460 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-26 13:26:34,549 INFO  [Log] TestCase 25 check new button on leads home  
+2024-05-26 13:26:34,550 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:26:34,571 INFO  [Log] LastName is entered successfully 
+2024-05-26 13:26:34,818 INFO  [Log] lookup icon is clicked successfully 
+2024-05-26 13:26:35,306 INFO  [Log] Current date is displayed and clicked successfully 
+2024-05-26 13:26:35,556 INFO  [Log] Account name is selected from lookup icon window successfully 
+2024-05-26 13:26:35,870 INFO  [Log] fourpm link is clicked successfully 
+2024-05-26 13:26:36,069 INFO  [Log] Subject combo icon is clicked successfully 
+2024-05-26 13:26:36,696 INFO  [Log] Successfully clicked on other and switched the window 
+2024-05-26 13:26:36,853 INFO  [Log] Successfully clicked on end tme field 
+2024-05-26 13:26:37,010 INFO  [Log] Successfully clicked on Nine pm form the dropdown 
+2024-05-26 13:26:37,161 INFO  [Log] recurrence is clicked succesfully 
+2024-05-26 13:26:37,273 INFO  [Log] Frequency is selected succesfully 
+2024-05-26 13:26:37,367 INFO  [Log] End date is selected succesfully 
+2024-05-26 13:26:37,586 INFO  [Log] Date is selected From calendar of 2 weeks from current date 
+2024-05-26 13:26:37,762 INFO  [Log] New Contacts is created. 
+2024-05-26 13:26:37,763 INFO  [Log] ***************             -E---N---D-TestCase 26 is ended         *************** 
+2024-05-26 13:26:37,766 INFO  [Log] TestCase27 create new view 
+2024-05-26 13:26:37,766 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:26:38,249 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:26:38,679 INFO  [Log] Successfullly clicked on save button 
+2024-05-26 13:26:38,679 INFO  [Log] ***************             -E---N---D-TestCase38 is ended successfully         *************** 
+2024-05-26 13:26:38,688 INFO  [Log] TestCase31 Create new view in contacts 
+2024-05-26 13:26:38,688 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:26:38,857 INFO  [Log] New View Link is clicked successfully 
+2024-05-26 13:26:39,236 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:26:39,249 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-26 13:26:39,331 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 13:26:39,332 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-05-26 13:26:39,332 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-05-26 13:26:39,720 INFO  [Log] Create new view link is clicked successfully. 
+2024-05-26 13:26:39,982 INFO  [Log] View Unique name is entered 
+2024-05-26 13:26:40,423 INFO  [Log] Error Message is displayed 
+2024-05-26 13:26:40,423 INFO  [Log] ***************             -E---N---D-TestCase31 is ended         *************** 
+2024-05-26 13:26:40,428 INFO  [Log] TestCase : 13 - Edit Account 
+2024-05-26 13:26:40,905 INFO  [Log] MyProfile is clicked. 
+2024-05-26 13:26:40,993 INFO  [Log] Account tab is clicked. 
+2024-05-26 13:26:41,069 INFO  [Log] Edit Button next to contact is clicked. 
+2024-05-26 13:26:41,144 INFO  [Log] View name is selected. 
+2024-05-26 13:26:41,283 INFO  [Log] Successfully switched to frame. 
+2024-05-26 13:26:41,458 INFO  [Log] About tab is clicked. 
+2024-05-26 13:26:41,703 INFO  [Log] Edit link is clicked. 
+2024-05-26 13:26:41,767 INFO  [Log] Lastname is entered successfully. 
+2024-05-26 13:26:41,920 INFO  [Log] New view name is entered. 
+2024-05-26 13:26:42,012 INFO  [Log] value in field is selected. 
+2024-05-26 13:26:42,153 INFO  [Log] Operator is selected. 
+2024-05-26 13:26:42,307 INFO  [Log] Value is entered. 
+2024-05-26 13:26:42,360 INFO  [Log] Save All button is clicked. 
+2024-05-26 13:26:42,460 INFO  [Log] TestCase 21 check leads Tab link 
+2024-05-26 13:26:42,460 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:26:42,743 INFO  [Log] Successfully switched to default frame. 
+2024-05-26 13:26:42,744 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 13:26:44,228 INFO  [Log] Posted Successfully 
+2024-05-26 13:26:44,629 INFO  [Log] testCase 14 Merge Accounts 
+2024-05-26 13:26:44,629 INFO  [Log] ****************           -S-T-A-R-T-Merge accounts is started       **************** 
+2024-05-26 13:26:45,730 INFO  [Log] TestCase 8 Edit my Setings started 
+2024-05-26 13:26:45,823 INFO  [Log] Usermenu dropdown is clicked. 
+2024-05-26 13:26:47,824 INFO  [Log] salesforce chatter is selected 
+2024-05-26 13:26:48,477 INFO  [Log] Report tab is added. 
+2024-05-26 13:26:48,529 INFO  [Log] Usermenu dropdown is clicked. 
+2024-05-26 13:26:49,769 INFO  [Log] Alert is Accepted 
+2024-05-26 13:26:50,880 INFO  [Log] Test reminder button is clicked. 
+2024-05-26 13:26:52,890 INFO  [Log] TestCase 20 Test Quaterly summary 
+2024-05-26 13:26:52,890 INFO  [Log] ****************           -S-T-A-R-T-Test is Started       **************** 
+2024-05-26 13:26:53,700 INFO  [Log] Current and Next FQ is selected. 
+2024-05-26 13:26:53,833 INFO  [Log] TestCase 24 select view from dropdown in Leads page  
+2024-05-26 13:26:53,833 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:27:13,285 INFO  [Log] TEstcase 34 verify First and lastname on home page and myprofile is same  
+2024-05-26 13:27:13,285 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:27:13,352 INFO  [Log] TEstcase 35 verify First and lastname at various places 
+2024-05-26 13:27:13,352 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:27:14,175 INFO  [Log] HomeTab is clicked successfully 
+2024-05-26 13:27:14,657 INFO  [Log]  TestCase 6 user menu dropdown started 
+2024-05-26 13:27:14,929 INFO  [Log] HomeTab is clicked successfully 
+2024-05-26 13:27:15,076 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 13:27:15,077 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 13:27:15,881 INFO  [Log] profile page is displayed 
+2024-05-26 13:27:16,007 INFO  [Log] edit button is clicked successfully 
+2024-05-26 13:27:16,155 INFO  [Log] Switch to about frame successfully 
+2024-05-26 13:27:16,262 INFO  [Log] Clicked on about tab successfully 
+2024-05-26 13:27:16,426 INFO  [Log] LastName entered successfully 
+2024-05-26 13:27:17,098 INFO  [Log] save all button is clicked 
+2024-05-26 13:27:17,099 INFO  [Log] Lastname is edited on every page. 
+2024-05-26 13:27:17,099 INFO  [Log] ***************             -E---N---D-Testcase 35 is ended successfully         *************** 
+2024-05-26 13:28:23,014 INFO  [Log] Login TestCase 
+2024-05-26 13:28:24,850 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-05-26 13:28:24,850 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:06,572 INFO  [Log] Login TestCase 
+2024-05-26 13:34:08,381 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-05-26 13:34:08,381 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:09,988 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:34:10,087 INFO  [Log] All options are present in view Dropdown 
+2024-05-26 13:34:10,087 INFO  [Log] ***************             -E---N---D-TestCase22 is ended.         *************** 
+2024-05-26 13:34:27,776 INFO  [Log] Login TestCase 
+2024-05-26 13:34:31,097 INFO  [Log] Login TestCase 
+2024-05-26 13:34:34,152 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:34:34,410 INFO  [Log] Successfully entered the username  
+2024-05-26 13:34:34,720 INFO  [Log] Successfully entered the password  
+2024-05-26 13:34:36,156 INFO  [Log] Login successful. 
+2024-05-26 13:34:37,652 INFO  [Log] Login TestCase 
+2024-05-26 13:34:41,077 INFO  [Log] Login TestCase 
+2024-05-26 13:34:44,528 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:34:44,725 INFO  [Log] Successfully entered the username  
+2024-05-26 13:34:44,940 INFO  [Log] Successfully entered the password  
+2024-05-26 13:34:46,221 INFO  [Log] Login successful. 
+2024-05-26 13:34:46,362 INFO  [Log] TestCase 37 Blocking an event in the calendar 
+2024-05-26 13:34:46,363 INFO  [Log] TestCase 38 Blocking an event in the calendar with weekly recurrence 
+2024-05-26 13:34:46,363 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:46,363 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-05-26 13:34:46,363 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-05-26 13:34:46,365 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:46,362 INFO  [Log] TestCase26 create new Contacts 
+2024-05-26 13:34:46,365 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:46,363 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:46,366 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:46,454 INFO  [Log] TestCase 25 check new button on leads home  
+2024-05-26 13:34:46,455 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:47,198 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:34:47,214 INFO  [Log] TestCase27 create new view 
+2024-05-26 13:34:47,214 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:47,441 INFO  [Log] TestCase31 Create new view in contacts 
+2024-05-26 13:34:47,441 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:47,561 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-26 13:34:47,584 INFO  [Log] All options are present in view Dropdown 
+2024-05-26 13:34:47,584 INFO  [Log] ***************             -E---N---D-TestCase22 is ended.         *************** 
+2024-05-26 13:34:47,592 INFO  [Log] TestCase : 13 - Edit Account 
+2024-05-26 13:34:47,623 INFO  [Log] TestCase 21 check leads Tab link 
+2024-05-26 13:34:47,623 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:47,654 INFO  [Log] Home Tab is clicked Successfully 
+2024-05-26 13:34:47,706 INFO  [Log] testCase 14 Merge Accounts 
+2024-05-26 13:34:47,706 INFO  [Log] ****************           -S-T-A-R-T-Merge accounts is started       **************** 
+2024-05-26 13:34:47,728 INFO  [Log] TestCase 8 Edit my Setings started 
+2024-05-26 13:34:47,790 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 13:34:47,791 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-05-26 13:34:47,791 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-05-26 13:34:47,907 INFO  [Log] Usermenu dropdown is clicked. 
+2024-05-26 13:34:47,985 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:34:47,990 INFO  [Log] TestCase 20 Test Quaterly summary 
+2024-05-26 13:34:47,990 INFO  [Log] ****************           -S-T-A-R-T-Test is Started       **************** 
+2024-05-26 13:34:48,495 INFO  [Log] Current date is displayed and clicked successfully 
+2024-05-26 13:34:48,500 INFO  [Log] New button is clicked successfully 
+2024-05-26 13:34:48,827 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:34:48,828 INFO  [Log] ***************             -E---N---D-TestCase is ended.         *************** 
+2024-05-26 13:34:48,831 INFO  [Log] TestCase 24 select view from dropdown in Leads page  
+2024-05-26 13:34:48,832 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:48,839 INFO  [Log] TEstcase 34 verify First and lastname on home page and myprofile is same  
+2024-05-26 13:34:48,841 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:49,032 INFO  [Log] fourpm link is clicked successfully 
+2024-05-26 13:34:49,208 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:34:49,267 INFO  [Log] Subject combo icon is clicked successfully 
+2024-05-26 13:34:49,349 INFO  [Log] Today's lead is selected 
+2024-05-26 13:34:49,499 INFO  [Log] Today's lead is diplayed 
+2024-05-26 13:34:49,500 INFO  [Log] ***************             -E---N---D-TestCase24 is ended.         *************** 
+2024-05-26 13:34:49,504 INFO  [Log] TEstcase 35 verify First and lastname at various places 
+2024-05-26 13:34:49,504 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:34:49,648 INFO  [Log] Successfully clicked on other and switched the window 
+2024-05-26 13:34:49,791 INFO  [Log] Successfully clicked on end tme field 
+2024-05-26 13:34:49,880 INFO  [Log] HomeTab is clicked successfully 
+2024-05-26 13:34:49,880 INFO  [Log] Successfully clicked on Nine pm form the dropdown 
+2024-05-26 13:34:49,971 INFO  [Log]  TestCase 6 user menu dropdown started 
+2024-05-26 13:34:50,043 INFO  [Log] recurrence is clicked succesfully 
+2024-05-26 13:34:50,206 INFO  [Log] Frequency is selected succesfully 
+2024-05-26 13:34:50,325 INFO  [Log] End date is selected succesfully 
+2024-05-26 13:34:50,555 INFO  [Log] Date is selected From calendar of 2 weeks from current date 
+2024-05-26 13:34:50,652 INFO  [Log] HomeTab is clicked successfully 
+2024-05-26 13:34:50,758 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 13:34:50,758 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 13:34:51,534 INFO  [Log] Successfullly clicked on save button 
+2024-05-26 13:34:51,535 INFO  [Log] ***************             -E---N---D-TestCase38 is ended successfully         *************** 
+2024-05-26 13:34:51,929 INFO  [Log] MyProfile is clicked. 
+2024-05-26 13:34:52,064 INFO  [Log] Edit Button next to contact is clicked. 
+2024-05-26 13:34:52,344 INFO  [Log] Successfully switched to frame. 
+2024-05-26 13:34:52,517 INFO  [Log] About tab is clicked. 
+2024-05-26 13:34:52,710 INFO  [Log] Lastname is entered successfully. 
+2024-05-26 13:34:53,502 INFO  [Log] Save All button is clicked. 
+2024-05-26 13:34:53,817 INFO  [Log] Successfully switched to default frame. 
+2024-05-26 13:34:53,817 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 13:34:55,200 INFO  [Log] Posted Successfully 
+2024-05-26 13:34:55,697 INFO  [Log] File is shared successfully. 
+2024-05-26 13:38:32,424 INFO  [Log] Login TestCase 
+2024-05-26 13:38:34,223 INFO  [Log] TestCase26 create new Contacts 
+2024-05-26 13:38:34,223 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:38:35,992 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:38:36,457 INFO  [Log] New button is clicked 
+2024-05-26 13:38:36,604 INFO  [Log] LastName is entered successfully 
+2024-05-26 13:38:36,756 INFO  [Log] lookup icon is clicked successfully 
+2024-05-26 13:38:37,504 INFO  [Log] Account name is selected from lookup icon window successfully 
+2024-05-26 13:38:39,191 INFO  [Log] New Contacts is created. 
+2024-05-26 13:38:39,192 INFO  [Log] ***************             -E---N---D-TestCase 26 is ended         *************** 
+2024-05-26 13:38:39,197 INFO  [Log] TestCase33 create new Contacts 
+2024-05-26 13:38:39,197 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:38:39,517 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:38:39,868 INFO  [Log] New button is clicked 
+2024-05-26 13:38:40,028 INFO  [Log] LastName is entered successfully 
+2024-05-26 13:38:40,152 INFO  [Log] lookup icon is clicked successfully 
+2024-05-26 13:38:40,590 INFO  [Log] Account name is selected from lookup icon window successfully 
+2024-05-26 13:38:41,446 INFO  [Log] New Contacts is created and new window is opened. 
+2024-05-26 13:38:41,446 INFO  [Log] ***************             -E---N---D-TestCase 33 is ended         *************** 
+2024-05-26 13:38:41,449 INFO  [Log] TestCase27 create new view 
+2024-05-26 13:38:41,449 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:38:41,823 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:38:42,289 INFO  [Log] New View Link is clicked successfully 
+2024-05-26 13:38:42,427 INFO  [Log] New View Name is entered successfully 
+2024-05-26 13:38:42,716 INFO  [Log] New View Unique Name is entered successfully 
+2024-05-26 13:38:43,001 INFO  [Log] New View in contacts is created successfully 
+2024-05-26 13:38:43,001 INFO  [Log] ***************             -E---N---D-TestCase 27 is ended successfully         *************** 
+2024-05-26 13:38:43,016 INFO  [Log] TestCase32 create new Contacts 
+2024-05-26 13:38:43,016 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:38:43,445 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:38:43,767 INFO  [Log] New View Link is clicked successfully 
+2024-05-26 13:38:43,859 INFO  [Log] New View Name is entered successfully 
+2024-05-26 13:38:44,107 INFO  [Log] New View Unique Name is entered successfully 
+2024-05-26 13:38:44,511 INFO  [Log] Cancel button is clicked successfully 
+2024-05-26 13:38:44,511 INFO  [Log] ***************             -E---N---D-TestCase 27 is ended successfully         *************** 
+2024-05-26 13:38:44,511 INFO  [Log] TestCase31 Create new view in contacts 
+2024-05-26 13:38:44,511 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:38:44,829 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:38:45,156 INFO  [Log] Create new view link is clicked successfully. 
+2024-05-26 13:38:45,372 INFO  [Log] View Unique name is entered 
+2024-05-26 13:38:45,723 INFO  [Log] Error Message is displayed 
+2024-05-26 13:38:45,723 INFO  [Log] ***************             -E---N---D-TestCase31 is ended         *************** 
+2024-05-26 13:38:45,723 INFO  [Log] TestCase28 create new Contacts 
+2024-05-26 13:38:45,723 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:38:46,108 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:38:46,216 INFO  [Log] Recent created contacts are displayed. 
+2024-05-26 13:38:46,216 INFO  [Log] ***************             -E---N---D-TestCase28 is ended         *************** 
+2024-05-26 13:38:46,217 INFO  [Log] TestCase30 View recent contacts 
+2024-05-26 13:38:46,217 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:38:46,512 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:38:47,054 INFO  [Log] Recent contacts are displayed successfully. 
+2024-05-26 13:38:47,055 INFO  [Log] ***************             -E---N---D-TestCase30 is ended         *************** 
+2024-05-26 13:38:47,057 INFO  [Log] TestCase29 Select view in Contacts 
+2024-05-26 13:38:47,057 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:38:47,358 INFO  [Log] Contacts tab is clicked 
+2024-05-26 13:38:47,467 INFO  [Log] view is selected successfully. 
+2024-05-26 13:38:47,468 INFO  [Log] ***************             -E---N---D-TestCase29 is ended         *************** 
+2024-05-26 13:39:20,378 INFO  [Log] Login TestCase 
+2024-05-26 13:39:22,088 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-05-26 13:39:22,088 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:39:23,862 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:39:23,983 INFO  [Log] Today's lead is selected 
+2024-05-26 13:39:24,049 INFO  [Log] UserMenu is clicked successfully. 
+2024-05-26 13:39:24,331 INFO  [Log] Logout Succesfully 
+2024-05-26 13:39:25,518 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-05-26 13:39:25,519 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Test started       **************** 
+2024-05-26 13:39:25,522 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-05-26 13:39:25,522 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:40:06,023 INFO  [Log] TestCase 25 check new button on leads home  
+2024-05-26 13:40:06,023 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:40:46,090 INFO  [Log] TestCase 21 check leads Tab link 
+2024-05-26 13:40:46,091 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:41:03,405 INFO  [Log] Login TestCase 
+2024-05-26 13:41:05,181 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-05-26 13:41:05,181 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:41:06,900 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:41:07,018 INFO  [Log] Today's lead is selected 
+2024-05-26 13:41:07,095 INFO  [Log] UserMenu is clicked successfully. 
+2024-05-26 13:41:07,366 INFO  [Log] Logout Succesfully 
+2024-05-26 13:41:08,401 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-05-26 13:41:08,401 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Test started       **************** 
+2024-05-26 13:41:08,407 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-05-26 13:41:08,407 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:41:48,673 INFO  [Log] TestCase 25 check new button on leads home  
+2024-05-26 13:41:48,673 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:43:15,504 INFO  [Log] Login TestCase 
+2024-05-26 13:43:17,535 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-05-26 13:43:17,536 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:43:19,219 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:43:19,355 INFO  [Log] Today's lead is selected 
+2024-05-26 13:43:19,414 INFO  [Log] UserMenu is clicked successfully. 
+2024-05-26 13:43:19,702 INFO  [Log] Logout Succesfully 
+2024-05-26 13:43:20,644 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-05-26 13:43:20,644 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Test started       **************** 
+2024-05-26 13:43:20,794 INFO  [Log] Login TestCase 
+2024-05-26 13:43:22,719 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-05-26 13:43:22,720 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:43:23,088 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:43:23,192 INFO  [Log] All options are present in view Dropdown 
+2024-05-26 13:43:23,192 INFO  [Log] ***************             -E---N---D-TestCase22 is ended.         *************** 
+2024-05-26 13:43:23,409 INFO  [Log] Login TestCase 
+2024-05-26 13:43:25,138 INFO  [Log] TestCase 25 check new button on leads home  
+2024-05-26 13:43:25,139 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:43:25,850 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:43:26,303 INFO  [Log] New button is clicked successfully 
+2024-05-26 13:43:26,411 INFO  [Log] Lastname is entered successfully 
+2024-05-26 13:43:26,518 INFO  [Log] Company name is entered successfully 
+2024-05-26 13:43:27,835 INFO  [Log] New View is created successfully 
+2024-05-26 13:43:27,835 INFO  [Log] ***************             -E---N---D-TestCase 25 is ended successfully         *************** 
+2024-05-26 13:43:28,005 INFO  [Log] Login TestCase 
+2024-05-26 13:43:29,282 INFO  [Log] TestCase 21 check leads Tab link 
+2024-05-26 13:43:29,282 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:43:30,702 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:43:30,702 INFO  [Log] ***************             -E---N---D-TestCase is ended.         *************** 
+2024-05-26 13:43:30,801 INFO  [Log] Login TestCase 
+2024-05-26 13:43:32,058 INFO  [Log] TestCase 24 select view from dropdown in Leads page  
+2024-05-26 13:43:32,058 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:43:33,541 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:43:33,671 INFO  [Log] Today's lead is selected 
+2024-05-26 13:43:33,782 INFO  [Log] Today's lead is diplayed 
+2024-05-26 13:43:33,782 INFO  [Log] ***************             -E---N---D-TestCase24 is ended.         *************** 
+2024-05-26 13:46:06,017 INFO  [Log] Login TestCase 
+2024-05-26 13:46:07,667 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-05-26 13:46:07,668 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:46:09,426 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:46:09,567 INFO  [Log] Today's lead is selected 
+2024-05-26 13:46:09,648 INFO  [Log] UserMenu is clicked successfully. 
+2024-05-26 13:46:10,099 INFO  [Log] Logout Succesfully 
+2024-05-26 13:46:11,228 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-05-26 13:46:11,228 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Test started       **************** 
+2024-05-26 13:49:07,858 INFO  [Log] Login TestCase 
+2024-05-26 13:49:09,620 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-05-26 13:49:09,621 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:49:11,427 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:49:11,547 INFO  [Log] Today's lead is selected 
+2024-05-26 13:49:11,621 INFO  [Log] UserMenu is clicked successfully. 
+2024-05-26 13:49:12,001 INFO  [Log] Logout Succesfully 
+2024-05-26 13:49:12,001 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-05-26 13:49:12,001 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Test started       **************** 
+2024-05-26 13:51:17,403 INFO  [Log] Login TestCase 
+2024-05-26 13:51:19,130 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-05-26 13:51:19,130 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:51:20,995 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:51:21,121 INFO  [Log] Today's lead is selected 
+2024-05-26 13:51:21,193 INFO  [Log] UserMenu is clicked successfully. 
+2024-05-26 13:51:21,486 INFO  [Log] Logout Succesfully 
+2024-05-26 13:51:25,092 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:51:29,738 INFO  [Log] Go button is clicked successfully 
+2024-05-26 13:51:29,738 INFO  [Log] ***************             -E---N---D-TestCase23 is ended.         *************** 
+2024-05-26 13:51:58,208 INFO  [Log] Login TestCase 
+2024-05-26 13:52:00,097 INFO  [Log] TestCase 23 select view from dropdown in Leads page  
+2024-05-26 13:52:00,097 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:52:01,689 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:52:01,810 INFO  [Log] Today's lead is selected 
+2024-05-26 13:52:01,878 INFO  [Log] UserMenu is clicked successfully. 
+2024-05-26 13:52:02,161 INFO  [Log] Logout Succesfully 
+2024-05-26 13:52:05,291 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:52:09,917 INFO  [Log] Go button is clicked successfully 
+2024-05-26 13:52:09,917 INFO  [Log] ***************             -E---N---D-TestCase23 is ended.         *************** 
+2024-05-26 13:52:10,038 INFO  [Log] Login TestCase 
+2024-05-26 13:52:11,313 INFO  [Log] TestCase 22 validate view dropdown list  
+2024-05-26 13:52:11,313 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:52:12,443 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:52:12,531 INFO  [Log] All options are present in view Dropdown 
+2024-05-26 13:52:12,531 INFO  [Log] ***************             -E---N---D-TestCase22 is ended.         *************** 
+2024-05-26 13:52:12,673 INFO  [Log] Login TestCase 
+2024-05-26 13:52:14,186 INFO  [Log] TestCase 25 check new button on leads home  
+2024-05-26 13:52:14,187 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:52:15,479 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:52:15,924 INFO  [Log] New button is clicked successfully 
+2024-05-26 13:52:16,041 INFO  [Log] Lastname is entered successfully 
+2024-05-26 13:52:16,153 INFO  [Log] Company name is entered successfully 
+2024-05-26 13:52:17,368 INFO  [Log] New View is created successfully 
+2024-05-26 13:52:17,368 INFO  [Log] ***************             -E---N---D-TestCase 25 is ended successfully         *************** 
+2024-05-26 13:52:17,528 INFO  [Log] Login TestCase 
+2024-05-26 13:52:19,507 INFO  [Log] TestCase 21 check leads Tab link 
+2024-05-26 13:52:19,507 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:52:19,928 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:52:19,928 INFO  [Log] ***************             -E---N---D-TestCase is ended.         *************** 
+2024-05-26 13:52:20,073 INFO  [Log] Login TestCase 
+2024-05-26 13:52:21,380 INFO  [Log] TestCase 24 select view from dropdown in Leads page  
+2024-05-26 13:52:21,380 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:52:22,479 INFO  [Log] Leads tab is clicked successfully 
+2024-05-26 13:52:22,594 INFO  [Log] Today's lead is selected 
+2024-05-26 13:52:22,728 INFO  [Log] Today's lead is diplayed 
+2024-05-26 13:52:22,729 INFO  [Log] ***************             -E---N---D-TestCase24 is ended.         *************** 
+2024-05-26 13:53:17,274 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:53:17,601 INFO  [Log] Successfully entered the username  
+2024-05-26 13:53:17,705 INFO  [Log] Successfully entered the password  
+2024-05-26 13:53:18,967 INFO  [Log] Login successful. 
+2024-05-26 13:53:18,984 INFO  [Log] Test CAse : 9  - Devloper Console 
+2024-05-26 13:53:20,364 INFO  [Log] Usermenu dropdown is clicked. 
+2024-05-26 13:53:20,509 INFO  [Log] Developer Console is clicked and window is opened. 
+2024-05-26 13:53:20,509 INFO  [Log] ***************             -E---N---D- :Developer Console Window test ended         *************** 
+2024-05-26 13:53:20,513 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-26 13:53:20,622 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 13:53:20,623 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-05-26 13:53:20,623 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-05-26 13:53:22,416 INFO  [Log] MyProfile is clicked. 
+2024-05-26 13:53:22,536 INFO  [Log] Edit Button next to contact is clicked. 
+2024-05-26 13:53:22,786 INFO  [Log] Successfully switched to frame. 
+2024-05-26 13:53:22,909 INFO  [Log] About tab is clicked. 
+2024-05-26 13:53:23,023 INFO  [Log] Lastname is entered successfully. 
+2024-05-26 13:53:23,589 INFO  [Log] Save All button is clicked. 
+2024-05-26 13:53:23,920 INFO  [Log] Successfully switched to default frame. 
+2024-05-26 13:53:23,921 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 13:53:24,420 INFO  [Log] Posted Successfully 
+2024-05-26 13:53:24,746 INFO  [Log] File is shared successfully. 
+2024-05-26 13:54:06,552 INFO  [Log] TestCase 10 logout 
+2024-05-26 13:54:06,557 INFO  [Log] TestCase 8 Edit my Setings started 
+2024-05-26 13:54:06,562 INFO  [Log] TEstcase 34 verify First and lastname on home page and myprofile is same  
+2024-05-26 13:54:06,562 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:54:06,567 INFO  [Log] TEstcase 35 verify First and lastname at various places 
+2024-05-26 13:54:06,569 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:54:06,576 INFO  [Log]  TestCase 6 user menu dropdown started 
+2024-05-26 13:55:12,307 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:55:12,671 INFO  [Log] Successfully entered the username  
+2024-05-26 13:55:12,803 INFO  [Log] Successfully entered the password  
+2024-05-26 13:55:14,106 INFO  [Log] Login successful. 
+2024-05-26 13:55:14,110 INFO  [Log]  TestCase 6 user menu dropdown started 
+2024-05-26 13:55:15,281 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 13:55:15,282 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 13:55:15,407 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:55:15,641 INFO  [Log] Successfully entered the username  
+2024-05-26 13:55:15,787 INFO  [Log] Successfully entered the password  
+2024-05-26 13:55:16,752 INFO  [Log] Login successful. 
+2024-05-26 13:55:16,753 INFO  [Log] Test CAse : 9  - Devloper Console 
+2024-05-26 13:55:17,189 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:55:17,582 INFO  [Log] Successfully entered the username  
+2024-05-26 13:55:17,684 INFO  [Log] Successfully entered the password  
+2024-05-26 13:55:18,778 INFO  [Log] Login successful. 
+2024-05-26 13:55:18,781 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-26 13:55:18,926 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:55:19,299 INFO  [Log] Successfully entered the username  
+2024-05-26 13:55:19,409 INFO  [Log] Successfully entered the password  
+2024-05-26 13:55:20,251 INFO  [Log] Login successful. 
+2024-05-26 13:55:20,252 INFO  [Log] TestCase 10 logout 
+2024-05-26 13:55:20,705 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:55:21,116 INFO  [Log] Successfully entered the username  
+2024-05-26 13:55:21,222 INFO  [Log] Successfully entered the password  
+2024-05-26 13:55:22,058 INFO  [Log] Login successful. 
+2024-05-26 13:55:22,059 INFO  [Log] TestCase 8 Edit my Setings started 
+2024-05-26 13:55:22,457 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:55:22,862 INFO  [Log] Successfully entered the username  
+2024-05-26 13:55:22,975 INFO  [Log] Successfully entered the password  
+2024-05-26 13:55:24,408 INFO  [Log] Login successful. 
+2024-05-26 13:55:24,410 INFO  [Log] TEstcase 34 verify First and lastname on home page and myprofile is same  
+2024-05-26 13:55:24,410 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:55:25,763 INFO  [Log] HomeTab is clicked successfully 
+2024-05-26 13:55:25,800 INFO  [Log] Firstname and Lastname is displayed 
+2024-05-26 13:55:26,696 INFO  [Log] Click on Name link is successful 
+2024-05-26 13:55:26,818 INFO  [Log] Homapage is as same as My profile page 
+2024-05-26 13:55:26,818 INFO  [Log] ***************             -E---N---D-Test is ended successfully         *************** 
+2024-05-26 13:55:26,974 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:55:27,358 INFO  [Log] Successfully entered the username  
+2024-05-26 13:55:27,464 INFO  [Log] Successfully entered the password  
+2024-05-26 13:55:28,318 INFO  [Log] Login successful. 
+2024-05-26 13:55:28,320 INFO  [Log] TEstcase 35 verify First and lastname at various places 
+2024-05-26 13:55:28,320 INFO  [Log] ****************           -S-T-A-R-T-Test is started       **************** 
+2024-05-26 13:55:29,676 INFO  [Log] HomeTab is clicked successfully 
+2024-05-26 13:55:30,394 INFO  [Log] profile page is displayed 
+2024-05-26 13:55:30,506 INFO  [Log] edit button is clicked successfully 
+2024-05-26 13:55:30,673 INFO  [Log] Switch to about frame successfully 
+2024-05-26 13:55:30,982 INFO  [Log] Clicked on about tab successfully 
+2024-05-26 13:55:31,158 INFO  [Log] LastName entered successfully 
+2024-05-26 13:55:31,952 INFO  [Log] save all button is clicked 
+2024-05-26 13:55:31,953 INFO  [Log] Lastname is edited on every page. 
+2024-05-26 13:55:31,953 INFO  [Log] ***************             -E---N---D-Testcase 35 is ended successfully         *************** 
+2024-05-26 13:59:03,929 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 13:59:04,251 INFO  [Log] Successfully entered the username  
+2024-05-26 13:59:04,447 INFO  [Log] Successfully entered the password  
+2024-05-26 13:59:05,691 INFO  [Log] Login successful. 
+2024-05-26 13:59:05,696 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-26 13:59:06,906 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 13:59:06,906 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-05-26 13:59:06,907 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-05-26 13:59:08,106 INFO  [Log] MyProfile is clicked. 
+2024-05-26 13:59:08,202 INFO  [Log] Edit Button next to contact is clicked. 
+2024-05-26 13:59:08,398 INFO  [Log] Successfully switched to frame. 
+2024-05-26 13:59:08,812 INFO  [Log] About tab is clicked. 
+2024-05-26 13:59:09,002 INFO  [Log] Lastname is entered successfully. 
+2024-05-26 13:59:09,838 INFO  [Log] Save All button is clicked. 
+2024-05-26 13:59:10,172 INFO  [Log] Successfully switched to default frame. 
+2024-05-26 13:59:10,173 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 13:59:11,374 INFO  [Log] Posted Successfully 
+2024-05-26 13:59:11,722 INFO  [Log] File is shared successfully. 
+2024-05-26 14:05:05,420 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 14:05:05,797 INFO  [Log] Successfully entered the username  
+2024-05-26 14:05:06,045 INFO  [Log] Successfully entered the password  
+2024-05-26 14:05:07,183 INFO  [Log] Login successful. 
+2024-05-26 14:05:07,188 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-26 14:05:08,866 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 14:05:08,866 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-05-26 14:05:08,866 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-05-26 14:05:10,647 INFO  [Log] MyProfile is clicked. 
+2024-05-26 14:05:10,765 INFO  [Log] Edit Button next to contact is clicked. 
+2024-05-26 14:05:10,970 INFO  [Log] Successfully switched to frame. 
+2024-05-26 14:05:11,313 INFO  [Log] About tab is clicked. 
+2024-05-26 14:05:11,487 INFO  [Log] Lastname is entered successfully. 
+2024-05-26 14:05:12,138 INFO  [Log] Save All button is clicked. 
+2024-05-26 14:05:12,478 INFO  [Log] Successfully switched to default frame. 
+2024-05-26 14:05:12,478 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 14:05:13,513 INFO  [Log] Posted Successfully 
+2024-05-26 14:07:37,731 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 14:07:37,971 INFO  [Log] Successfully entered the username  
+2024-05-26 14:07:38,214 INFO  [Log] Successfully entered the password  
+2024-05-26 14:07:39,446 INFO  [Log] Login successful. 
+2024-05-26 14:07:39,451 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-26 14:07:40,875 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 14:07:40,876 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-05-26 14:07:40,876 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-05-26 14:07:42,310 INFO  [Log] MyProfile is clicked. 
+2024-05-26 14:07:42,436 INFO  [Log] Edit Button next to contact is clicked. 
+2024-05-26 14:07:42,656 INFO  [Log] Successfully switched to frame. 
+2024-05-26 14:07:42,920 INFO  [Log] About tab is clicked. 
+2024-05-26 14:07:43,096 INFO  [Log] Lastname is entered successfully. 
+2024-05-26 14:07:43,625 INFO  [Log] Save All button is clicked. 
+2024-05-26 14:07:43,929 INFO  [Log] Successfully switched to default frame. 
+2024-05-26 14:07:43,929 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 14:07:45,154 INFO  [Log] Posted Successfully 
+2024-05-26 14:07:45,494 INFO  [Log] File is shared successfully. 
+2024-05-26 14:10:13,395 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 14:10:13,931 INFO  [Log] Successfully entered the username  
+2024-05-26 14:10:14,097 INFO  [Log] Successfully entered the password  
+2024-05-26 14:10:15,393 INFO  [Log] Login successful. 
+2024-05-26 14:10:15,397 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-26 14:10:16,868 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 14:10:16,868 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-05-26 14:10:16,868 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-05-26 14:10:18,297 INFO  [Log] MyProfile is clicked. 
+2024-05-26 14:10:18,431 INFO  [Log] Edit Button next to contact is clicked. 
+2024-05-26 14:10:18,718 INFO  [Log] Successfully switched to frame. 
+2024-05-26 14:10:18,950 INFO  [Log] About tab is clicked. 
+2024-05-26 14:10:19,132 INFO  [Log] Lastname is entered successfully. 
+2024-05-26 14:10:19,813 INFO  [Log] Save All button is clicked. 
+2024-05-26 14:10:20,184 INFO  [Log] Successfully switched to default frame. 
+2024-05-26 14:10:20,185 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 14:10:21,465 INFO  [Log] Posted Successfully 
+2024-05-26 14:10:21,784 INFO  [Log] File is shared successfully. 
+2024-05-26 14:15:19,231 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 14:15:19,469 INFO  [Log] Successfully entered the username  
+2024-05-26 14:15:19,810 INFO  [Log] Successfully entered the password  
+2024-05-26 14:15:21,138 INFO  [Log] Login successful. 
+2024-05-26 14:15:21,143 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-26 14:15:22,620 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 14:15:22,621 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-05-26 14:15:22,621 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-05-26 14:15:24,282 INFO  [Log] MyProfile is clicked. 
+2024-05-26 14:15:24,395 INFO  [Log] Edit Button next to contact is clicked. 
+2024-05-26 14:15:24,585 INFO  [Log] Successfully switched to frame. 
+2024-05-26 14:15:24,753 INFO  [Log] About tab is clicked. 
+2024-05-26 14:15:25,067 INFO  [Log] Lastname is entered successfully. 
+2024-05-26 14:15:25,782 INFO  [Log] Save All button is clicked. 
+2024-05-26 14:15:26,080 INFO  [Log] Successfully switched to default frame. 
+2024-05-26 14:15:26,080 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 14:15:27,150 INFO  [Log] Posted Successfully 
+2024-05-26 14:15:27,631 INFO  [Log] File is shared successfully. 
+2024-05-26 14:16:53,231 INFO  [Log]  Enter valid username and valid password 
+2024-05-26 14:16:53,565 INFO  [Log] Successfully entered the username  
+2024-05-26 14:16:53,734 INFO  [Log] Successfully entered the password  
+2024-05-26 14:16:55,145 INFO  [Log] Login successful. 
+2024-05-26 14:16:55,149 INFO  [Log] TestCase 7 Edit my profile started 
+2024-05-26 14:16:56,623 INFO  [Log] Successfully clicked on usermenudropdown 
+2024-05-26 14:16:56,623 INFO  [Log] ****************           -S-T-A-R-T- :UserMenuDropDown test started       **************** 
+2024-05-26 14:16:56,623 INFO  [Log] ****************           -S-T-A-R-T-MY profile settings tectcase started       **************** 
+2024-05-26 14:16:58,417 INFO  [Log] MyProfile is clicked. 
+2024-05-26 14:16:58,549 INFO  [Log] Edit Button next to contact is clicked. 
+2024-05-26 14:16:58,739 INFO  [Log] Successfully switched to frame. 
+2024-05-26 14:16:59,101 INFO  [Log] About tab is clicked. 
+2024-05-26 14:16:59,296 INFO  [Log] Lastname is entered successfully. 
+2024-05-26 14:16:59,887 INFO  [Log] Save All button is clicked. 
+2024-05-26 14:17:00,271 INFO  [Log] Successfully switched to default frame. 
+2024-05-26 14:17:00,271 INFO  [Log] ***************             -E---N---D- :UserMenuDropDown test ended         *************** 
+2024-05-26 14:17:01,301 INFO  [Log] Posted Successfully 
+2024-05-26 14:17:01,757 INFO  [Log] File is shared successfully. 

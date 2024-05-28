@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -29,7 +30,8 @@ public class LeadsTest extends BaseTest{
 	LeadsPage leadspage;
 	UserMenuPage usermenupage;
 	LoginTest logintest;
-	@BeforeTest
+	
+	@BeforeMethod
 	public void beforeTest() throws IOException {
 		driver = getDriver();
 		prop = new PropertiesFile();
@@ -95,7 +97,9 @@ public class LeadsTest extends BaseTest{
 		Log.info("Logout Succesfully");
 		String uname = prop.getProperties("username");
 		loginpage.enterIntoUsername(uname);
-		logintest.validLogin();
+		String passwrd = prop.getProperties("password");	
+		loginpage.enterIntoPassword(passwrd);
+		loginpage.clickLogin();
 		leadspage.clickOnLeadsTab();
 		Log.info("Leads tab is clicked successfully");
 		leadspage.ClickOnGoBtn();
@@ -140,7 +144,7 @@ public class LeadsTest extends BaseTest{
 	@AfterTest
 	public void tearDown() {
 		screenshot.takescreenshot(driver);
-		close();
+		quit();
 		}
 
 }

@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -24,7 +25,7 @@ public class UserMenuTest extends BaseTest{
 	HomePage homepage;
 	ScreenshotUtility screenshot;
 	UserMenuPage usermenupage;
-	@BeforeTest
+	@BeforeMethod
 	public void beforeTest() throws IOException {
 		driver = getDriver();
 		prop = new PropertiesFile();
@@ -50,7 +51,7 @@ public class UserMenuTest extends BaseTest{
 
 	}
 	
-	@Test(priority = 1)
+	@Test
 	public void checkTheOptionsInUserMenu() throws IOException {		
 		Log.info(" TestCase 6 user menu dropdown started");
 		usermenupage.usermenu();
@@ -107,7 +108,7 @@ public class UserMenuTest extends BaseTest{
 	homepage.clickAddPhotoLink();
 	homepage.addFrame();
 	String photopath = prop.getProperties("photopath");
-	homepage.chooseFile(photopath);
+	homepage.choosePhoto(photopath);
 	homepage.clickOnChoosePhotoBtn();
 	homepage.savePhoto();
 	Log.info("Photo is uploaded successfully.");
@@ -229,6 +230,6 @@ public class UserMenuTest extends BaseTest{
 	@AfterTest
 	public void teardown() {
 		screenshot.takescreenshot(driver); 
-		close();
+		quit();
 	}
 }
