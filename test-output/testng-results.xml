@@ -1,44 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="7" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-26T14:16:51 EDT" name="Default suite" finished-at="2024-05-26T14:17:03 EDT" duration-ms="12159">
+  <suite started-at="2024-10-16T13:50:49 CDT" name="Suite" finished-at="2024-10-16T13:51:02 CDT" duration-ms="13328">
     <groups>
     </groups>
-    <test started-at="2024-05-26T14:16:51 EDT" name="Default test" finished-at="2024-05-26T14:17:03 EDT" duration-ms="12159">
-      <class name="com.training.testcases.UserMenuTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.training.testcases.UserMenuTest@36ebc363]" started-at="2024-05-26T14:16:51 EDT" name="beforeTest" finished-at="2024-05-26T14:16:55 EDT" duration-ms="3924" status="PASS">
+    <test started-at="2024-10-16T13:50:49 CDT" name="LoginTest" finished-at="2024-10-16T13:51:02 CDT" duration-ms="13328">
+      <class name="com.training.testcases.LoginTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:50:49 CDT" name="beforeMethod" finished-at="2024-10-16T13:50:51 CDT" duration-ms="2156" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="editProfile()[pri:0, instance:com.training.testcases.UserMenuTest@36ebc363]" started-at="2024-05-26T14:16:55 EDT" name="editProfile" finished-at="2024-05-26T14:17:03 EDT" duration-ms="7872" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidLogin()[pri:1, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:50:51 CDT" name="invalidLogin" finished-at="2024-10-16T13:50:52 CDT" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:50:52 CDT" name="teardown" finished-at="2024-10-16T13:50:52 CDT" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:50:52 CDT" name="beforeMethod" finished-at="2024-10-16T13:50:54 CDT" duration-ms="1682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validLogin()[pri:2, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:50:54 CDT" name="validLogin" finished-at="2024-10-16T13:50:54 CDT" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:50:54 CDT" name="teardown" finished-at="2024-10-16T13:50:54 CDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:50:54 CDT" name="beforeMethod" finished-at="2024-10-16T13:50:56 CDT" duration-ms="1616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="checkRememberme()[pri:3, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:50:56 CDT" name="checkRememberme" finished-at="2024-10-16T13:50:57 CDT" duration-ms="900" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[element click intercepted: Element <a href="javascript:void(0);" onblur="SfdcApp.ChatterProfilePhotoSection.showHideBadgeAndPhotoLinks(false)" id="uploadLink" onfocus="SfdcApp.ChatterProfilePhotoSection.showHideBadgeAndPhotoLinks(true)" data-uidsfdc="133">...</a> is not clickable at point (121, 354). Other element would receive the click: <div class="overlayBackground" style="width: 1536px; height: 3550px; display: block;"></div>
-  (Session info: chrome=125.0.6422.61)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id ='userNavButton']"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [31e74778c61a40c950080517c03f384c, clickElement {id=f.577188034A108986C47ED1B3857DF017.d.E1A4832D051415694DCF02FC53A02E3E.e.17243}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.61, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\teena\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53020}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53020/devtoo..., se:cdpVersion: 125.0.6422.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (31e74778c61a40c950080517c03f384c)] -> xpath: //a[contains(text(),'Add Photo')]]
-Session ID: 31e74778c61a40c950080517c03f384c]]>
+Command: [2cbb7ba390737b86817dad0c302e4558, findElement {value=//div[@id ='userNavButton'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\teena\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53107}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53107/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2cbb7ba390737b86817dad0c302e4558]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0);" onblur="SfdcApp.ChatterProfilePhotoSection.showHideBadgeAndPhotoLinks(false)" id="uploadLink" onfocus="SfdcApp.ChatterProfilePhotoSection.showHideBadgeAndPhotoLinks(true)" data-uidsfdc="133">...</a> is not clickable at point (121, 354). Other element would receive the click: <div class="overlayBackground" style="width: 1536px; height: 3550px; display: block;"></div>
-  (Session info: chrome=125.0.6422.61)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id ='userNavButton']"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [31e74778c61a40c950080517c03f384c, clickElement {id=f.577188034A108986C47ED1B3857DF017.d.E1A4832D051415694DCF02FC53A02E3E.e.17243}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.61, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\teena\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53020}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53020/devtoo..., se:cdpVersion: 125.0.6422.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (31e74778c61a40c950080517c03f384c)] -> xpath: //a[contains(text(),'Add Photo')]]
-Session ID: 31e74778c61a40c950080517c03f384c
+Command: [2cbb7ba390737b86817dad0c302e4558, findElement {value=//div[@id ='userNavButton'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\teena\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53107}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53107/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2cbb7ba390737b86817dad0c302e4558
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -46,55 +70,78 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at com.training.pages.UserMenuPage.usermenu(UserMenuPage.java:128)
+at com.training.testcases.LoginTest.checkRememberme(LoginTest.java:100)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
-at com.training.pages.HomePage.clickAddPhotoLink(HomePage.java:269)
-at com.training.testcases.UserMenuTest.editProfile(UserMenuTest.java:108)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editProfile -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.UserMenuTest@36ebc363]" started-at="2024-05-26T14:17:03 EDT" name="teardown" finished-at="2024-05-26T14:17:03 EDT" duration-ms="332" status="PASS">
+        </test-method> <!-- checkRememberme -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:50:57 CDT" name="teardown" finished-at="2024-10-16T13:50:57 CDT" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.training.testcases.UserMenuTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:50:57 CDT" name="beforeMethod" finished-at="2024-10-16T13:50:59 CDT" duration-ms="1540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="forgotPasswordTest()[pri:4, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:50:59 CDT" name="forgotPasswordTest" finished-at="2024-10-16T13:51:00 CDT" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:51:00 CDT" name="teardown" finished-at="2024-10-16T13:51:00 CDT" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:51:00 CDT" name="beforeMethod" finished-at="2024-10-16T13:51:02 CDT" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="WrongUsernameAndPassword()[pri:5, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:51:02 CDT" name="WrongUsernameAndPassword" finished-at="2024-10-16T13:51:02 CDT" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongUsernameAndPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@6f43c82]" started-at="2024-10-16T13:51:02 CDT" name="teardown" finished-at="2024-10-16T13:51:02 CDT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.training.testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -31,7 +31,7 @@ public class ExtentManager {
     //Create an extent report instance
     public static ExtentReports createInstance() {
         String fileName = getReportPath(reportFilepath);
-       
+       //there are multiple reporters ,to generate a report it has to use a reporter
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(fileName);
         htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
         htmlReporter.config().setChartVisibilityOnOpen(true);

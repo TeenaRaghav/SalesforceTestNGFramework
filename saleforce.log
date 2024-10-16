@@ -4153,3 +4153,226 @@
 2024-05-30 14:28:20,057 INFO  [Log] Contacts tab is clicked 
 2024-05-30 14:28:20,136 INFO  [Log] view is selected successfully. 
 2024-05-30 14:28:20,137 INFO  [Log] ***************             -E---N---D-TestCase29 is ended         *************** 
+2024-10-15 14:57:06,410 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-10-15 14:57:06,414 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-10-15 14:57:06,525 INFO  [Log] Successfully entered the username :123 
+2024-10-15 14:57:06,596 INFO  [Log] Successfully entered the password :22131 
+2024-10-15 14:57:06,759 INFO  [Log] Login button is clicked. 
+2024-10-15 14:57:06,784 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-10-15 14:57:08,778 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-10-15 14:57:08,779 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-10-15 14:57:08,949 INFO  [Log] Succesfully entered the username 
+2024-10-15 14:57:09,056 INFO  [Log] Successfully password entered. 
+2024-10-15 14:57:09,103 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-10-15 14:57:09,609 INFO  [Log] Login successful. 
+2024-10-15 15:06:43,210 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-10-15 15:06:43,212 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-10-15 15:06:43,362 INFO  [Log] Successfully entered the username :123 
+2024-10-15 15:06:43,445 INFO  [Log] Successfully entered the password :22131 
+2024-10-15 15:06:44,139 INFO  [Log] Login button is clicked. 
+2024-10-15 15:06:44,174 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-10-15 15:06:48,241 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-10-15 15:06:48,242 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-10-15 15:06:48,361 INFO  [Log] Succesfully entered the username 
+2024-10-15 15:06:48,467 INFO  [Log] Successfully password entered. 
+2024-10-15 15:06:48,516 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-10-15 15:06:49,039 INFO  [Log] Login successful. 
+2024-10-16 10:11:36,195 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-10-16 10:11:36,200 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-10-16 10:11:36,550 INFO  [Log] Successfully entered the username :123 
+2024-10-16 10:11:36,925 INFO  [Log] Successfully entered the password :22131 
+2024-10-16 10:11:37,418 INFO  [Log] Login button is clicked. 
+2024-10-16 10:11:37,461 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-10-16 10:11:40,651 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-10-16 10:11:40,652 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-10-16 10:11:40,962 INFO  [Log] Succesfully entered the username 
+2024-10-16 10:11:41,178 INFO  [Log] Successfully password entered. 
+2024-10-16 10:11:41,258 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-10-16 10:11:41,692 INFO  [Log] Login successful. 
+2024-10-16 12:20:41,809 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-10-16 12:20:41,810 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-10-16 12:20:41,925 INFO  [Log] Successfully entered the username :123 
+2024-10-16 12:20:41,999 INFO  [Log] Successfully entered the password :22131 
+2024-10-16 12:20:42,440 INFO  [Log] Login button is clicked. 
+2024-10-16 12:20:42,464 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-10-16 12:20:46,759 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-10-16 12:20:46,759 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-10-16 12:20:46,907 INFO  [Log] Succesfully entered the username 
+2024-10-16 12:20:47,025 INFO  [Log] Successfully password entered. 
+2024-10-16 12:20:47,075 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-10-16 12:20:47,495 INFO  [Log] Login successful. 
+2024-10-16 12:26:06,164 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-10-16 12:26:06,167 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-10-16 12:26:06,310 INFO  [Log] Successfully entered the username :123 
+2024-10-16 12:26:06,519 INFO  [Log] Successfully entered the password :22131 
+2024-10-16 12:26:06,667 INFO  [Log] Login button is clicked. 
+2024-10-16 12:26:06,690 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-10-16 12:26:08,270 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-10-16 12:26:08,270 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-10-16 12:26:08,449 INFO  [Log] Succesfully entered the username 
+2024-10-16 12:26:08,598 INFO  [Log] Successfully password entered. 
+2024-10-16 12:26:08,653 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-10-16 12:26:09,080 INFO  [Log] Login successful. 
+2024-10-16 12:29:15,927 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-10-16 12:29:15,933 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-10-16 12:29:16,080 INFO  [Log] Successfully entered the username :123 
+2024-10-16 12:29:16,175 INFO  [Log] Successfully entered the password :22131 
+2024-10-16 12:29:16,983 INFO  [Log] Login button is clicked. 
+2024-10-16 12:29:17,009 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-10-16 12:29:18,924 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-10-16 12:29:18,924 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-10-16 12:29:19,066 INFO  [Log] Succesfully entered the username 
+2024-10-16 12:29:19,167 INFO  [Log] Successfully password entered. 
+2024-10-16 12:29:19,210 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-10-16 12:29:21,987 INFO  [Log] Login successful. 
+2024-10-16 12:40:39,459 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-10-16 12:40:39,461 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-10-16 12:40:39,592 INFO  [Log] Successfully entered the username :123 
+2024-10-16 12:40:39,667 INFO  [Log] Successfully entered the password :22131 
+2024-10-16 12:40:40,190 INFO  [Log] Login button is clicked. 
+2024-10-16 12:40:40,226 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-10-16 12:43:12,896 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-10-16 12:43:12,903 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-10-16 12:43:13,111 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-10-16 12:43:18,929 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-10-16 12:58:51,445 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-10-16 12:58:51,446 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-10-16 12:58:51,786 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-10-16 12:58:52,158 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-10-16 13:00:25,094 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-10-16 13:00:25,097 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-10-16 13:00:25,273 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-10-16 13:00:27,251 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-10-16 13:09:24,860 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-10-16 13:09:24,862 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-10-16 13:09:25,060 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-10-16 13:09:25,423 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-10-16 13:16:45,065 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-10-16 13:16:45,069 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-10-16 13:16:45,262 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-10-16 13:16:47,734 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-10-16 13:23:28,349 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-10-16 13:23:28,354 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-10-16 13:23:28,671 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-10-16 13:23:29,031 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-10-16 13:23:31,231 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-10-16 13:23:31,231 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Test started       **************** 
+2024-10-16 13:23:31,375 INFO  [Log] Successfully entered the username :teena@raghav.com 
+2024-10-16 13:23:31,491 INFO  [Log] Successfully entered the password :pritishtina@1 
+2024-10-16 13:23:32,458 INFO  [Log] Login successful. 
+2024-10-16 13:23:34,773 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-10-16 13:23:34,773 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-10-16 13:23:34,940 INFO  [Log] Succesfully entered the username 
+2024-10-16 13:23:35,034 INFO  [Log] Successfully password entered. 
+2024-10-16 13:23:35,087 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-10-16 13:23:35,650 INFO  [Log] Login successful. 
+2024-10-16 13:23:37,959 INFO  [Log] TestCase 4 : Forgot Password link 
+2024-10-16 13:23:37,961 INFO  [Log] ****************           -S-T-A-R-T-Forgot password Test is started.       **************** 
+2024-10-16 13:23:39,601 INFO  [Log] Password reset message is displayed 
+2024-10-16 13:23:39,602 INFO  [Log] ***************             -E---N---D-An Email associated with the username is sent.         *************** 
+2024-10-16 13:23:45,013 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-10-16 13:23:45,013 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-10-16 13:23:45,113 INFO  [Log] Successfully entered the username :123 
+2024-10-16 13:23:45,221 INFO  [Log] Successfully entered the password :22131 
+2024-10-16 13:23:45,457 INFO  [Log] Login button is clicked. 
+2024-10-16 13:23:45,483 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-10-16 13:26:05,612 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-10-16 13:26:05,614 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-10-16 13:26:05,810 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-10-16 13:26:06,136 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-10-16 13:26:11,856 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-10-16 13:26:11,856 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Test started       **************** 
+2024-10-16 13:26:11,986 INFO  [Log] Successfully entered the username :teena@raghav.com 
+2024-10-16 13:26:12,086 INFO  [Log] Successfully entered the password :pritishtina@1 
+2024-10-16 13:26:12,480 INFO  [Log] Login successful. 
+2024-10-16 13:26:17,904 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-10-16 13:26:17,905 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-10-16 13:26:18,050 INFO  [Log] Succesfully entered the username 
+2024-10-16 13:26:18,148 INFO  [Log] Successfully password entered. 
+2024-10-16 13:26:18,191 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-10-16 13:26:18,564 INFO  [Log] Login successful. 
+2024-10-16 13:26:22,972 INFO  [Log] TestCase 4 : Forgot Password link 
+2024-10-16 13:26:22,974 INFO  [Log] ****************           -S-T-A-R-T-Forgot password Test is started.       **************** 
+2024-10-16 13:26:23,796 INFO  [Log] Password reset message is displayed 
+2024-10-16 13:26:23,797 INFO  [Log] ***************             -E---N---D-An Email associated with the username is sent.         *************** 
+2024-10-16 13:26:29,981 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-10-16 13:26:29,981 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-10-16 13:26:30,084 INFO  [Log] Successfully entered the username :123 
+2024-10-16 13:26:30,170 INFO  [Log] Successfully entered the password :22131 
+2024-10-16 13:26:30,309 INFO  [Log] Login button is clicked. 
+2024-10-16 13:26:30,339 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-10-16 13:37:15,470 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-10-16 13:37:15,471 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-10-16 13:37:15,805 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-10-16 13:37:16,237 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-10-16 13:37:18,442 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-10-16 13:37:18,442 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Test started       **************** 
+2024-10-16 13:37:18,576 INFO  [Log] Successfully entered the username :teena@raghav.com 
+2024-10-16 13:37:18,686 INFO  [Log] Successfully entered the password :pritishtina@1 
+2024-10-16 13:37:19,243 INFO  [Log] Login successful. 
+2024-10-16 13:37:21,348 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-10-16 13:37:21,348 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-10-16 13:37:21,541 INFO  [Log] Succesfully entered the username 
+2024-10-16 13:37:21,807 INFO  [Log] Successfully password entered. 
+2024-10-16 13:37:21,959 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-10-16 13:37:22,398 INFO  [Log] Login successful. 
+2024-10-16 13:37:24,866 INFO  [Log] TestCase 4 : Forgot Password link 
+2024-10-16 13:37:24,868 INFO  [Log] ****************           -S-T-A-R-T-Forgot password Test is started.       **************** 
+2024-10-16 13:37:25,633 INFO  [Log] Password reset message is displayed 
+2024-10-16 13:37:25,633 INFO  [Log] ***************             -E---N---D-An Email associated with the username is sent.         *************** 
+2024-10-16 13:37:27,680 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-10-16 13:37:27,680 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-10-16 13:37:27,791 INFO  [Log] Successfully entered the username :123 
+2024-10-16 13:37:27,887 INFO  [Log] Successfully entered the password :22131 
+2024-10-16 13:37:28,045 INFO  [Log] Login button is clicked. 
+2024-10-16 13:37:28,075 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-10-16 13:42:31,868 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-10-16 13:42:31,870 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-10-16 13:42:32,036 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-10-16 13:42:32,362 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-10-16 13:42:34,715 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-10-16 13:42:34,716 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Test started       **************** 
+2024-10-16 13:42:34,855 INFO  [Log] Successfully entered the username :teena@raghav.com 
+2024-10-16 13:42:34,957 INFO  [Log] Successfully entered the password :pritishtina@1 
+2024-10-16 13:42:35,281 INFO  [Log] Login successful. 
+2024-10-16 13:42:37,189 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-10-16 13:42:37,190 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-10-16 13:42:37,368 INFO  [Log] Succesfully entered the username 
+2024-10-16 13:42:37,517 INFO  [Log] Successfully password entered. 
+2024-10-16 13:42:37,790 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-10-16 13:42:38,145 INFO  [Log] Login successful. 
+2024-10-16 13:42:40,573 INFO  [Log] TestCase 4 : Forgot Password link 
+2024-10-16 13:42:40,575 INFO  [Log] ****************           -S-T-A-R-T-Forgot password Test is started.       **************** 
+2024-10-16 13:42:41,521 INFO  [Log] Password reset message is displayed 
+2024-10-16 13:42:41,521 INFO  [Log] ***************             -E---N---D-An Email associated with the username is sent.         *************** 
+2024-10-16 13:42:43,458 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-10-16 13:42:43,459 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-10-16 13:42:43,570 INFO  [Log] Successfully entered the username :123 
+2024-10-16 13:42:43,645 INFO  [Log] Successfully entered the password :22131 
+2024-10-16 13:42:43,796 INFO  [Log] Login button is clicked. 
+2024-10-16 13:42:43,827 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 
+2024-10-16 13:50:51,512 INFO  [Log] TestCase 1 : Enter only username and click on login button 
+2024-10-16 13:50:51,514 INFO  [Log] ****************           -S-T-A-R-T-Invalid Login Test started       **************** 
+2024-10-16 13:50:51,862 INFO  [Log] Successfully entered the username:teena@raghav.com 
+2024-10-16 13:50:52,198 INFO  [Log] ***************             -E---N---D- :Invalid Login test ended         *************** 
+2024-10-16 13:50:54,232 INFO  [Log] TestCase 2 : Enter valid username and valid password 
+2024-10-16 13:50:54,232 INFO  [Log] ****************           -S-T-A-R-T-valid credentials Test started       **************** 
+2024-10-16 13:50:54,426 INFO  [Log] Successfully entered the username :teena@raghav.com 
+2024-10-16 13:50:54,568 INFO  [Log] Successfully entered the password :pritishtina@1 
+2024-10-16 13:50:54,845 INFO  [Log] Login successful. 
+2024-10-16 13:50:56,612 INFO  [Log] TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox 
+2024-10-16 13:50:56,612 INFO  [Log] ****************           -S-T-A-R-T-TestCase started       **************** 
+2024-10-16 13:50:56,804 INFO  [Log] Succesfully entered the username 
+2024-10-16 13:50:56,943 INFO  [Log] Successfully password entered. 
+2024-10-16 13:50:57,015 INFO  [Log] Successfully checked remember me checkbox. . 
+2024-10-16 13:50:57,494 INFO  [Log] Login successful. 
+2024-10-16 13:50:59,432 INFO  [Log] TestCase 4 : Forgot Password link 
+2024-10-16 13:50:59,434 INFO  [Log] ****************           -S-T-A-R-T-Forgot password Test is started.       **************** 
+2024-10-16 13:51:00,370 INFO  [Log] Password reset message is displayed 
+2024-10-16 13:51:00,370 INFO  [Log] ***************             -E---N---D-An Email associated with the username is sent.         *************** 
+2024-10-16 13:51:02,084 INFO  [Log] TestCase 5 : Enter invalid username and invalid password 
+2024-10-16 13:51:02,084 INFO  [Log] ****************           -S-T-A-R-T-WrongUsernameAndPasswordTest is started        **************** 
+2024-10-16 13:51:02,166 INFO  [Log] Successfully entered the username :123 
+2024-10-16 13:51:02,224 INFO  [Log] Successfully entered the password :22131 
+2024-10-16 13:51:02,370 INFO  [Log] Login button is clicked. 
+2024-10-16 13:51:02,400 INFO  [Log] ***************             -E---N---D-: invalid credentials test ended         *************** 

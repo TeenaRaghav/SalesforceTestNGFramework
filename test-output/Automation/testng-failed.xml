@@ -5,16 +5,12 @@
     <listener class-name="com.training.listeners.TestListener"/>
   </listeners>
   <test thread-count="5" name="LoginTest(failed)">
-    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.training.testcases.LoginTest">
         <methods>
           <include name="teardown"/>
-          <include name="invalidLogin"/>
           <include name="beforeMethod"/>
           <include name="checkRememberme"/>
-          <include name="validLogin"/>
-          <include name="forgotPasswordTest"/>
         </methods>
       </class> <!-- com.training.testcases.LoginTest -->
     </classes>

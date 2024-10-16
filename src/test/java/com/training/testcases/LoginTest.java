@@ -29,16 +29,17 @@ public class LoginTest extends BaseTest{
 	ScreenshotUtility scrnshot = new ScreenshotUtility();
 	HomePage homepage;
 	UserMenuPage usermenupage;
+	String testName;
 	
 	@BeforeMethod
-	@Parameters("browser")
-	public void beforeMethod(String browser) throws IOException {
-//		driver = getDriver();
-		if(browser.equalsIgnoreCase("firefox")) {
-			driver = new FirefoxDriver();
-		}else if(browser.equalsIgnoreCase("chrome")) {
-			driver = new ChromeDriver();
-		}
+//	@Parameters("browser")
+	public void beforeMethod() throws IOException {
+		driver = getDriver();
+//		if(browser.equalsIgnoreCase("firefox")) {
+//			driver = new FirefoxDriver();
+//		}else if(browser.equalsIgnoreCase("chrome")) {
+//			driver = new ChromeDriver();
+//		}
 		prop = new PropertiesFile();
 		String url = prop.getProperties("url");
 		driver.get(url);
@@ -48,7 +49,7 @@ public class LoginTest extends BaseTest{
 		DOMConfigurator.configure("log4j.xml");
 	}
 
-	@Test
+	@Test(priority = 1)
 	public void invalidLogin() throws IOException {
 		Log.info("TestCase 1 : Enter only username and click on login button");
 		Log.startTestCase("Invalid Login Test started");
@@ -61,7 +62,7 @@ public class LoginTest extends BaseTest{
 
 	}
 	
-	@Test
+	@Test(priority = 2)
 	public void validLogin() throws IOException {
 		Log.info("TestCase 2 : Enter valid username and valid password");
 		Log.startTestCase("valid credentials Test started");
@@ -77,7 +78,7 @@ public class LoginTest extends BaseTest{
 		loginpage.clickLogin();
 		Log.info("Login successful.");
 	}
-	@Test
+	@Test(priority = 3)
 	public void checkRememberme() throws IOException {
 		Log.info("TestCase 3 : Enter valid username and valid password and click on Remember Me checkbox");
 
@@ -100,7 +101,7 @@ public class LoginTest extends BaseTest{
 		homepage.logout();
 		Log.endTestCase(" :RememberMeClick test ended");
 	}
-	@Test
+	@Test(priority = 4)
 	public void forgotPasswordTest() throws IOException {
 		Log.info("TestCase 4 : Forgot Password link");
 		Log.startTestCase("Forgot password Test is started.");
@@ -109,7 +110,7 @@ public class LoginTest extends BaseTest{
 		Log.info("Password reset message is displayed");
 		Log.endTestCase("An Email associated with the username is sent.");		
 	}
-	@Test
+	@Test(priority = 5)
 	public void WrongUsernameAndPassword() throws IOException {
 		Log.info("TestCase 5 : Enter invalid username and invalid password");
 		Log.startTestCase("WrongUsernameAndPasswordTest is started ");
@@ -130,12 +131,11 @@ public class LoginTest extends BaseTest{
 	}
 
 
-
-
 	@AfterMethod
 	public void teardown() {
-		scrnshot.takescreenshot(driver);
-		driver.close();
+//		scrnshot.takescreenshot(driver,testName);
+		quit();
+		
 	}
 }
  

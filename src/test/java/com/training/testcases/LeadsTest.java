@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -30,9 +31,10 @@ public class LeadsTest extends BaseTest{
 	LeadsPage leadspage;
 	UserMenuPage usermenupage;
 	LoginTest logintest;
+	String testName;
 	
 	@BeforeMethod
-	public void beforeTest() throws IOException {
+	public void beforeMethod() throws IOException {
 		driver = getDriver();
 		prop = new PropertiesFile();
 		String url = prop.getProperties("url");
@@ -141,9 +143,9 @@ public class LeadsTest extends BaseTest{
 
 		}
 	
-	@AfterTest
+	@AfterMethod
 	public void tearDown() {
-		screenshot.takescreenshot(driver);
+//		screenshot.takescreenshot(driver,testName);
 		quit();
 		}
 
