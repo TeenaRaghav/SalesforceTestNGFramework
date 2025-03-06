@@ -48,7 +48,7 @@ public class LoginTest extends BaseTest {
 		loginpage = new LoginPage(driver);
 		homepage = new HomePage(driver);
 		usermenupage = new UserMenuPage(driver);
-		DOMConfigurator.configure("log4j.xml");
+		//DOMConfigurator.configure("log4j.xml");
 	}
 
 	@Test(priority = 1)
