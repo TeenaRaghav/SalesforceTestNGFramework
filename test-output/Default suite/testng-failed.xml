@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.testcases.UserMenuTest">
+      <class name="com.training.testcases.LoginTest">
         <methods>
-          <include name="editProfile"/>
-          <include name="beforeTest"/>
           <include name="teardown"/>
+          <include name="invalidLogin"/>
+          <include name="beforeMethod"/>
+          <include name="checkRememberme"/>
+          <include name="validLogin"/>
+          <include name="forgotPasswordTest"/>
+          <include name="WrongUsernameAndPassword"/>
         </methods>
-      </class> <!-- com.training.testcases.UserMenuTest -->
+      </class> <!-- com.training.testcases.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

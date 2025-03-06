@@ -3,28 +3,22 @@ package com.training.base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+import com.training.utilities.DriverManager;
 
 
 public class BaseTest {
-	WebDriver driver;
 	
-	public WebDriver getDriver() {
-		if (driver == null) {
-//			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
-			driver.manage().window().maximize();
-		}
-		return driver;
-	}
-
-	public void close() {
-		driver.close();
-		driver = null;
+	protected WebDriver driver;
+	
+	public void setup() {
+		driver = DriverManager.getDriver();
 	}
 	
-	public void quit() {
-		driver.quit();
-		driver = null;
+	
+	public void teardown() {
+		DriverManager.quit();
 	}
-
 }

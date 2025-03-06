@@ -9,8 +9,12 @@
       <class name="com.training.testcases.LoginTest">
         <methods>
           <include name="teardown"/>
+          <include name="invalidLogin"/>
           <include name="beforeMethod"/>
           <include name="checkRememberme"/>
+          <include name="validLogin"/>
+          <include name="forgotPasswordTest"/>
+          <include name="WrongUsernameAndPassword"/>
         </methods>
       </class> <!-- com.training.testcases.LoginTest -->
     </classes>

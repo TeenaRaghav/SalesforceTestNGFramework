@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -121,7 +122,7 @@ public class HomeTest extends BaseTest{
 		Log.endTestCase("TestCase38 is ended successfully");
 	}
 
-	@AfterTest
+	@AfterMethod
 	public void tearDown() {
 //		screenshot.takescreenshot(driver,testName);
 		quit();

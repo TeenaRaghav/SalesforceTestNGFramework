@@ -1,6 +1,5 @@
 package com.training.listeners;
 
-import java.io.IOException;
 import java.lang.reflect.Field;
 
 import org.openqa.selenium.WebDriver;
@@ -17,7 +16,9 @@ import com.training.utilities.ScreenshotUtility;
 public class TestListener extends ScreenshotUtility implements ITestListener {
 	String testName;
 	WebDriver driver;
-	public void onStart(ITestContext context) {
+	
+	 public void onStart(ITestContext context) {
+		 ExtentManager.getInstance();
 		System.out.println("*** Test Suite " + context.getName() + " started ***");
 	}
 
@@ -63,13 +64,8 @@ public class TestListener extends ScreenshotUtility implements ITestListener {
 			e.printStackTrace();
 		}
 		
-		try {
-			String screenshotPath = takescreenshot(driver,testName);
-			ExtentTestManager.getTest().addScreenCaptureFromPath(screenshotPath,result.getName());
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		String screenshotPath = takescreenshot(driver,testName);
+		ExtentTestManager.getTest().addScreenCaptureFromPath(screenshotPath,result.getName());
 		
 		ExtentTestManager.getTest().log(Status.INFO,result.getThrowable());
 	}

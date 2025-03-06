@@ -7,7 +7,7 @@ import com.training.base.BasePage;
 
 public class AccountsPage extends BasePage {
 
-		
+	
 	@FindBy(xpath ="//input[@value=\" New \"]")
 	WebElement newButtonInAccountsPage;
 	
